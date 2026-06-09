@@ -1,0 +1,10 @@
+LTEC (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -294.320 +/- 10.458 mm
+V                =   -9.576 +/- 0.725 mm/yr
+s_1              =   24.845 +/- 7.396 mm
+c_1              =  -37.928 +/- 7.392 mm
+s_2              =   -4.682 +/- 7.394 mm
+c_2              =    2.582 +/- 7.392 mm
+s_4              =   -1.347 +/- 7.393 mm
+c_4              =    1.219 +/- 7.392 mm

@@ -1,0 +1,10 @@
+LALC (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -262.785 +/- 12.668 mm
+V                =    7.318 +/- 0.878 mm/yr
+s_1              =  -41.969 +/- 8.959 mm
+c_1              =   26.016 +/- 8.954 mm
+s_2              =   18.740 +/- 8.956 mm
+c_2              =    0.429 +/- 8.954 mm
+s_4              =    0.256 +/- 8.955 mm
+c_4              =    0.881 +/- 8.954 mm

@@ -1,0 +1,10 @@
+MTEI (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -250.083 +/- 2.166 mm
+V                =   10.086 +/- 0.150 mm/yr
+s_1              =  -26.365 +/- 1.532 mm
+c_1              =  -12.713 +/- 1.531 mm
+s_2              =   -3.095 +/- 1.531 mm
+c_2              =   10.751 +/- 1.531 mm
+s_4              =    1.225 +/- 1.531 mm
+c_4              =    1.378 +/- 1.531 mm

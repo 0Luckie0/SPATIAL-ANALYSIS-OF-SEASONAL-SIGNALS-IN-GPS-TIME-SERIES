@@ -1,0 +1,10 @@
+SHRV (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              =  147.189 +/- 8.557 mm
+V                =  -41.526 +/- 0.593 mm/yr
+s_1              =    5.543 +/- 6.052 mm
+c_1              =  -37.386 +/- 6.048 mm
+s_2              =   -9.054 +/- 6.050 mm
+c_2              =   10.126 +/- 6.048 mm
+s_4              =   -2.378 +/- 6.049 mm
+c_4              =    0.155 +/- 6.048 mm

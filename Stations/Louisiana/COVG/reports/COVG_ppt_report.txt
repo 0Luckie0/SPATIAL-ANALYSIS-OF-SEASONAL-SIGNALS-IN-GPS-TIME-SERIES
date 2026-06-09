@@ -1,0 +1,10 @@
+COVG (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -879.948 +/- 10.389 mm
+V                =    6.645 +/- 0.720 mm/yr
+s_1              =  -57.342 +/- 7.348 mm
+c_1              =    2.206 +/- 7.343 mm
+s_2              =   23.942 +/- 7.345 mm
+c_2              =  -12.386 +/- 7.343 mm
+s_4              =   -0.195 +/- 7.344 mm
+c_4              =    3.754 +/- 7.343 mm

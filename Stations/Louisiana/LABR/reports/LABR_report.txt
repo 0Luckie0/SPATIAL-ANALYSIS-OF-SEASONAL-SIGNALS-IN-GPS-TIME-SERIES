@@ -1,0 +1,39 @@
+LABR (Louisiana) Geodetic Time Series Analysis
+    -> MANUAL RULE: Restricted between 2018-01-01 and 2023-07-19.
+Detected Events used in Model:
+
+EAST
+Estimated sigma_pl = 1.210, kappa = -0.575
+MODEL PARAMETERS:
+y_0                                                     =   72.702 +/- 0.517 mm
+v_y                                                     =  -12.594 +/- 0.089 mm
+a_1                                                     =   -0.882 +/- 0.124 mm
+b_1                                                     =    0.044 +/- 0.121 mm
+a_2                                                     =    0.269 +/- 0.101 mm
+b_2                                                     =   -0.186 +/- 0.100 mm
+a_4                                                     =   -0.104 +/- 0.082 mm
+b_4                                                     =   -0.071 +/- 0.082 mm
+
+NORTH
+Estimated sigma_pl = 1.192, kappa = -0.466
+MODEL PARAMETERS:
+y_0                                                     =    2.381 +/- 0.380 mm
+v_y                                                     =   -0.423 +/- 0.064 mm
+a_1                                                     =   -0.246 +/- 0.098 mm
+b_1                                                     =   -3.747 +/- 0.096 mm
+a_2                                                     =    0.475 +/- 0.083 mm
+b_2                                                     =    1.078 +/- 0.082 mm
+a_4                                                     =    0.053 +/- 0.070 mm
+b_4                                                     =   -0.185 +/- 0.070 mm
+
+UP
+Estimated sigma_pl = 4.416, kappa = -0.490
+MODEL PARAMETERS:
+y_0                                                     =   15.143 +/- 1.504 mm
+v_y                                                     =   -2.529 +/- 0.254 mm
+a_1                                                     =   -4.066 +/- 0.381 mm
+b_1                                                     =   -0.445 +/- 0.372 mm
+a_2                                                     =    1.082 +/- 0.320 mm
+b_2                                                     =    0.564 +/- 0.315 mm
+a_4                                                     =   -0.028 +/- 0.268 mm
+b_4                                                     =    0.218 +/- 0.267 mm

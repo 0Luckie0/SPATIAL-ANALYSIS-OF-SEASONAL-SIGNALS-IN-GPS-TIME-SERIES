@@ -1,0 +1,10 @@
+MTDT (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -104.538 +/- 1.032 mm
+V                =    6.490 +/- 0.071 mm/yr
+s_1              =  -24.213 +/- 0.730 mm
+c_1              =   -7.806 +/- 0.729 mm
+s_2              =    1.121 +/- 0.729 mm
+c_2              =    7.112 +/- 0.729 mm
+s_4              =   -0.274 +/- 0.729 mm
+c_4              =    2.608 +/- 0.729 mm

@@ -1,0 +1,10 @@
+LABR (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -485.446 +/- 5.122 mm
+V                =   28.749 +/- 0.355 mm/yr
+s_1              =  -49.618 +/- 3.623 mm
+c_1              =   44.899 +/- 3.620 mm
+s_2              =   13.522 +/- 3.621 mm
+c_2              =  -31.198 +/- 3.620 mm
+s_4              =    5.824 +/- 3.621 mm
+c_4              =    4.452 +/- 3.620 mm

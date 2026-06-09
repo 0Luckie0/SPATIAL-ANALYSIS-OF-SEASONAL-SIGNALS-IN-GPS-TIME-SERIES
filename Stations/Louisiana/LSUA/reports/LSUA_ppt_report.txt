@@ -1,0 +1,10 @@
+LSUA (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -376.189 +/- 8.174 mm
+V                =  -10.764 +/- 0.566 mm/yr
+s_1              =   14.553 +/- 5.781 mm
+c_1              =   -5.334 +/- 5.778 mm
+s_2              =    2.780 +/- 5.779 mm
+c_2              =    0.924 +/- 5.778 mm
+s_4              =   -3.032 +/- 5.778 mm
+c_4              =    1.410 +/- 5.778 mm

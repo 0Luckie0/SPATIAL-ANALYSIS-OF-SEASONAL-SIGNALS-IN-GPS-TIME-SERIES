@@ -1,0 +1,44 @@
+P680 (Montana) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+Detected Events used in Model:
+    Step: Elevation_Cutoff_Changed (2017-04-19)
+    Step: Receiver_Make_and_Model_Changed (2018-02-07)
+    Step: Antenna_Type_Changed (2020-09-13)
+
+EAST
+Estimated sigma_pl = 1.270, kappa = -0.933
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   13.418 +/- 0.785 mm
+v_y                                                     =  -16.131 +/- 0.087 mm
+a_1                                                     =   -1.960 +/- 0.138 mm
+b_1                                                     =    1.129 +/- 0.137 mm
+a_2                                                     =    0.382 +/- 0.099 mm
+b_2                                                     =   -0.044 +/- 0.099 mm
+Elevation_Cutoff_Changed_(2017-04-19)                   =   -1.166 +/- 0.689 mm
+Receiver_Make_and_Model_Changed_(2018-02-07)            =   -1.698 +/- 0.687 mm
+Antenna_Type_Changed_(2020-09-13)                       =    1.766 +/- 0.666 mm
+
+NORTH
+Estimated sigma_pl = 1.391, kappa = -0.957
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    8.321 +/- 0.931 mm
+v_y                                                     =  -10.944 +/- 0.102 mm
+a_1                                                     =    0.142 +/- 0.158 mm
+b_1                                                     =   -3.366 +/- 0.157 mm
+a_2                                                     =    0.662 +/- 0.113 mm
+b_2                                                     =    0.443 +/- 0.113 mm
+Elevation_Cutoff_Changed_(2017-04-19)                   =   -0.228 +/- 0.784 mm
+Receiver_Make_and_Model_Changed_(2018-02-07)            =    2.602 +/- 0.782 mm
+Antenna_Type_Changed_(2020-09-13)                       =    1.286 +/- 0.761 mm
+
+UP
+Estimated sigma_pl = 5.718, kappa = -1.136
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    0.780 +/- 6.972 mm
+v_y                                                     =    0.559 +/- 0.726 mm
+a_1                                                     =   -4.064 +/- 0.934 mm
+b_1                                                     =    1.217 +/- 0.929 mm
+a_2                                                     =    1.758 +/- 0.628 mm
+b_2                                                     =   -2.606 +/- 0.627 mm
+Elevation_Cutoff_Changed_(2017-04-19)                   =   -1.092 +/- 4.099 mm
+Receiver_Make_and_Model_Changed_(2018-02-07)            =    4.305 +/- 4.094 mm
+Antenna_Type_Changed_(2020-09-13)                       =   -0.942 +/- 4.061 mm

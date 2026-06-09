@@ -1,0 +1,39 @@
+BRAD (Nevada) Geodetic Time Series Analysis
+    -> MANUAL RULE: Restricted between 2012-09-01 and 2018-10-06.
+Detected Events used in Model:
+
+EAST
+Estimated sigma_pl = 1.414, kappa = -0.577
+MODEL PARAMETERS:
+y_0                                                     =   13.902 +/- 0.234 mm
+v_y                                                     =  -18.595 +/- 0.092 mm
+a_1                                                     =   -1.582 +/- 0.135 mm
+b_1                                                     =    2.295 +/- 0.139 mm
+a_2                                                     =   -0.128 +/- 0.112 mm
+b_2                                                     =   -0.375 +/- 0.112 mm
+a_4                                                     =    0.264 +/- 0.092 mm
+b_4                                                     =   -0.054 +/- 0.092 mm
+
+NORTH
+Estimated sigma_pl = 1.198, kappa = -0.696
+MODEL PARAMETERS:
+y_0                                                     =    5.634 +/- 0.290 mm
+v_y                                                     =   -7.684 +/- 0.110 mm
+a_1                                                     =   -0.029 +/- 0.145 mm
+b_1                                                     =   -3.065 +/- 0.149 mm
+a_2                                                     =    0.920 +/- 0.116 mm
+b_2                                                     =    1.121 +/- 0.116 mm
+a_4                                                     =    0.095 +/- 0.091 mm
+b_4                                                     =   -0.023 +/- 0.091 mm
+
+UP
+Estimated sigma_pl = 3.705, kappa = -0.659
+MODEL PARAMETERS:
+y_0                                                     =    0.095 +/- 0.799 mm
+v_y                                                     =   -1.252 +/- 0.307 mm
+a_1                                                     =   -5.388 +/- 0.418 mm
+b_1                                                     =    0.806 +/- 0.429 mm
+a_2                                                     =   -0.486 +/- 0.338 mm
+b_2                                                     =   -0.764 +/- 0.336 mm
+a_4                                                     =   -0.376 +/- 0.268 mm
+b_4                                                     =    0.236 +/- 0.268 mm

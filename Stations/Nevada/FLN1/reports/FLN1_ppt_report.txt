@@ -1,0 +1,10 @@
+FLN1 (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              =  -81.958 +/- 1.192 mm
+V                =    0.701 +/- 0.083 mm/yr
+s_1              =    9.594 +/- 0.843 mm
+c_1              =   -4.654 +/- 0.842 mm
+s_2              =    0.377 +/- 0.843 mm
+c_2              =    1.751 +/- 0.842 mm
+s_4              =   -0.055 +/- 0.843 mm
+c_4              =   -0.630 +/- 0.842 mm

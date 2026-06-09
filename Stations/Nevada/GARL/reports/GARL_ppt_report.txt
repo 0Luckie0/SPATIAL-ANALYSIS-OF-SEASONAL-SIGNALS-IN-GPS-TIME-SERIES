@@ -1,0 +1,10 @@
+GARL (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              =  -89.160 +/- 2.371 mm
+V                =    3.870 +/- 0.164 mm/yr
+s_1              =   32.092 +/- 1.677 mm
+c_1              =  -11.079 +/- 1.676 mm
+s_2              =    3.508 +/- 1.676 mm
+c_2              =    2.956 +/- 1.676 mm
+s_4              =   -0.183 +/- 1.676 mm
+c_4              =    0.433 +/- 1.676 mm

@@ -1,0 +1,10 @@
+MRY2 (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -591.830 +/- 8.675 mm
+V                =   -5.331 +/- 0.601 mm/yr
+s_1              =  -68.401 +/- 6.135 mm
+c_1              =   -2.446 +/- 6.132 mm
+s_2              =   12.070 +/- 6.133 mm
+c_2              =  -12.655 +/- 6.132 mm
+s_4              =    2.289 +/- 6.132 mm
+c_4              =    4.232 +/- 6.132 mm

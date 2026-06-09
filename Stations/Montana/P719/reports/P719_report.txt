@@ -1,0 +1,43 @@
+P719 (Montana) Geodetic Time Series Analysis
+    -> MANUAL RULE: After 2019-12-11 deleted.
+Detected Events used in Model:
+    Step: Elevation_Cutoff_Changed (2014-03-15)
+
+EAST
+Estimated sigma_pl = 1.822, kappa = -0.598
+MODEL PARAMETERS:
+y_0                                                     =  -25.160 +/- 0.447 mm
+v_y                                                     =  -14.740 +/- 0.071 mm
+a_1                                                     =   -1.548 +/- 0.124 mm
+b_1                                                     =    0.722 +/- 0.126 mm
+a_2                                                     =    0.538 +/- 0.102 mm
+b_2                                                     =    0.100 +/- 0.101 mm
+a_4                                                     =    0.076 +/- 0.082 mm
+b_4                                                     =   -0.124 +/- 0.083 mm
+Elevation_Cutoff_Changed_(2014-03-15)                   =   -1.243 +/- 0.511 mm
+
+NORTH
+Estimated sigma_pl = 1.201, kappa = -0.625
+MODEL PARAMETERS:
+y_0                                                     =  -15.544 +/- 0.321 mm
+v_y                                                     =   -8.885 +/- 0.050 mm
+a_1                                                     =   -0.363 +/- 0.087 mm
+b_1                                                     =   -3.883 +/- 0.087 mm
+a_2                                                     =    0.674 +/- 0.070 mm
+b_2                                                     =    0.875 +/- 0.070 mm
+a_4                                                     =    0.099 +/- 0.056 mm
+b_4                                                     =   -0.099 +/- 0.056 mm
+Elevation_Cutoff_Changed_(2014-03-15)                   =    0.043 +/- 0.359 mm
+
+UP
+Estimated sigma_pl = 4.239, kappa = -0.654
+MODEL PARAMETERS:
+y_0                                                     =   -1.611 +/- 1.245 mm
+v_y                                                     =   -0.453 +/- 0.191 mm
+a_1                                                     =   -6.269 +/- 0.324 mm
+b_1                                                     =    1.020 +/- 0.328 mm
+a_2                                                     =    1.086 +/- 0.260 mm
+b_2                                                     =   -0.418 +/- 0.260 mm
+a_4                                                     =   -0.043 +/- 0.207 mm
+b_4                                                     =    0.109 +/- 0.207 mm
+Elevation_Cutoff_Changed_(2014-03-15)                   =    1.841 +/- 1.355 mm

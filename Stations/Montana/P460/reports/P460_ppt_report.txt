@@ -1,0 +1,10 @@
+P460 (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -337.591 +/- 2.228 mm
+V                =   12.861 +/- 0.154 mm/yr
+s_1              =   -7.243 +/- 1.576 mm
+c_1              =  -12.153 +/- 1.575 mm
+s_2              =    1.175 +/- 1.575 mm
+c_2              =   10.183 +/- 1.575 mm
+s_4              =    0.224 +/- 1.575 mm
+c_4              =    1.296 +/- 1.575 mm

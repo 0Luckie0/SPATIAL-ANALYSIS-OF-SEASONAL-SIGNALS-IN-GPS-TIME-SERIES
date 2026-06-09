@@ -1,0 +1,70 @@
+DSTR (Louisiana) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2017-09-08)
+    Step: Elevation_Cutoff_Changed (2012-08-21)
+    Step: Antenna_Type_Changed (2014-03-21)
+    Step: Elevation_Cutoff_Changed (2015-06-11)
+    Step: Antenna_Type_Changed (2018-08-30)
+
+EAST
+Estimated sigma_pl = 1.411, kappa = -0.615
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   16.352 +/- 0.512 mm
+v_y                                                     =  -12.142 +/- 0.074 mm
+a_1                                                     =   -1.351 +/- 0.082 mm
+b_1                                                     =   -1.059 +/- 0.083 mm
+a_2                                                     =    0.637 +/- 0.066 mm
+b_2                                                     =   -0.456 +/- 0.066 mm
+EQ_1_Step_(2017-09-08)                                  =   -0.532 +/- 0.627 mm
+EQ_1_Log_T0.0523_(2017-09-08)                           =    1.768 +/- 0.685 mm
+EQ_1_Exp_T1.0_(2017-09-08)                              =   -7.968 +/- 2.928 mm
+Elevation_Cutoff_Changed_(2012-08-21)                   =    0.283 +/- 0.414 mm
+Antenna_Type_Changed_(2014-03-21)                       =    1.169 +/- 0.416 mm
+Elevation_Cutoff_Changed_(2015-06-11)                   =    1.132 +/- 0.405 mm
+Antenna_Type_Changed_(2018-08-30)                       =   -0.281 +/- 0.603 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Log & Exp Transient (M8.2, 1700km)
+EQ_2: Ignored (M8.2, 1700km > 2042km)
+
+NORTH
+Estimated sigma_pl = 1.378, kappa = -0.703
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    1.697 +/- 0.641 mm
+v_y                                                     =   -0.806 +/- 0.089 mm
+a_1                                                     =    0.701 +/- 0.095 mm
+b_1                                                     =   -2.102 +/- 0.096 mm
+a_2                                                     =    0.521 +/- 0.074 mm
+b_2                                                     =    1.000 +/- 0.075 mm
+EQ_1_Step_(2017-09-08)                                  =    0.906 +/- 0.713 mm
+EQ_1_Log_T0.0523_(2017-09-08)                           =   -0.729 +/- 0.824 mm
+EQ_1_Exp_T1.0_(2017-09-08)                              =    3.987 +/- 3.514 mm
+Elevation_Cutoff_Changed_(2012-08-21)                   =    0.313 +/- 0.489 mm
+Antenna_Type_Changed_(2014-03-21)                       =   -2.120 +/- 0.490 mm
+Elevation_Cutoff_Changed_(2015-06-11)                   =    0.348 +/- 0.480 mm
+Antenna_Type_Changed_(2018-08-30)                       =   -0.547 +/- 0.671 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Log & Exp Transient (M8.2, 1700km)
+EQ_2: Ignored (M8.2, 1700km > 2042km)
+
+UP
+Estimated sigma_pl = 4.709, kappa = -0.514
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   -0.954 +/- 1.277 mm
+v_y                                                     =   -1.993 +/- 0.193 mm
+a_1                                                     =   -3.003 +/- 0.221 mm
+b_1                                                     =   -0.142 +/- 0.225 mm
+a_2                                                     =    0.714 +/- 0.185 mm
+b_2                                                     =    0.876 +/- 0.185 mm
+EQ_1_Step_(2017-09-08)                                  =   -0.709 +/- 1.718 mm
+EQ_1_Log_T0.0523_(2017-09-08)                           =    4.789 +/- 1.777 mm
+EQ_1_Exp_T1.0_(2017-09-08)                              =  -25.025 +/- 7.654 mm
+Elevation_Cutoff_Changed_(2012-08-21)                   =   -1.328 +/- 1.093 mm
+Antenna_Type_Changed_(2014-03-21)                       =   11.720 +/- 1.104 mm
+Elevation_Cutoff_Changed_(2015-06-11)                   =   -0.827 +/- 1.068 mm
+Antenna_Type_Changed_(2018-08-30)                       =   -1.408 +/- 1.707 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Log & Exp Transient (M8.2, 1700km)
+EQ_2: Ignored (M8.2, 1700km > 2042km)

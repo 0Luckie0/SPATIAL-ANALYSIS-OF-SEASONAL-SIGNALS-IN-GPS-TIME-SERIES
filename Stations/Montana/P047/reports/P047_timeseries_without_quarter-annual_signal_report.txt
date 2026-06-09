@@ -1,0 +1,36 @@
+P047 (Montana) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+Detected Events used in Model:
+    Step: Antenna_Type_Changed (2017-09-27)
+
+EAST
+Estimated sigma_pl = 2.481, kappa = -0.470
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   24.892 +/- 0.263 mm
+v_y                                                     =  -14.280 +/- 0.043 mm
+a_1                                                     =   -2.296 +/- 0.109 mm
+b_1                                                     =    0.759 +/- 0.109 mm
+a_2                                                     =    0.639 +/- 0.093 mm
+b_2                                                     =   -0.012 +/- 0.093 mm
+Antenna_Type_Changed_(2017-09-27)                       =    2.336 +/- 0.462 mm
+
+NORTH
+Estimated sigma_pl = 1.534, kappa = -0.530
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   17.899 +/- 0.202 mm
+v_y                                                     =   -9.778 +/- 0.032 mm
+a_1                                                     =   -0.061 +/- 0.076 mm
+b_1                                                     =   -3.937 +/- 0.076 mm
+a_2                                                     =    0.576 +/- 0.063 mm
+b_2                                                     =    0.796 +/- 0.064 mm
+Antenna_Type_Changed_(2017-09-27)                       =   -0.144 +/- 0.335 mm
+
+UP
+Estimated sigma_pl = 5.614, kappa = -0.616
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    2.840 +/- 1.001 mm
+v_y                                                     =   -0.391 +/- 0.148 mm
+a_1                                                     =   -6.925 +/- 0.332 mm
+b_1                                                     =   -0.587 +/- 0.333 mm
+a_2                                                     =    0.695 +/- 0.268 mm
+b_2                                                     =   -0.353 +/- 0.269 mm
+Antenna_Type_Changed_(2017-09-27)                       =   -3.462 +/- 1.527 mm

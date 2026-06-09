@@ -1,0 +1,10 @@
+P719 (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -116.211 +/- 1.130 mm
+V                =    5.634 +/- 0.078 mm/yr
+s_1              =  -26.990 +/- 0.799 mm
+c_1              =  -10.347 +/- 0.799 mm
+s_2              =   -1.558 +/- 0.799 mm
+c_2              =   10.922 +/- 0.799 mm
+s_4              =    0.129 +/- 0.799 mm
+c_4              =    1.638 +/- 0.799 mm

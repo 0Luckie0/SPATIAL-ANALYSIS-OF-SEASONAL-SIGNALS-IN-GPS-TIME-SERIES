@@ -1,0 +1,10 @@
+LAOP (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -431.630 +/- 5.665 mm
+V                =   25.173 +/- 0.393 mm/yr
+s_1              =   -7.556 +/- 4.007 mm
+c_1              =   -1.007 +/- 4.004 mm
+s_2              =   15.259 +/- 4.005 mm
+c_2              =    1.438 +/- 4.004 mm
+s_4              =    0.177 +/- 4.005 mm
+c_4              =    1.068 +/- 4.004 mm

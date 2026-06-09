@@ -1,0 +1,33 @@
+GOSH (Nevada) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+    -> MANUAL RULE: Restricted between 2016-05-26 and 2025-06-10.
+Detected Events used in Model:
+
+EAST
+Estimated sigma_pl = 1.783, kappa = -0.553
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =  101.901 +/- 0.432 mm
+v_y                                                     =  -17.150 +/- 0.067 mm
+a_1                                                     =   -1.508 +/- 0.136 mm
+b_1                                                     =    1.086 +/- 0.134 mm
+a_2                                                     =    0.502 +/- 0.111 mm
+b_2                                                     =   -0.026 +/- 0.112 mm
+
+NORTH
+Estimated sigma_pl = 1.043, kappa = -0.641
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   56.269 +/- 0.323 mm
+v_y                                                     =   -9.464 +/- 0.051 mm
+a_1                                                     =    0.542 +/- 0.095 mm
+b_1                                                     =   -3.486 +/- 0.094 mm
+a_2                                                     =    0.451 +/- 0.075 mm
+b_2                                                     =    0.705 +/- 0.076 mm
+
+UP
+Estimated sigma_pl = 4.369, kappa = -0.604
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    2.333 +/- 1.226 mm
+v_y                                                     =   -0.380 +/- 0.193 mm
+a_1                                                     =   -4.324 +/- 0.369 mm
+b_1                                                     =    0.258 +/- 0.365 mm
+a_2                                                     =    0.417 +/- 0.297 mm
+b_2                                                     =    0.325 +/- 0.298 mm

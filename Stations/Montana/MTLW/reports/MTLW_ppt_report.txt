@@ -1,0 +1,10 @@
+MTLW (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -437.595 +/- 2.945 mm
+V                =   18.438 +/- 0.204 mm/yr
+s_1              =  -40.695 +/- 2.083 mm
+c_1              =   -9.278 +/- 2.081 mm
+s_2              =    3.007 +/- 2.082 mm
+c_2              =   12.065 +/- 2.081 mm
+s_4              =    0.199 +/- 2.082 mm
+c_4              =    3.068 +/- 2.081 mm

@@ -1,0 +1,10 @@
+P458 (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -352.971 +/- 2.370 mm
+V                =   15.956 +/- 0.164 mm/yr
+s_1              =   32.606 +/- 1.676 mm
+c_1              =  -27.098 +/- 1.675 mm
+s_2              =    2.170 +/- 1.676 mm
+c_2              =   13.083 +/- 1.675 mm
+s_4              =    0.167 +/- 1.675 mm
+c_4              =    2.465 +/- 1.675 mm

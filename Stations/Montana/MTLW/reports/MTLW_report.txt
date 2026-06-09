@@ -1,0 +1,38 @@
+MTLW (Montana) Geodetic Time Series Analysis
+Detected Events used in Model:
+
+EAST
+Estimated sigma_pl = 1.100, kappa = -0.742
+MODEL PARAMETERS:
+y_0                                                     =   54.096 +/- 0.273 mm
+v_y                                                     =  -14.981 +/- 0.040 mm
+a_1                                                     =   -1.476 +/- 0.094 mm
+b_1                                                     =    1.029 +/- 0.093 mm
+a_2                                                     =    0.195 +/- 0.072 mm
+b_2                                                     =   -0.007 +/- 0.072 mm
+a_4                                                     =    0.043 +/- 0.056 mm
+b_4                                                     =   -0.095 +/- 0.056 mm
+
+NORTH
+Estimated sigma_pl = 1.190, kappa = -0.746
+MODEL PARAMETERS:
+y_0                                                     =   30.577 +/- 0.300 mm
+v_y                                                     =   -8.488 +/- 0.044 mm
+a_1                                                     =   -0.125 +/- 0.102 mm
+b_1                                                     =   -3.702 +/- 0.101 mm
+a_2                                                     =    1.047 +/- 0.079 mm
+b_2                                                     =    0.990 +/- 0.079 mm
+a_4                                                     =    0.188 +/- 0.061 mm
+b_4                                                     =   -0.042 +/- 0.061 mm
+
+UP
+Estimated sigma_pl = 4.386, kappa = -0.623
+MODEL PARAMETERS:
+y_0                                                     =    4.149 +/- 0.739 mm
+v_y                                                     =   -1.132 +/- 0.108 mm
+a_1                                                     =   -4.482 +/- 0.293 mm
+b_1                                                     =    3.553 +/- 0.291 mm
+a_2                                                     =    0.135 +/- 0.235 mm
+b_2                                                     =   -0.223 +/- 0.236 mm
+a_4                                                     =   -0.246 +/- 0.190 mm
+b_4                                                     =    0.252 +/- 0.190 mm

@@ -1,0 +1,10 @@
+1ULM (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -616.259 +/- 11.508 mm
+V                =   -6.698 +/- 0.797 mm/yr
+s_1              =   22.606 +/- 8.139 mm
+c_1              =  -37.596 +/- 8.134 mm
+s_2              =   -5.333 +/- 8.136 mm
+c_2              =    0.867 +/- 8.134 mm
+s_4              =    0.216 +/- 8.135 mm
+c_4              =   -0.205 +/- 8.134 mm

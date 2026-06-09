@@ -1,0 +1,63 @@
+SJB1 (Louisiana) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2017-09-08)
+    Step: Antenna_and_Radome_Type_Changed (2009-10-31)
+    Step: Elevation_Cutoff_Changed (2009-11-13)
+    Step: Antenna_Type_Changed (2022-10-21)
+
+EAST
+Estimated sigma_pl = 1.222, kappa = -0.845
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   23.627 +/- 0.741 mm
+v_y                                                     =  -12.462 +/- 0.112 mm
+a_1                                                     =   -0.412 +/- 0.121 mm
+b_1                                                     =   -1.059 +/- 0.123 mm
+a_2                                                     =    0.502 +/- 0.091 mm
+b_2                                                     =   -0.133 +/- 0.091 mm
+EQ_1_Step_(2017-09-08)                                  =    0.245 +/- 0.655 mm
+EQ_1_Exp_T1.0_(2017-09-08)                              =    1.174 +/- 1.291 mm
+Antenna_and_Radome_Type_Changed_(2009-10-31)            =    1.955 +/- 0.740 mm
+Elevation_Cutoff_Changed_(2009-11-13)                   =    0.110 +/- 0.738 mm
+Antenna_Type_Changed_(2022-10-21)                       =    0.208 +/- 0.554 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M8.2, 1733km)
+EQ_2: Ignored (M8.2, 1733km > 2042km)
+
+NORTH
+Estimated sigma_pl = 1.428, kappa = -0.994
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   -2.174 +/- 1.262 mm
+v_y                                                     =   -1.527 +/- 0.201 mm
+a_1                                                     =    0.688 +/- 0.192 mm
+b_1                                                     =   -4.864 +/- 0.194 mm
+a_2                                                     =    0.397 +/- 0.136 mm
+b_2                                                     =    0.403 +/- 0.137 mm
+EQ_1_Step_(2017-09-08)                                  =    2.211 +/- 0.937 mm
+EQ_1_Exp_T1.0_(2017-09-08)                              =    2.096 +/- 2.266 mm
+Antenna_and_Radome_Type_Changed_(2009-10-31)            =    1.294 +/- 0.973 mm
+Elevation_Cutoff_Changed_(2009-11-13)                   =    0.165 +/- 0.972 mm
+Antenna_Type_Changed_(2022-10-21)                       =    0.982 +/- 0.845 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M8.2, 1733km)
+EQ_2: Ignored (M8.2, 1733km > 2042km)
+
+UP
+Estimated sigma_pl = 5.308, kappa = -0.715
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   -7.793 +/- 2.358 mm
+v_y                                                     =   -2.379 +/- 0.338 mm
+a_1                                                     =   -4.198 +/- 0.404 mm
+b_1                                                     =   -3.013 +/- 0.411 mm
+a_2                                                     =    0.176 +/- 0.317 mm
+b_2                                                     =    0.787 +/- 0.317 mm
+EQ_1_Step_(2017-09-08)                                  =    1.444 +/- 2.297 mm
+EQ_1_Exp_T1.0_(2017-09-08)                              =    2.912 +/- 3.954 mm
+Antenna_and_Radome_Type_Changed_(2009-10-31)            =   36.612 +/- 2.899 mm
+Elevation_Cutoff_Changed_(2009-11-13)                   =  -27.487 +/- 2.884 mm
+Antenna_Type_Changed_(2022-10-21)                       =    4.877 +/- 1.821 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M8.2, 1733km)
+EQ_2: Ignored (M8.2, 1733km > 2042km)

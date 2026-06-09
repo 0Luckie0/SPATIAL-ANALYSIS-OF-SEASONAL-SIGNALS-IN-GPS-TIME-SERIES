@@ -1,0 +1,72 @@
+LSUA (Louisiana) Geodetic Time Series Analysis
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2017-09-08)
+    Step: Elevation_Cutoff_Changed (2005-09-02)
+    Step: Antenna_and_Radome_Type_Changed (2011-09-19)
+    Step: Antenna_Type_Changed (2018-08-21)
+
+EAST
+Estimated sigma_pl = 1.306, kappa = -0.707
+MODEL PARAMETERS:
+y_0                                                     =    3.344 +/- 0.750 mm
+v_y                                                     =  -12.694 +/- 0.070 mm
+a_1                                                     =   -0.545 +/- 0.086 mm
+b_1                                                     =   -0.025 +/- 0.087 mm
+a_2                                                     =    0.510 +/- 0.067 mm
+b_2                                                     =   -0.193 +/- 0.067 mm
+a_4                                                     =   -0.027 +/- 0.052 mm
+b_4                                                     =   -0.092 +/- 0.052 mm
+EQ_1_Step_(2017-09-08)                                  =    0.825 +/- 0.662 mm
+EQ_1_Log_T0.0523_(2017-09-08)                           =   -1.868 +/- 0.764 mm
+EQ_1_Exp_T1.0_(2017-09-08)                              =    7.215 +/- 3.311 mm
+Elevation_Cutoff_Changed_(2005-09-02)                   =    0.392 +/- 0.441 mm
+Antenna_and_Radome_Type_Changed_(2011-09-19)            =   -0.448 +/- 0.461 mm
+Antenna_Type_Changed_(2018-08-21)                       =   -1.748 +/- 0.642 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Log & Exp Transient (M8.2, 1803km)
+EQ_2: Ignored (M8.2, 1803km > 2042km)
+
+NORTH
+Estimated sigma_pl = 1.497, kappa = -0.838
+MODEL PARAMETERS:
+y_0                                                     =    1.937 +/- 1.179 mm
+v_y                                                     =   -1.020 +/- 0.109 mm
+a_1                                                     =    0.896 +/- 0.128 mm
+b_1                                                     =   -0.570 +/- 0.130 mm
+a_2                                                     =    0.288 +/- 0.095 mm
+b_2                                                     =    1.123 +/- 0.096 mm
+a_4                                                     =    0.175 +/- 0.071 mm
+b_4                                                     =   -0.077 +/- 0.071 mm
+EQ_1_Step_(2017-09-08)                                  =    1.910 +/- 0.929 mm
+EQ_1_Log_T0.0523_(2017-09-08)                           =   -4.211 +/- 1.188 mm
+EQ_1_Exp_T1.0_(2017-09-08)                              =   15.520 +/- 5.151 mm
+Elevation_Cutoff_Changed_(2005-09-02)                   =   -0.981 +/- 0.664 mm
+Antenna_and_Radome_Type_Changed_(2011-09-19)            =   -0.800 +/- 0.686 mm
+Antenna_Type_Changed_(2018-08-21)                       =    0.926 +/- 0.875 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Log & Exp Transient (M8.2, 1803km)
+EQ_2: Ignored (M8.2, 1803km > 2042km)
+
+UP
+Estimated sigma_pl = 4.783, kappa = -0.591
+MODEL PARAMETERS:
+y_0                                                     =    1.586 +/- 2.079 mm
+v_y                                                     =   -1.170 +/- 0.193 mm
+a_1                                                     =   -5.409 +/- 0.248 mm
+b_1                                                     =    0.385 +/- 0.252 mm
+a_2                                                     =    0.800 +/- 0.201 mm
+b_2                                                     =   -0.150 +/- 0.202 mm
+a_4                                                     =   -0.049 +/- 0.164 mm
+b_4                                                     =    0.140 +/- 0.164 mm
+EQ_1_Step_(2017-09-08)                                  =   -0.424 +/- 1.947 mm
+EQ_1_Log_T0.0523_(2017-09-08)                           =    4.350 +/- 2.097 mm
+EQ_1_Exp_T1.0_(2017-09-08)                              =  -25.354 +/- 9.171 mm
+Elevation_Cutoff_Changed_(2005-09-02)                   =    1.029 +/- 1.237 mm
+Antenna_and_Radome_Type_Changed_(2011-09-19)            =    0.238 +/- 1.304 mm
+Antenna_Type_Changed_(2018-08-21)                       =   -0.776 +/- 1.977 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Log & Exp Transient (M8.2, 1803km)
+EQ_2: Ignored (M8.2, 1803km > 2042km)

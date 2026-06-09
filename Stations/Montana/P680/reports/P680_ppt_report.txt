@@ -1,0 +1,10 @@
+P680 (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -367.084 +/- 2.879 mm
+V                =   19.015 +/- 0.200 mm/yr
+s_1              =   57.964 +/- 2.036 mm
+c_1              =  -32.936 +/- 2.035 mm
+s_2              =    1.221 +/- 2.036 mm
+c_2              =   14.801 +/- 2.035 mm
+s_4              =    0.426 +/- 2.035 mm
+c_4              =    3.950 +/- 2.035 mm

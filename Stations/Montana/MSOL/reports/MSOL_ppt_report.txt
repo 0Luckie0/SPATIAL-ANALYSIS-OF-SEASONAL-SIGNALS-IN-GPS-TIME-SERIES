@@ -1,0 +1,10 @@
+MSOL (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -102.636 +/- 1.242 mm
+V                =    5.782 +/- 0.086 mm/yr
+s_1              =   -6.959 +/- 0.878 mm
+c_1              =   -8.353 +/- 0.878 mm
+s_2              =    0.905 +/- 0.878 mm
+c_2              =    8.478 +/- 0.878 mm
+s_4              =   -1.037 +/- 0.878 mm
+c_4              =    1.877 +/- 0.878 mm

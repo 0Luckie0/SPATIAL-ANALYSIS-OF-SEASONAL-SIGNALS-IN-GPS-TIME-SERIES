@@ -1,0 +1,10 @@
+MERC (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              =   68.237 +/- 1.585 mm
+V                =    1.918 +/- 0.110 mm/yr
+s_1              =   11.990 +/- 1.121 mm
+c_1              =   -2.519 +/- 1.121 mm
+s_2              =    0.969 +/- 1.121 mm
+c_2              =   -5.215 +/- 1.121 mm
+s_4              =   -0.180 +/- 1.121 mm
+c_4              =   -0.945 +/- 1.121 mm

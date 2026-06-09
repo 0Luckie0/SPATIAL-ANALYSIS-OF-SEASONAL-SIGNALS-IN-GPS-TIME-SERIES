@@ -1,0 +1,10 @@
+GOSH (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              =  -97.486 +/- 1.276 mm
+V                =    4.607 +/- 0.088 mm/yr
+s_1              =    4.358 +/- 0.903 mm
+c_1              =   -8.500 +/- 0.902 mm
+s_2              =   -2.078 +/- 0.902 mm
+c_2              =    2.570 +/- 0.902 mm
+s_4              =    0.840 +/- 0.902 mm
+c_4              =   -0.818 +/- 0.902 mm

@@ -1,0 +1,36 @@
+P456 (Montana) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+Detected Events used in Model:
+    Step: Elevation_Cutoff_Changed (2010-07-11)
+
+EAST
+Estimated sigma_pl = 1.146, kappa = -0.900
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   33.117 +/- 0.562 mm
+v_y                                                     =  -14.384 +/- 0.069 mm
+a_1                                                     =   -1.481 +/- 0.125 mm
+b_1                                                     =    1.318 +/- 0.124 mm
+a_2                                                     =    0.365 +/- 0.091 mm
+b_2                                                     =    0.120 +/- 0.091 mm
+Elevation_Cutoff_Changed_(2010-07-11)                   =    1.113 +/- 0.561 mm
+
+NORTH
+Estimated sigma_pl = 1.176, kappa = -1.089
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   18.461 +/- 0.992 mm
+v_y                                                     =   -7.390 +/- 0.134 mm
+a_1                                                     =    1.175 +/- 0.189 mm
+b_1                                                     =   -3.054 +/- 0.187 mm
+a_2                                                     =    0.197 +/- 0.129 mm
+b_2                                                     =    0.801 +/- 0.128 mm
+Elevation_Cutoff_Changed_(2010-07-11)                   =   -0.097 +/- 0.785 mm
+
+UP
+Estimated sigma_pl = 3.389, kappa = -0.983
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   -3.805 +/- 2.091 mm
+v_y                                                     =    2.299 +/- 0.267 mm
+a_1                                                     =   -7.136 +/- 0.439 mm
+b_1                                                     =    2.192 +/- 0.433 mm
+a_2                                                     =    1.215 +/- 0.311 mm
+b_2                                                     =    0.517 +/- 0.310 mm
+Elevation_Cutoff_Changed_(2010-07-11)                   =   -1.207 +/- 1.928 mm

@@ -1,0 +1,10 @@
+HAMM (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -1494.958 +/- 17.314 mm
+V                =   22.224 +/- 1.200 mm/yr
+s_1              =  -38.905 +/- 12.245 mm
+c_1              =   -3.498 +/- 12.238 mm
+s_2              =   21.628 +/- 12.241 mm
+c_2              =  -11.357 +/- 12.238 mm
+s_4              =    0.468 +/- 12.240 mm
+c_4              =    4.726 +/- 12.238 mm

@@ -1,0 +1,50 @@
+P680 (Montana) Geodetic Time Series Analysis
+Detected Events used in Model:
+    Step: Elevation_Cutoff_Changed (2017-04-19)
+    Step: Receiver_Make_and_Model_Changed (2018-02-07)
+    Step: Antenna_Type_Changed (2020-09-13)
+
+EAST
+Estimated sigma_pl = 1.270, kappa = -0.932
+MODEL PARAMETERS:
+y_0                                                     =   13.434 +/- 0.783 mm
+v_y                                                     =  -16.131 +/- 0.087 mm
+a_1                                                     =   -1.959 +/- 0.137 mm
+b_1                                                     =    1.129 +/- 0.137 mm
+a_2                                                     =    0.383 +/- 0.099 mm
+b_2                                                     =   -0.044 +/- 0.099 mm
+a_4                                                     =    0.071 +/- 0.072 mm
+b_4                                                     =   -0.027 +/- 0.072 mm
+Elevation_Cutoff_Changed_(2017-04-19)                   =   -1.184 +/- 0.689 mm
+Receiver_Make_and_Model_Changed_(2018-02-07)            =   -1.701 +/- 0.687 mm
+Antenna_Type_Changed_(2020-09-13)                       =    1.769 +/- 0.666 mm
+
+NORTH
+Estimated sigma_pl = 1.391, kappa = -0.955
+MODEL PARAMETERS:
+y_0                                                     =    8.282 +/- 0.926 mm
+v_y                                                     =  -10.942 +/- 0.102 mm
+a_1                                                     =    0.139 +/- 0.158 mm
+b_1                                                     =   -3.361 +/- 0.157 mm
+a_2                                                     =    0.659 +/- 0.113 mm
+b_2                                                     =    0.446 +/- 0.113 mm
+a_4                                                     =   -0.058 +/- 0.081 mm
+b_4                                                     =    0.172 +/- 0.081 mm
+Elevation_Cutoff_Changed_(2017-04-19)                   =   -0.175 +/- 0.782 mm
+Receiver_Make_and_Model_Changed_(2018-02-07)            =    2.621 +/- 0.780 mm
+Antenna_Type_Changed_(2020-09-13)                       =    1.228 +/- 0.759 mm
+
+UP
+Estimated sigma_pl = 5.718, kappa = -1.134
+MODEL PARAMETERS:
+y_0                                                     =    0.446 +/- 6.929 mm
+v_y                                                     =    0.563 +/- 0.722 mm
+a_1                                                     =   -4.080 +/- 0.931 mm
+b_1                                                     =    1.231 +/- 0.926 mm
+a_2                                                     =    1.748 +/- 0.626 mm
+b_2                                                     =   -2.604 +/- 0.625 mm
+a_4                                                     =   -0.796 +/- 0.422 mm
+b_4                                                     =    0.509 +/- 0.422 mm
+Elevation_Cutoff_Changed_(2017-04-19)                   =   -0.854 +/- 4.092 mm
+Receiver_Make_and_Model_Changed_(2018-02-07)            =    4.449 +/- 4.087 mm
+Antenna_Type_Changed_(2020-09-13)                       =   -1.070 +/- 4.055 mm

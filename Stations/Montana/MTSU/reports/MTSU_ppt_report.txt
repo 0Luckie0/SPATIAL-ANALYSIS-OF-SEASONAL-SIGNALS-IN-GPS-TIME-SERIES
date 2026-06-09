@@ -1,0 +1,10 @@
+MTSU (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -255.285 +/- 1.958 mm
+V                =    8.936 +/- 0.136 mm/yr
+s_1              =  -28.941 +/- 1.385 mm
+c_1              =  -17.157 +/- 1.384 mm
+s_2              =   -3.339 +/- 1.384 mm
+c_2              =   16.398 +/- 1.384 mm
+s_4              =    0.464 +/- 1.384 mm
+c_4              =    1.986 +/- 1.384 mm

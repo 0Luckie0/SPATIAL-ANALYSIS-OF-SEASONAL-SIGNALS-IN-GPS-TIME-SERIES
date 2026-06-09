@@ -1,0 +1,39 @@
+COVG (Louisiana) Geodetic Time Series Analysis
+    -> MANUAL RULE: Before 2005-10-29 and after 2013-12-01 deleted.
+Detected Events used in Model:
+
+EAST
+Estimated sigma_pl = 1.293, kappa = -0.737
+MODEL PARAMETERS:
+y_0                                                     =  -63.492 +/- 0.702 mm
+v_y                                                     =  -12.446 +/- 0.097 mm
+a_1                                                     =   -0.520 +/- 0.150 mm
+b_1                                                     =    2.051 +/- 0.150 mm
+a_2                                                     =    0.915 +/- 0.116 mm
+b_2                                                     =   -0.084 +/- 0.117 mm
+a_4                                                     =    0.059 +/- 0.090 mm
+b_4                                                     =   -0.119 +/- 0.090 mm
+
+NORTH
+Estimated sigma_pl = 1.270, kappa = -0.773
+MODEL PARAMETERS:
+y_0                                                     =   -1.112 +/- 0.788 mm
+v_y                                                     =   -0.195 +/- 0.107 mm
+a_1                                                     =    1.057 +/- 0.158 mm
+b_1                                                     =   -0.646 +/- 0.159 mm
+a_2                                                     =    0.286 +/- 0.121 mm
+b_2                                                     =    0.684 +/- 0.122 mm
+a_4                                                     =    0.156 +/- 0.093 mm
+b_4                                                     =   -0.178 +/- 0.093 mm
+
+UP
+Estimated sigma_pl = 4.386, kappa = -0.589
+MODEL PARAMETERS:
+y_0                                                     =   -4.758 +/- 1.413 mm
+v_y                                                     =   -0.968 +/- 0.211 mm
+a_1                                                     =   -3.477 +/- 0.377 mm
+b_1                                                     =   -1.212 +/- 0.378 mm
+a_2                                                     =    1.069 +/- 0.306 mm
+b_2                                                     =    0.951 +/- 0.309 mm
+a_4                                                     =    0.174 +/- 0.251 mm
+b_4                                                     =    0.204 +/- 0.251 mm

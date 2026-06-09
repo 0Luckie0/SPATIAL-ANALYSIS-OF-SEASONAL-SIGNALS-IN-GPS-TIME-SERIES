@@ -1,0 +1,55 @@
+LALA (Louisiana) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+    -> MANUAL RULE: After 2021-01-01 deleted.
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2017-09-08)
+
+EAST
+Estimated sigma_pl = 1.200, kappa = -0.609
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   24.750 +/- 0.230 mm
+v_y                                                     =  -13.639 +/- 0.103 mm
+a_1                                                     =   -0.461 +/- 0.107 mm
+b_1                                                     =    0.596 +/- 0.104 mm
+a_2                                                     =    0.163 +/- 0.085 mm
+b_2                                                     =    0.263 +/- 0.085 mm
+EQ_1_Step_(2017-09-08)                                  =   -0.144 +/- 0.657 mm
+EQ_1_Log1_T0.0523_(2017-09-08)                          =    0.098 +/- 0.521 mm
+EQ_1_Log2_T1.0_(2017-09-08)                             =   -1.016 +/- 1.323 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M8.2, 1700km)
+EQ_2: Ignored (M8.2, 1700km > 2042km)
+
+NORTH
+Estimated sigma_pl = 1.268, kappa = -0.673
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    4.568 +/- 0.301 mm
+v_y                                                     =   -2.402 +/- 0.130 mm
+a_1                                                     =    0.278 +/- 0.129 mm
+b_1                                                     =   -3.718 +/- 0.125 mm
+a_2                                                     =    0.839 +/- 0.100 mm
+b_2                                                     =    0.759 +/- 0.100 mm
+EQ_1_Step_(2017-09-08)                                  =    1.110 +/- 0.746 mm
+EQ_1_Log1_T0.0523_(2017-09-08)                          =   -0.450 +/- 0.616 mm
+EQ_1_Log2_T1.0_(2017-09-08)                             =   -0.335 +/- 1.609 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M8.2, 1700km)
+EQ_2: Ignored (M8.2, 1700km > 2042km)
+
+UP
+Estimated sigma_pl = 5.765, kappa = -0.586
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    7.397 +/- 1.024 mm
+v_y                                                     =   -2.906 +/- 0.464 mm
+a_1                                                     =   -5.148 +/- 0.491 mm
+b_1                                                     =   -0.989 +/- 0.479 mm
+a_2                                                     =   -0.473 +/- 0.394 mm
+b_2                                                     =    0.799 +/- 0.392 mm
+EQ_1_Step_(2017-09-08)                                  =   -1.804 +/- 3.071 mm
+EQ_1_Log1_T0.0523_(2017-09-08)                          =    3.479 +/- 2.404 mm
+EQ_1_Log2_T1.0_(2017-09-08)                             =  -16.264 +/- 6.054 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M8.2, 1700km)
+EQ_2: Ignored (M8.2, 1700km > 2042km)

@@ -1,0 +1,57 @@
+LAOP (Louisiana) Geodetic Time Series Analysis
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2017-09-08)
+
+EAST
+Estimated sigma_pl = 1.012, kappa = -0.711
+MODEL PARAMETERS:
+y_0                                                     =   49.614 +/- 0.263 mm
+v_y                                                     =  -12.736 +/- 0.072 mm
+a_1                                                     =    0.031 +/- 0.085 mm
+b_1                                                     =   -0.791 +/- 0.085 mm
+a_2                                                     =    0.498 +/- 0.066 mm
+b_2                                                     =   -0.100 +/- 0.066 mm
+a_4                                                     =   -0.020 +/- 0.052 mm
+b_4                                                     =   -0.022 +/- 0.052 mm
+EQ_1_Step_(2017-09-08)                                  =    0.571 +/- 0.435 mm
+EQ_1_Exp_T1.0_(2017-09-08)                              =    0.694 +/- 0.795 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M8.2, 1734km)
+EQ_2: Ignored (M8.2, 1734km > 2042km)
+
+NORTH
+Estimated sigma_pl = 1.053, kappa = -0.738
+MODEL PARAMETERS:
+y_0                                                     =    2.114 +/- 0.297 mm
+v_y                                                     =   -0.357 +/- 0.081 mm
+a_1                                                     =    0.456 +/- 0.094 mm
+b_1                                                     =   -3.675 +/- 0.093 mm
+a_2                                                     =    0.723 +/- 0.072 mm
+b_2                                                     =    0.855 +/- 0.072 mm
+a_4                                                     =    0.043 +/- 0.056 mm
+b_4                                                     =   -0.021 +/- 0.056 mm
+EQ_1_Step_(2017-09-08)                                  =    0.217 +/- 0.474 mm
+EQ_1_Exp_T1.0_(2017-09-08)                              =   -1.145 +/- 0.888 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M8.2, 1734km)
+EQ_2: Ignored (M8.2, 1734km > 2042km)
+
+UP
+Estimated sigma_pl = 4.598, kappa = -0.592
+MODEL PARAMETERS:
+y_0                                                     =    6.915 +/- 0.818 mm
+v_y                                                     =   -1.825 +/- 0.229 mm
+a_1                                                     =   -4.827 +/- 0.305 mm
+b_1                                                     =   -1.152 +/- 0.303 mm
+a_2                                                     =   -0.091 +/- 0.247 mm
+b_2                                                     =    0.043 +/- 0.247 mm
+a_4                                                     =   -0.142 +/- 0.201 mm
+b_4                                                     =    0.254 +/- 0.201 mm
+EQ_1_Step_(2017-09-08)                                  =    0.701 +/- 1.568 mm
+EQ_1_Exp_T1.0_(2017-09-08)                              =    0.660 +/- 2.630 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M8.2, 1734km)
+EQ_2: Ignored (M8.2, 1734km > 2042km)

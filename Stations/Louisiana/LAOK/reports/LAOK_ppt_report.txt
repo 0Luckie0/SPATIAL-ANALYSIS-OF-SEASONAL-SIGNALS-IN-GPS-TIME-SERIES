@@ -1,0 +1,10 @@
+LAOK (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -147.487 +/- 8.562 mm
+V                =  -23.735 +/- 0.593 mm/yr
+s_1              =    2.212 +/- 6.055 mm
+c_1              =    0.763 +/- 6.052 mm
+s_2              =    7.991 +/- 6.053 mm
+c_2              =    5.129 +/- 6.052 mm
+s_4              =   -2.153 +/- 6.053 mm
+c_4              =   -2.524 +/- 6.052 mm

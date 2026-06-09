@@ -1,0 +1,10 @@
+GRIS (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -1355.909 +/- 13.322 mm
+V                =   25.036 +/- 0.923 mm/yr
+s_1              =  -73.977 +/- 9.422 mm
+c_1              =   48.800 +/- 9.416 mm
+s_2              =   15.183 +/- 9.419 mm
+c_2              =  -24.966 +/- 9.416 mm
+s_4              =    6.638 +/- 9.418 mm
+c_4              =    5.435 +/- 9.416 mm

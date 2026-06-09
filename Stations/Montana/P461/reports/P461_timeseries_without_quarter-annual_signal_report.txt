@@ -1,0 +1,33 @@
+P461 (Montana) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+    -> MANUAL RULE: After 2019-01-13 deleted.
+Detected Events used in Model:
+
+EAST
+Estimated sigma_pl = 1.207, kappa = -0.689
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =  -37.671 +/- 0.315 mm
+v_y                                                     =  -14.411 +/- 0.044 mm
+a_1                                                     =   -1.741 +/- 0.099 mm
+b_1                                                     =    0.806 +/- 0.099 mm
+a_2                                                     =    0.518 +/- 0.079 mm
+b_2                                                     =   -0.090 +/- 0.078 mm
+
+NORTH
+Estimated sigma_pl = 1.134, kappa = -0.703
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =  -20.816 +/- 0.312 mm
+v_y                                                     =   -8.068 +/- 0.043 mm
+a_1                                                     =   -0.180 +/- 0.096 mm
+b_1                                                     =   -3.426 +/- 0.096 mm
+a_2                                                     =    0.584 +/- 0.075 mm
+b_2                                                     =    0.641 +/- 0.075 mm
+
+UP
+Estimated sigma_pl = 4.155, kappa = -0.777
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   -1.242 +/- 1.533 mm
+v_y                                                     =   -0.534 +/- 0.202 mm
+a_1                                                     =   -6.405 +/- 0.407 mm
+b_1                                                     =    1.379 +/- 0.409 mm
+a_2                                                     =    0.900 +/- 0.313 mm
+b_2                                                     =   -0.659 +/- 0.311 mm

@@ -1,0 +1,10 @@
+LESV (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              =   -4.902 +/- 12.397 mm
+V                =  -29.472 +/- 0.859 mm/yr
+s_1              =    8.780 +/- 8.768 mm
+c_1              =  -13.388 +/- 8.763 mm
+s_2              =   -8.032 +/- 8.765 mm
+c_2              =    8.205 +/- 8.763 mm
+s_4              =   -2.626 +/- 8.764 mm
+c_4              =    1.394 +/- 8.763 mm

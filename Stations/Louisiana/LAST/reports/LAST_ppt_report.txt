@@ -1,0 +1,10 @@
+LAST (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              =  -38.630 +/- 8.976 mm
+V                =  -23.549 +/- 0.622 mm/yr
+s_1              =  -69.102 +/- 6.348 mm
+c_1              =    2.829 +/- 6.345 mm
+s_2              =   21.236 +/- 6.346 mm
+c_2              =  -10.200 +/- 6.345 mm
+s_4              =   -1.281 +/- 6.346 mm
+c_4              =    4.665 +/- 6.345 mm

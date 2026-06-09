@@ -1,0 +1,36 @@
+P053 (Montana) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+Detected Events used in Model:
+    Step: Antenna_Type_Changed (2019-11-08)
+
+EAST
+Estimated sigma_pl = 0.902, kappa = -0.805
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   29.279 +/- 0.298 mm
+v_y                                                     =  -15.502 +/- 0.039 mm
+a_1                                                     =   -1.526 +/- 0.078 mm
+b_1                                                     =    0.863 +/- 0.078 mm
+a_2                                                     =    0.553 +/- 0.059 mm
+b_2                                                     =   -0.028 +/- 0.059 mm
+Antenna_Type_Changed_(2019-11-08)                       =   -3.638 +/- 0.373 mm
+
+NORTH
+Estimated sigma_pl = 0.956, kappa = -0.759
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   12.724 +/- 0.269 mm
+v_y                                                     =   -8.028 +/- 0.036 mm
+a_1                                                     =    0.374 +/- 0.075 mm
+b_1                                                     =   -4.055 +/- 0.076 mm
+a_2                                                     =    0.601 +/- 0.058 mm
+b_2                                                     =    0.632 +/- 0.058 mm
+Antenna_Type_Changed_(2019-11-08)                       =    5.751 +/- 0.358 mm
+
+UP
+Estimated sigma_pl = 3.909, kappa = -0.974
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    5.176 +/- 2.312 mm
+v_y                                                     =   -2.053 +/- 0.286 mm
+a_1                                                     =   -5.626 +/- 0.477 mm
+b_1                                                     =   -0.054 +/- 0.480 mm
+a_2                                                     =    0.752 +/- 0.341 mm
+b_2                                                     =    0.044 +/- 0.342 mm
+Antenna_Type_Changed_(2019-11-08)                       =   -0.841 +/- 2.229 mm

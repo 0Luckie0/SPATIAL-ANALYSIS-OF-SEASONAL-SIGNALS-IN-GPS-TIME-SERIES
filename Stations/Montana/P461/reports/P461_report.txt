@@ -1,0 +1,39 @@
+P461 (Montana) Geodetic Time Series Analysis
+    -> MANUAL RULE: After 2019-01-13 deleted.
+Detected Events used in Model:
+
+EAST
+Estimated sigma_pl = 1.207, kappa = -0.689
+MODEL PARAMETERS:
+y_0                                                     =  -37.668 +/- 0.315 mm
+v_y                                                     =  -14.411 +/- 0.044 mm
+a_1                                                     =   -1.741 +/- 0.099 mm
+b_1                                                     =    0.805 +/- 0.099 mm
+a_2                                                     =    0.519 +/- 0.078 mm
+b_2                                                     =   -0.091 +/- 0.078 mm
+a_4                                                     =    0.004 +/- 0.062 mm
+b_4                                                     =   -0.052 +/- 0.062 mm
+
+NORTH
+Estimated sigma_pl = 1.134, kappa = -0.700
+MODEL PARAMETERS:
+y_0                                                     =  -20.812 +/- 0.309 mm
+v_y                                                     =   -8.068 +/- 0.043 mm
+a_1                                                     =   -0.180 +/- 0.095 mm
+b_1                                                     =   -3.427 +/- 0.095 mm
+a_2                                                     =    0.586 +/- 0.075 mm
+b_2                                                     =    0.640 +/- 0.075 mm
+a_4                                                     =    0.027 +/- 0.059 mm
+b_4                                                     =   -0.101 +/- 0.059 mm
+
+UP
+Estimated sigma_pl = 4.153, kappa = -0.773
+MODEL PARAMETERS:
+y_0                                                     =   -1.272 +/- 1.510 mm
+v_y                                                     =   -0.532 +/- 0.200 mm
+a_1                                                     =   -6.406 +/- 0.404 mm
+b_1                                                     =    1.383 +/- 0.405 mm
+a_2                                                     =    0.894 +/- 0.311 mm
+b_2                                                     =   -0.655 +/- 0.309 mm
+a_4                                                     =   -0.183 +/- 0.237 mm
+b_4                                                     =    0.427 +/- 0.237 mm

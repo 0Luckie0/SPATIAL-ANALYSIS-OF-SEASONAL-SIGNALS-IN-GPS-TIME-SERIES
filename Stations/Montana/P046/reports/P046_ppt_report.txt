@@ -1,0 +1,10 @@
+P046 (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -243.352 +/- 1.917 mm
+V                =   14.686 +/- 0.133 mm/yr
+s_1              =    7.222 +/- 1.356 mm
+c_1              =   -6.952 +/- 1.355 mm
+s_2              =    6.880 +/- 1.355 mm
+c_2              =    8.479 +/- 1.355 mm
+s_4              =   -0.437 +/- 1.355 mm
+c_4              =    2.179 +/- 1.355 mm

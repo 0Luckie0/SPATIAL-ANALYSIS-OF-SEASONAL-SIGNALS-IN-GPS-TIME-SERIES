@@ -1,0 +1,10 @@
+LAFR (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -553.505 +/- 10.689 mm
+V                =    2.641 +/- 0.741 mm/yr
+s_1              =  -91.832 +/- 7.560 mm
+c_1              =   38.083 +/- 7.555 mm
+s_2              =   28.368 +/- 7.557 mm
+c_2              =  -14.763 +/- 7.555 mm
+s_4              =    2.824 +/- 7.556 mm
+c_4              =    5.001 +/- 7.555 mm

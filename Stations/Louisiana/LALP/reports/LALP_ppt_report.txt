@@ -1,0 +1,10 @@
+LALP (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -337.473 +/- 7.420 mm
+V                =    6.353 +/- 0.514 mm/yr
+s_1              =  -72.668 +/- 5.248 mm
+c_1              =   18.956 +/- 5.245 mm
+s_2              =   16.246 +/- 5.246 mm
+c_2              =  -12.080 +/- 5.245 mm
+s_4              =   -0.550 +/- 5.245 mm
+c_4              =    4.442 +/- 5.245 mm

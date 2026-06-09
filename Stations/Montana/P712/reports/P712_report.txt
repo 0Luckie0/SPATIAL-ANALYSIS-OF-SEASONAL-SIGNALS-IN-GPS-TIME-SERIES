@@ -1,0 +1,39 @@
+P712 (Montana) Geodetic Time Series Analysis
+    -> MANUAL RULE: After 2019-04-18 deleted.
+Detected Events used in Model:
+
+EAST
+Estimated sigma_pl = 1.536, kappa = -0.672
+MODEL PARAMETERS:
+y_0                                                     =  -15.936 +/- 0.351 mm
+v_y                                                     =  -14.286 +/- 0.068 mm
+a_1                                                     =   -2.243 +/- 0.136 mm
+b_1                                                     =    0.414 +/- 0.135 mm
+a_2                                                     =    0.645 +/- 0.108 mm
+b_2                                                     =    0.378 +/- 0.107 mm
+a_4                                                     =    0.171 +/- 0.085 mm
+b_4                                                     =   -0.155 +/- 0.085 mm
+
+NORTH
+Estimated sigma_pl = 1.558, kappa = -0.622
+MODEL PARAMETERS:
+y_0                                                     =   -8.067 +/- 0.294 mm
+v_y                                                     =   -7.494 +/- 0.059 mm
+a_1                                                     =   -0.077 +/- 0.124 mm
+b_1                                                     =   -3.881 +/- 0.124 mm
+a_2                                                     =    0.608 +/- 0.100 mm
+b_2                                                     =    0.730 +/- 0.100 mm
+a_4                                                     =    0.084 +/- 0.081 mm
+b_4                                                     =   -0.130 +/- 0.081 mm
+
+UP
+Estimated sigma_pl = 5.925, kappa = -0.522
+MODEL PARAMETERS:
+y_0                                                     =    2.019 +/- 0.759 mm
+v_y                                                     =    2.328 +/- 0.162 mm
+a_1                                                     =   -7.449 +/- 0.385 mm
+b_1                                                     =   -0.140 +/- 0.385 mm
+a_2                                                     =    1.496 +/- 0.322 mm
+b_2                                                     =   -0.455 +/- 0.320 mm
+a_4                                                     =   -0.088 +/- 0.268 mm
+b_4                                                     =    0.564 +/- 0.268 mm

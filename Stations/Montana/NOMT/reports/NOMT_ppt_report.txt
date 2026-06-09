@@ -1,0 +1,10 @@
+NOMT (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -214.892 +/- 1.801 mm
+V                =    3.899 +/- 0.125 mm/yr
+s_1              =  -31.863 +/- 1.274 mm
+c_1              =  -15.024 +/- 1.273 mm
+s_2              =   -5.796 +/- 1.273 mm
+c_2              =   15.411 +/- 1.273 mm
+s_4              =    0.009 +/- 1.273 mm
+c_4              =    2.004 +/- 1.273 mm

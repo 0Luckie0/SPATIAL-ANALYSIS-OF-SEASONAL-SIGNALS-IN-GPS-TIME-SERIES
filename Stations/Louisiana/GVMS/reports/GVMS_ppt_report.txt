@@ -1,0 +1,10 @@
+GVMS (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -933.429 +/- 12.280 mm
+V                =   20.112 +/- 0.851 mm/yr
+s_1              =  -45.098 +/- 8.685 mm
+c_1              =   -1.454 +/- 8.680 mm
+s_2              =   17.787 +/- 8.682 mm
+c_2              =   -5.307 +/- 8.680 mm
+s_4              =   -1.180 +/- 8.681 mm
+c_4              =    4.244 +/- 8.680 mm

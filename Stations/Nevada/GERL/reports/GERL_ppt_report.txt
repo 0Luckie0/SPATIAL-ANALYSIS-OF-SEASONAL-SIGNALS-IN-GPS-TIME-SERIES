@@ -1,0 +1,10 @@
+GERL (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              =  -12.643 +/- 1.633 mm
+V                =   -2.933 +/- 0.113 mm/yr
+s_1              =   14.840 +/- 1.155 mm
+c_1              =   -8.830 +/- 1.155 mm
+s_2              =    1.018 +/- 1.155 mm
+c_2              =    2.982 +/- 1.155 mm
+s_4              =   -0.516 +/- 1.155 mm
+c_4              =   -0.111 +/- 1.155 mm

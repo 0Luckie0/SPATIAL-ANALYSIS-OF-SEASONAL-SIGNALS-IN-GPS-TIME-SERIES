@@ -1,0 +1,72 @@
+P046 (Montana) Geodetic Time Series Analysis
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2017-07-06)
+    Step: Elevation_Cutoff_Changed (2015-02-06)
+    Step: Antenna_Type_Changed (2017-05-05)
+    Step: Receiver_Make_and_Model_Changed (2021-09-07)
+
+EAST
+Estimated sigma_pl = 1.059, kappa = -0.709
+MODEL PARAMETERS:
+y_0                                                     =   21.479 +/- 0.398 mm
+v_y                                                     =  -14.231 +/- 0.061 mm
+a_1                                                     =   -1.952 +/- 0.075 mm
+b_1                                                     =    1.275 +/- 0.075 mm
+a_2                                                     =    0.444 +/- 0.058 mm
+b_2                                                     =   -0.068 +/- 0.059 mm
+a_4                                                     =   -0.018 +/- 0.046 mm
+b_4                                                     =   -0.018 +/- 0.046 mm
+EQ_1_Step_(2017-07-06)                                  =   -0.223 +/- 0.634 mm
+EQ_1_Log1_T0.0523_(2017-07-06)                          =   -0.178 +/- 0.468 mm
+EQ_1_Log2_T1.0_(2017-07-06)                             =    0.910 +/- 1.045 mm
+Elevation_Cutoff_Changed_(2015-02-06)                   =   -0.161 +/- 0.374 mm
+Antenna_Type_Changed_(2017-05-05)                       =   -1.322 +/- 0.478 mm
+Receiver_Make_and_Model_Changed_(2021-09-07)            =   -1.510 +/- 0.406 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M5.8, 60km)
+EQ_2: Ignored (M5.8, 60km > 129km)
+
+NORTH
+Estimated sigma_pl = 1.103, kappa = -0.705
+MODEL PARAMETERS:
+y_0                                                     =   13.172 +/- 0.409 mm
+v_y                                                     =   -9.703 +/- 0.063 mm
+a_1                                                     =    0.169 +/- 0.077 mm
+b_1                                                     =   -3.918 +/- 0.078 mm
+a_2                                                     =    0.458 +/- 0.060 mm
+b_2                                                     =    0.621 +/- 0.061 mm
+a_4                                                     =    0.132 +/- 0.047 mm
+b_4                                                     =    0.018 +/- 0.047 mm
+EQ_1_Step_(2017-07-06)                                  =    0.770 +/- 0.657 mm
+EQ_1_Log1_T0.0523_(2017-07-06)                          =   -0.933 +/- 0.484 mm
+EQ_1_Log2_T1.0_(2017-07-06)                             =    1.899 +/- 1.078 mm
+Elevation_Cutoff_Changed_(2015-02-06)                   =   -0.635 +/- 0.386 mm
+Antenna_Type_Changed_(2017-05-05)                       =    2.725 +/- 0.494 mm
+Receiver_Make_and_Model_Changed_(2021-09-07)            =    0.139 +/- 0.419 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M5.8, 60km)
+EQ_2: Ignored (M5.8, 60km > 129km)
+
+UP
+Estimated sigma_pl = 3.952, kappa = -0.814
+MODEL PARAMETERS:
+y_0                                                     =    2.719 +/- 2.139 mm
+v_y                                                     =   -0.626 +/- 0.306 mm
+a_1                                                     =   -6.823 +/- 0.346 mm
+b_1                                                     =    1.356 +/- 0.347 mm
+a_2                                                     =    0.757 +/- 0.259 mm
+b_2                                                     =   -0.412 +/- 0.260 mm
+a_4                                                     =   -0.265 +/- 0.195 mm
+b_4                                                     =    0.151 +/- 0.195 mm
+EQ_1_Step_(2017-07-06)                                  =   -1.257 +/- 2.628 mm
+EQ_1_Log1_T0.0523_(2017-07-06)                          =    0.902 +/- 2.124 mm
+EQ_1_Log2_T1.0_(2017-07-06)                             =   -1.555 +/- 4.950 mm
+Elevation_Cutoff_Changed_(2015-02-06)                   =    0.156 +/- 1.737 mm
+Antenna_Type_Changed_(2017-05-05)                       =   -3.577 +/- 2.072 mm
+Receiver_Make_and_Model_Changed_(2021-09-07)            =    0.847 +/- 1.843 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M5.8, 60km)
+EQ_2: Ignored (M5.8, 60km > 129km)

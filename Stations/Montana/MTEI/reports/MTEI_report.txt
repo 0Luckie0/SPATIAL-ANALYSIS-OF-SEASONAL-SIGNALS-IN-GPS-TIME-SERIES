@@ -1,0 +1,50 @@
+MTEI (Montana) Geodetic Time Series Analysis
+Detected Events used in Model:
+    Step: Elevation_Cutoff_Changed (2012-03-27)
+    Step: Antenna_and_Radome_Type_Changed (2013-08-22)
+    Step: Antenna_and_Radome_Type_Changed (2025-03-21)
+
+EAST
+Estimated sigma_pl = 0.955, kappa = -0.790
+MODEL PARAMETERS:
+y_0                                                     =   13.317 +/- 0.402 mm
+v_y                                                     =  -14.993 +/- 0.043 mm
+a_1                                                     =   -1.546 +/- 0.076 mm
+b_1                                                     =    1.245 +/- 0.076 mm
+a_2                                                     =    0.347 +/- 0.058 mm
+b_2                                                     =   -0.037 +/- 0.058 mm
+a_4                                                     =    0.055 +/- 0.044 mm
+b_4                                                     =   -0.017 +/- 0.044 mm
+Elevation_Cutoff_Changed_(2012-03-27)                   =    1.065 +/- 0.389 mm
+Antenna_and_Radome_Type_Changed_(2013-08-22)            =   -1.305 +/- 0.392 mm
+Antenna_and_Radome_Type_Changed_(2025-03-21)            =    1.186 +/- 0.392 mm
+
+NORTH
+Estimated sigma_pl = 1.058, kappa = -0.766
+MODEL PARAMETERS:
+y_0                                                     =    7.883 +/- 0.413 mm
+v_y                                                     =   -8.212 +/- 0.044 mm
+a_1                                                     =    0.121 +/- 0.080 mm
+b_1                                                     =   -3.671 +/- 0.081 mm
+a_2                                                     =    0.526 +/- 0.062 mm
+b_2                                                     =    0.620 +/- 0.062 mm
+a_4                                                     =    0.053 +/- 0.047 mm
+b_4                                                     =    0.025 +/- 0.047 mm
+Elevation_Cutoff_Changed_(2012-03-27)                   =   -1.087 +/- 0.410 mm
+Antenna_and_Radome_Type_Changed_(2013-08-22)            =    1.504 +/- 0.413 mm
+Antenna_and_Radome_Type_Changed_(2025-03-21)            =   -1.514 +/- 0.413 mm
+
+UP
+Estimated sigma_pl = 4.079, kappa = -0.787
+MODEL PARAMETERS:
+y_0                                                     =    7.754 +/- 1.700 mm
+v_y                                                     =   -1.741 +/- 0.181 mm
+a_1                                                     =   -4.438 +/- 0.324 mm
+b_1                                                     =    2.077 +/- 0.325 mm
+a_2                                                     =    0.313 +/- 0.246 mm
+b_2                                                     =    0.020 +/- 0.246 mm
+a_4                                                     =   -0.285 +/- 0.187 mm
+b_4                                                     =    0.031 +/- 0.187 mm
+Elevation_Cutoff_Changed_(2012-03-27)                   =   -3.029 +/- 1.651 mm
+Antenna_and_Radome_Type_Changed_(2013-08-22)            =   -4.312 +/- 1.663 mm
+Antenna_and_Radome_Type_Changed_(2025-03-21)            =   -4.002 +/- 1.664 mm

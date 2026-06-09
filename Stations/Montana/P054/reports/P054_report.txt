@@ -1,0 +1,39 @@
+P054 (Montana) Geodetic Time Series Analysis
+    -> MANUAL RULE: After 2018-11-20 deleted.
+Detected Events used in Model:
+
+EAST
+Estimated sigma_pl = 1.028, kappa = -0.732
+MODEL PARAMETERS:
+y_0                                                     =  -39.130 +/- 0.319 mm
+v_y                                                     =  -15.577 +/- 0.045 mm
+a_1                                                     =   -1.342 +/- 0.094 mm
+b_1                                                     =    0.883 +/- 0.094 mm
+a_2                                                     =    0.545 +/- 0.073 mm
+b_2                                                     =   -0.026 +/- 0.073 mm
+a_4                                                     =    0.051 +/- 0.057 mm
+b_4                                                     =   -0.076 +/- 0.057 mm
+
+NORTH
+Estimated sigma_pl = 1.181, kappa = -0.693
+MODEL PARAMETERS:
+y_0                                                     =  -15.841 +/- 0.315 mm
+v_y                                                     =   -6.309 +/- 0.046 mm
+a_1                                                     =    0.158 +/- 0.100 mm
+b_1                                                     =   -3.625 +/- 0.100 mm
+a_2                                                     =    0.558 +/- 0.078 mm
+b_2                                                     =    0.643 +/- 0.079 mm
+a_4                                                     =   -0.001 +/- 0.062 mm
+b_4                                                     =   -0.055 +/- 0.062 mm
+
+UP
+Estimated sigma_pl = 4.058, kappa = -0.853
+MODEL PARAMETERS:
+y_0                                                     =   -5.352 +/- 2.030 mm
+v_y                                                     =   -2.144 +/- 0.267 mm
+a_1                                                     =   -5.274 +/- 0.475 mm
+b_1                                                     =    0.053 +/- 0.475 mm
+a_2                                                     =    0.823 +/- 0.352 mm
+b_2                                                     =   -0.165 +/- 0.355 mm
+a_4                                                     =    0.021 +/- 0.264 mm
+b_4                                                     =    0.168 +/- 0.263 mm

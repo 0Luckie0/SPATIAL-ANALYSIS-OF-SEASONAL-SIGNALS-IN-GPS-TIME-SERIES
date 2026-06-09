@@ -1,0 +1,64 @@
+GERL (Nevada) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2019-07-06)
+    Step: EARTHQUAKE EQ_2_Step (2024-12-05)
+
+EAST
+Estimated sigma_pl = 1.209, kappa = -0.746
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   85.380 +/- 0.333 mm
+v_y                                                     =  -17.635 +/- 0.100 mm
+a_1                                                     =   -1.746 +/- 0.110 mm
+b_1                                                     =    1.378 +/- 0.109 mm
+a_2                                                     =    0.448 +/- 0.084 mm
+b_2                                                     =   -0.140 +/- 0.085 mm
+EQ_1_Step_(2019-07-06)                                  =    0.611 +/- 0.736 mm
+EQ_1_Log_T0.0523_(2019-07-06)                           =   -3.164 +/- 0.945 mm
+EQ_1_Exp_T1.0_(2019-07-06)                              =    7.578 +/- 3.659 mm
+EQ_2_Step_(2024-12-05)                                  =    0.111 +/- 0.812 mm
+EQ_2_Log_T0.0523_(2024-12-05)                           =    0.146 +/- 1.102 mm
+EQ_2_Exp_T1.0_(2024-12-05)                              =    1.635 +/- 4.472 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Log & Exp Transient (M7.1, 564km)
+EQ_2: Step + Log & Exp Transient (M7.0, 479km)
+
+NORTH
+Estimated sigma_pl = 1.015, kappa = -0.674
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   38.149 +/- 0.223 mm
+v_y                                                     =   -8.021 +/- 0.068 mm
+a_1                                                     =   -0.427 +/- 0.080 mm
+b_1                                                     =   -4.536 +/- 0.079 mm
+a_2                                                     =    0.635 +/- 0.063 mm
+b_2                                                     =    0.896 +/- 0.063 mm
+EQ_1_Step_(2019-07-06)                                  =   -0.528 +/- 0.561 mm
+EQ_1_Log_T0.0523_(2019-07-06)                           =   -0.035 +/- 0.690 mm
+EQ_1_Exp_T1.0_(2019-07-06)                              =    0.560 +/- 2.628 mm
+EQ_2_Step_(2024-12-05)                                  =    1.475 +/- 0.640 mm
+EQ_2_Log_T0.0523_(2024-12-05)                           =   -0.140 +/- 0.827 mm
+EQ_2_Exp_T1.0_(2024-12-05)                              =   -2.090 +/- 3.288 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Log & Exp Transient (M7.1, 564km)
+EQ_2: Step + Log & Exp Transient (M7.0, 479km)
+
+UP
+Estimated sigma_pl = 3.827, kappa = -0.638
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    8.712 +/- 0.747 mm
+v_y                                                     =   -2.132 +/- 0.233 mm
+a_1                                                     =   -3.888 +/- 0.280 mm
+b_1                                                     =    0.903 +/- 0.278 mm
+a_2                                                     =   -0.343 +/- 0.222 mm
+b_2                                                     =    0.039 +/- 0.223 mm
+EQ_1_Step_(2019-07-06)                                  =   -0.141 +/- 2.008 mm
+EQ_1_Log_T0.0523_(2019-07-06)                           =   -3.815 +/- 2.420 mm
+EQ_1_Exp_T1.0_(2019-07-06)                              =   20.762 +/- 9.151 mm
+EQ_2_Step_(2024-12-05)                                  =   -1.053 +/- 2.332 mm
+EQ_2_Log_T0.0523_(2024-12-05)                           =    0.710 +/- 2.947 mm
+EQ_2_Exp_T1.0_(2024-12-05)                              =    2.273 +/- 11.606 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Log & Exp Transient (M7.1, 564km)
+EQ_2: Step + Log & Exp Transient (M7.0, 479km)

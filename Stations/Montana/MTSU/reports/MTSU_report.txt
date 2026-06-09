@@ -1,0 +1,43 @@
+MTSU (Montana) Geodetic Time Series Analysis
+    -> MANUAL RULE: After 2021-06-03 deleted.
+Detected Events used in Model:
+    Step: Antenna_Type_Changed (2012-08-29)
+
+EAST
+Estimated sigma_pl = 1.112, kappa = -0.751
+MODEL PARAMETERS:
+y_0                                                     =   -3.671 +/- 0.415 mm
+v_y                                                     =  -14.549 +/- 0.064 mm
+a_1                                                     =   -1.348 +/- 0.104 mm
+b_1                                                     =    1.229 +/- 0.103 mm
+a_2                                                     =    0.388 +/- 0.080 mm
+b_2                                                     =   -0.146 +/- 0.080 mm
+a_4                                                     =    0.056 +/- 0.061 mm
+b_4                                                     =   -0.127 +/- 0.061 mm
+Antenna_Type_Changed_(2012-08-29)                       =    0.003 +/- 0.435 mm
+
+NORTH
+Estimated sigma_pl = 1.295, kappa = -0.791
+MODEL PARAMETERS:
+y_0                                                     =   -2.057 +/- 0.544 mm
+v_y                                                     =   -8.453 +/- 0.083 mm
+a_1                                                     =   -0.303 +/- 0.131 mm
+b_1                                                     =   -4.074 +/- 0.130 mm
+a_2                                                     =    0.599 +/- 0.099 mm
+b_2                                                     =    0.571 +/- 0.099 mm
+a_4                                                     =    0.132 +/- 0.075 mm
+b_4                                                     =   -0.082 +/- 0.075 mm
+Antenna_Type_Changed_(2012-08-29)                       =    0.512 +/- 0.549 mm
+
+UP
+Estimated sigma_pl = 5.518, kappa = -0.584
+MODEL PARAMETERS:
+y_0                                                     =   -3.565 +/- 1.251 mm
+v_y                                                     =   -0.885 +/- 0.200 mm
+a_1                                                     =   -4.744 +/- 0.367 mm
+b_1                                                     =    3.834 +/- 0.365 mm
+a_2                                                     =    0.141 +/- 0.299 mm
+b_2                                                     =   -0.055 +/- 0.299 mm
+a_4                                                     =   -0.097 +/- 0.244 mm
+b_4                                                     =    0.109 +/- 0.244 mm
+Antenna_Type_Changed_(2012-08-29)                       =    5.620 +/- 1.472 mm

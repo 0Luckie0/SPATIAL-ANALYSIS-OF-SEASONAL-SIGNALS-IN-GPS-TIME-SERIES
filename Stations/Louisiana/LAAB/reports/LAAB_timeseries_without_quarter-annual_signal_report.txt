@@ -1,0 +1,51 @@
+LAAB (Louisiana) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2017-09-08)
+
+EAST
+Estimated sigma_pl = 1.138, kappa = -0.742
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   44.331 +/- 0.326 mm
+v_y                                                     =  -12.179 +/- 0.089 mm
+a_1                                                     =   -0.841 +/- 0.102 mm
+b_1                                                     =   -0.273 +/- 0.102 mm
+a_2                                                     =    0.437 +/- 0.079 mm
+b_2                                                     =   -0.034 +/- 0.079 mm
+EQ_1_Step_(2017-09-08)                                  =    0.684 +/- 0.517 mm
+EQ_1_Exp_T1.0_(2017-09-08)                              =    1.339 +/- 0.972 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M8.2, 1673km)
+EQ_2: Ignored (M8.2, 1673km > 2042km)
+
+NORTH
+Estimated sigma_pl = 1.214, kappa = -0.815
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    2.349 +/- 0.431 mm
+v_y                                                     =   -0.636 +/- 0.117 mm
+a_1                                                     =    0.835 +/- 0.127 mm
+b_1                                                     =   -1.537 +/- 0.126 mm
+a_2                                                     =    1.010 +/- 0.095 mm
+b_2                                                     =    1.611 +/- 0.095 mm
+EQ_1_Step_(2017-09-08)                                  =   -0.325 +/- 0.622 mm
+EQ_1_Exp_T1.0_(2017-09-08)                              =   -0.627 +/- 1.257 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M8.2, 1673km)
+EQ_2: Ignored (M8.2, 1673km > 2042km)
+
+UP
+Estimated sigma_pl = 4.412, kappa = -0.581
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   12.919 +/- 0.758 mm
+v_y                                                     =   -2.882 +/- 0.213 mm
+a_1                                                     =   -4.147 +/- 0.286 mm
+b_1                                                     =   -0.546 +/- 0.285 mm
+a_2                                                     =    0.194 +/- 0.233 mm
+b_2                                                     =    0.321 +/- 0.233 mm
+EQ_1_Step_(2017-09-08)                                  =   -0.015 +/- 1.471 mm
+EQ_1_Exp_T1.0_(2017-09-08)                              =   -2.526 +/- 2.451 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M8.2, 1673km)
+EQ_2: Ignored (M8.2, 1673km > 2042km)

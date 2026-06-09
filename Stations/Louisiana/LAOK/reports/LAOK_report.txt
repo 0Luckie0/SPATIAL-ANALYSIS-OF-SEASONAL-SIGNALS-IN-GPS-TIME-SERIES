@@ -1,0 +1,39 @@
+LAOK (Louisiana) Geodetic Time Series Analysis
+    -> MANUAL RULE: 2024-01-01 onwards and 2019-01-01 before deleted.
+Detected Events used in Model:
+
+EAST
+Estimated sigma_pl = 1.138, kappa = -0.690
+MODEL PARAMETERS:
+y_0                                                     =   80.774 +/- 0.885 mm
+v_y                                                     =  -12.920 +/- 0.146 mm
+a_1                                                     =   -0.307 +/- 0.164 mm
+b_1                                                     =    1.007 +/- 0.158 mm
+a_2                                                     =    0.398 +/- 0.128 mm
+b_2                                                     =   -0.587 +/- 0.125 mm
+a_4                                                     =    0.097 +/- 0.100 mm
+b_4                                                     =   -0.063 +/- 0.099 mm
+
+NORTH
+Estimated sigma_pl = 1.042, kappa = -0.557
+MODEL PARAMETERS:
+y_0                                                     =   10.267 +/- 0.578 mm
+v_y                                                     =   -1.608 +/- 0.093 mm
+a_1                                                     =    0.707 +/- 0.114 mm
+b_1                                                     =   -3.118 +/- 0.111 mm
+a_2                                                     =    0.530 +/- 0.093 mm
+b_2                                                     =    1.318 +/- 0.092 mm
+a_4                                                     =    0.129 +/- 0.076 mm
+b_4                                                     =   -0.167 +/- 0.076 mm
+
+UP
+Estimated sigma_pl = 4.267, kappa = -0.591
+MODEL PARAMETERS:
+y_0                                                     =   -8.569 +/- 2.584 mm
+v_y                                                     =    1.368 +/- 0.416 mm
+a_1                                                     =   -5.631 +/- 0.502 mm
+b_1                                                     =   -0.081 +/- 0.485 mm
+a_2                                                     =    1.076 +/- 0.405 mm
+b_2                                                     =    0.461 +/- 0.398 mm
+a_4                                                     =   -0.290 +/- 0.327 mm
+b_4                                                     =    0.321 +/- 0.326 mm

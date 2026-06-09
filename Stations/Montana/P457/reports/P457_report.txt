@@ -1,0 +1,38 @@
+P457 (Montana) Geodetic Time Series Analysis
+Detected Events used in Model:
+
+EAST
+Estimated sigma_pl = 1.332, kappa = -0.828
+MODEL PARAMETERS:
+y_0                                                     =   27.536 +/- 0.435 mm
+v_y                                                     =  -14.845 +/- 0.052 mm
+a_1                                                     =   -1.587 +/- 0.122 mm
+b_1                                                     =    1.753 +/- 0.121 mm
+a_2                                                     =    0.662 +/- 0.091 mm
+b_2                                                     =   -0.594 +/- 0.091 mm
+a_4                                                     =    0.110 +/- 0.068 mm
+b_4                                                     =   -0.074 +/- 0.069 mm
+
+NORTH
+Estimated sigma_pl = 1.435, kappa = -0.799
+MODEL PARAMETERS:
+y_0                                                     =   14.184 +/- 0.423 mm
+v_y                                                     =   -7.490 +/- 0.051 mm
+a_1                                                     =   -0.065 +/- 0.124 mm
+b_1                                                     =   -3.695 +/- 0.123 mm
+a_2                                                     =    0.734 +/- 0.094 mm
+b_2                                                     =    1.114 +/- 0.094 mm
+a_4                                                     =    0.214 +/- 0.071 mm
+b_4                                                     =    0.019 +/- 0.071 mm
+
+UP
+Estimated sigma_pl = 3.883, kappa = -0.729
+MODEL PARAMETERS:
+y_0                                                     =   -3.093 +/- 0.887 mm
+v_y                                                     =    1.680 +/- 0.108 mm
+a_1                                                     =   -6.608 +/- 0.291 mm
+b_1                                                     =    0.761 +/- 0.289 mm
+a_2                                                     =    0.975 +/- 0.225 mm
+b_2                                                     =    0.111 +/- 0.225 mm
+a_4                                                     =   -0.106 +/- 0.175 mm
+b_4                                                     =    0.266 +/- 0.175 mm

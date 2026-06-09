@@ -1,0 +1,10 @@
+LALA (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -743.450 +/- 11.945 mm
+V                =    6.952 +/- 0.828 mm/yr
+s_1              =  -54.009 +/- 8.448 mm
+c_1              =   21.495 +/- 8.443 mm
+s_2              =   21.364 +/- 8.445 mm
+c_2              =   -0.646 +/- 8.443 mm
+s_4              =   -1.509 +/- 8.444 mm
+c_4              =    0.411 +/- 8.443 mm

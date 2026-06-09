@@ -1,0 +1,60 @@
+LAAX (Louisiana) Geodetic Time Series Analysis
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2017-09-08)
+
+EAST
+Estimated sigma_pl = 1.042, kappa = -0.687
+MODEL PARAMETERS:
+y_0                                                     =   41.770 +/- 0.255 mm
+v_y                                                     =  -12.247 +/- 0.089 mm
+a_1                                                     =   -0.596 +/- 0.084 mm
+b_1                                                     =    0.073 +/- 0.083 mm
+a_2                                                     =    0.425 +/- 0.066 mm
+b_2                                                     =    0.139 +/- 0.066 mm
+a_4                                                     =    0.041 +/- 0.052 mm
+b_4                                                     =   -0.052 +/- 0.052 mm
+EQ_1_Step_(2017-09-08)                                  =    1.578 +/- 0.541 mm
+EQ_1_Log_T0.0523_(2017-09-08)                           =   -2.547 +/- 0.637 mm
+EQ_1_Exp_T1.0_(2017-09-08)                              =   10.407 +/- 2.290 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Log & Exp Transient (M8.2, 1811km)
+EQ_2: Ignored (M8.2, 1811km > 2042km)
+
+NORTH
+Estimated sigma_pl = 1.085, kappa = -0.807
+MODEL PARAMETERS:
+y_0                                                     =    1.196 +/- 0.386 mm
+v_y                                                     =   -0.641 +/- 0.125 mm
+a_1                                                     =   -0.174 +/- 0.112 mm
+b_1                                                     =   -3.363 +/- 0.111 mm
+a_2                                                     =    0.718 +/- 0.084 mm
+b_2                                                     =    0.953 +/- 0.084 mm
+a_4                                                     =    0.099 +/- 0.063 mm
+b_4                                                     =    0.013 +/- 0.063 mm
+EQ_1_Step_(2017-09-08)                                  =    2.953 +/- 0.673 mm
+EQ_1_Log_T0.0523_(2017-09-08)                           =   -2.797 +/- 0.864 mm
+EQ_1_Exp_T1.0_(2017-09-08)                              =   10.577 +/- 3.213 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Log & Exp Transient (M8.2, 1811km)
+EQ_2: Ignored (M8.2, 1811km > 2042km)
+
+UP
+Estimated sigma_pl = 4.124, kappa = -0.637
+MODEL PARAMETERS:
+y_0                                                     =    5.351 +/- 0.860 mm
+v_y                                                     =   -0.534 +/- 0.310 mm
+a_1                                                     =   -5.096 +/- 0.300 mm
+b_1                                                     =    0.012 +/- 0.298 mm
+a_2                                                     =    0.242 +/- 0.239 mm
+b_2                                                     =   -0.021 +/- 0.239 mm
+a_4                                                     =   -0.438 +/- 0.192 mm
+b_4                                                     =    0.395 +/- 0.192 mm
+EQ_1_Step_(2017-09-08)                                  =    0.864 +/- 1.964 mm
+EQ_1_Log_T0.0523_(2017-09-08)                           =    2.213 +/- 2.251 mm
+EQ_1_Exp_T1.0_(2017-09-08)                              =  -19.277 +/- 7.999 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Log & Exp Transient (M8.2, 1811km)
+EQ_2: Ignored (M8.2, 1811km > 2042km)

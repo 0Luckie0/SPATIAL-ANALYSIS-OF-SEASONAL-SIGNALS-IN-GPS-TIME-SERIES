@@ -1,0 +1,56 @@
+AWES (Louisiana) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+    -> MANUAL RULE: 2014-03-14 and before deleted.
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2017-09-08)
+    Step: Antenna_Type_Changed (2018-08-06)
+
+EAST
+Estimated sigma_pl = 1.227, kappa = -0.779
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   68.117 +/- 0.411 mm
+v_y                                                     =  -13.451 +/- 0.124 mm
+a_1                                                     =    0.092 +/- 0.127 mm
+b_1                                                     =    0.292 +/- 0.128 mm
+a_2                                                     =    0.394 +/- 0.097 mm
+b_2                                                     =    0.039 +/- 0.097 mm
+EQ_1_Step_(2017-09-08)                                  =    0.934 +/- 0.605 mm
+EQ_1_Exp_T1.0_(2017-09-08)                              =    2.895 +/- 1.481 mm
+Antenna_Type_Changed_(2018-08-06)                       =   -1.171 +/- 0.650 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M8.2, 1703km)
+EQ_2: Ignored (M8.2, 1703km > 2042km)
+
+NORTH
+Estimated sigma_pl = 1.222, kappa = -0.645
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    1.710 +/- 0.284 mm
+v_y                                                     =   -0.224 +/- 0.083 mm
+a_1                                                     =   -0.481 +/- 0.097 mm
+b_1                                                     =   -4.186 +/- 0.097 mm
+a_2                                                     =    0.720 +/- 0.077 mm
+b_2                                                     =    1.062 +/- 0.077 mm
+EQ_1_Step_(2017-09-08)                                  =    0.399 +/- 0.480 mm
+EQ_1_Exp_T1.0_(2017-09-08)                              =   -0.058 +/- 1.123 mm
+Antenna_Type_Changed_(2018-08-06)                       =   -1.455 +/- 0.535 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M8.2, 1703km)
+EQ_2: Ignored (M8.2, 1703km > 2042km)
+
+UP
+Estimated sigma_pl = 4.503, kappa = -0.534
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   12.584 +/- 0.752 mm
+v_y                                                     =   -2.656 +/- 0.220 mm
+a_1                                                     =   -4.333 +/- 0.285 mm
+b_1                                                     =   -1.493 +/- 0.286 mm
+a_2                                                     =    0.190 +/- 0.235 mm
+b_2                                                     =   -0.199 +/- 0.236 mm
+EQ_1_Step_(2017-09-08)                                  =    0.193 +/- 1.429 mm
+EQ_1_Exp_T1.0_(2017-09-08)                              =    5.718 +/- 3.303 mm
+Antenna_Type_Changed_(2018-08-06)                       =   -3.943 +/- 1.652 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M8.2, 1703km)
+EQ_2: Ignored (M8.2, 1703km > 2042km)

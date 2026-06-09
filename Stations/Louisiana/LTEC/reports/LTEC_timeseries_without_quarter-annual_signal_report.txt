@@ -1,0 +1,62 @@
+LTEC (Louisiana) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2017-09-08)
+    Step: Antenna_Type_Changed (2010-07-26)
+    Step: Antenna_Type_Changed (2018-07-10)
+
+EAST
+Estimated sigma_pl = 1.157, kappa = -0.745
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   42.857 +/- 0.594 mm
+v_y                                                     =  -13.246 +/- 0.102 mm
+a_1                                                     =   -0.224 +/- 0.099 mm
+b_1                                                     =    0.655 +/- 0.098 mm
+a_2                                                     =    0.585 +/- 0.075 mm
+b_2                                                     =   -0.084 +/- 0.076 mm
+EQ_1_Step_(2017-09-08)                                  =   -0.395 +/- 0.716 mm
+EQ_1_Log1_T0.0523_(2017-09-08)                          =    1.320 +/- 0.516 mm
+EQ_1_Log2_T1.0_(2017-09-08)                             =   -3.040 +/- 1.160 mm
+Antenna_Type_Changed_(2010-07-26)                       =    1.258 +/- 0.515 mm
+Antenna_Type_Changed_(2018-07-10)                       =    0.009 +/- 0.537 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M8.2, 1949km)
+EQ_2: Ignored (M8.2, 1949km > 2042km)
+
+NORTH
+Estimated sigma_pl = 1.154, kappa = -0.685
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   -0.275 +/- 0.526 mm
+v_y                                                     =   -0.929 +/- 0.085 mm
+a_1                                                     =    0.130 +/- 0.087 mm
+b_1                                                     =   -2.060 +/- 0.087 mm
+a_2                                                     =    0.496 +/- 0.068 mm
+b_2                                                     =    0.888 +/- 0.068 mm
+EQ_1_Step_(2017-09-08)                                  =    1.297 +/- 0.670 mm
+EQ_1_Log1_T0.0523_(2017-09-08)                          =   -0.972 +/- 0.464 mm
+EQ_1_Log2_T1.0_(2017-09-08)                             =    6.229 +/- 0.992 mm
+Antenna_Type_Changed_(2010-07-26)                       =   -0.397 +/- 0.471 mm
+Antenna_Type_Changed_(2018-07-10)                       =    0.239 +/- 0.486 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M8.2, 1949km)
+EQ_2: Ignored (M8.2, 1949km > 2042km)
+
+UP
+Estimated sigma_pl = 4.566, kappa = -0.623
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   -5.239 +/- 1.845 mm
+v_y                                                     =   -2.331 +/- 0.281 mm
+a_1                                                     =   -5.993 +/- 0.305 mm
+b_1                                                     =    1.129 +/- 0.302 mm
+a_2                                                     =    0.468 +/- 0.242 mm
+b_2                                                     =   -0.117 +/- 0.243 mm
+EQ_1_Step_(2017-09-08)                                  =    1.210 +/- 2.465 mm
+EQ_1_Log1_T0.0523_(2017-09-08)                          =   -3.680 +/- 1.647 mm
+EQ_1_Log2_T1.0_(2017-09-08)                             =    7.792 +/- 3.354 mm
+Antenna_Type_Changed_(2010-07-26)                       =   15.984 +/- 1.694 mm
+Antenna_Type_Changed_(2018-07-10)                       =   -3.213 +/- 1.728 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M8.2, 1949km)
+EQ_2: Ignored (M8.2, 1949km > 2042km)

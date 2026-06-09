@@ -1,0 +1,42 @@
+P051 (Montana) Geodetic Time Series Analysis
+Detected Events used in Model:
+    Step: Antenna_Type_Changed (2019-02-07)
+
+EAST
+Estimated sigma_pl = 0.953, kappa = -0.805
+MODEL PARAMETERS:
+y_0                                                     =   16.252 +/- 0.329 mm
+v_y                                                     =  -15.057 +/- 0.038 mm
+a_1                                                     =   -1.650 +/- 0.079 mm
+b_1                                                     =    1.079 +/- 0.080 mm
+a_2                                                     =    0.563 +/- 0.060 mm
+b_2                                                     =   -0.091 +/- 0.060 mm
+a_4                                                     =    0.014 +/- 0.046 mm
+b_4                                                     =   -0.041 +/- 0.046 mm
+Antenna_Type_Changed_(2019-02-07)                       =   -0.564 +/- 0.391 mm
+
+NORTH
+Estimated sigma_pl = 0.987, kappa = -0.872
+MODEL PARAMETERS:
+y_0                                                     =    7.752 +/- 0.432 mm
+v_y                                                     =   -7.729 +/- 0.048 mm
+a_1                                                     =    0.277 +/- 0.094 mm
+b_1                                                     =   -3.492 +/- 0.095 mm
+a_2                                                     =    0.529 +/- 0.070 mm
+b_2                                                     =    0.632 +/- 0.070 mm
+a_4                                                     =    0.079 +/- 0.052 mm
+b_4                                                     =   -0.009 +/- 0.052 mm
+Antenna_Type_Changed_(2019-02-07)                       =    1.944 +/- 0.465 mm
+
+UP
+Estimated sigma_pl = 3.704, kappa = -0.927
+MODEL PARAMETERS:
+y_0                                                     =    4.911 +/- 1.971 mm
+v_y                                                     =   -1.010 +/- 0.216 mm
+a_1                                                     =   -5.315 +/- 0.396 mm
+b_1                                                     =    1.662 +/- 0.397 mm
+a_2                                                     =    1.124 +/- 0.288 mm
+b_2                                                     =   -0.340 +/- 0.288 mm
+a_4                                                     =   -0.146 +/- 0.209 mm
+b_4                                                     =    0.276 +/- 0.209 mm
+Antenna_Type_Changed_(2019-02-07)                       =   -5.538 +/- 1.938 mm

@@ -1,0 +1,88 @@
+FLN1 (Nevada) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2019-07-06)
+    Step: EARTHQUAKE EQ_2_Step (2020-05-15)
+    Step: EARTHQUAKE EQ_3_Step (2021-07-08)
+    Step: EARTHQUAKE EQ_4_Step (2024-12-09)
+    Step: EARTHQUAKE EQ_5_Step (2026-04-14)
+
+EAST
+Estimated sigma_pl = 1.048, kappa = -0.779
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   44.192 +/- 0.359 mm
+v_y                                                     =  -18.705 +/- 0.060 mm
+a_1                                                     =   -1.866 +/- 0.090 mm
+b_1                                                     =    1.820 +/- 0.089 mm
+a_2                                                     =    0.380 +/- 0.068 mm
+b_2                                                     =   -0.061 +/- 0.067 mm
+EQ_1_Step_(2019-07-06)                                  =   -0.488 +/- 0.551 mm
+EQ_1_Log_T1.0_(2019-07-06)                              =    2.607 +/- 1.541 mm
+EQ_2_Step_(2020-05-15)                                  =   -0.854 +/- 0.571 mm
+EQ_2_Log_T1.0_(2020-05-15)                              =   -0.534 +/- 1.782 mm
+EQ_3_Step_(2021-07-08)                                  =    0.557 +/- 0.520 mm
+EQ_3_Log_T1.0_(2021-07-08)                              =   -2.512 +/- 1.108 mm
+EQ_4_Step_(2024-12-09)                                  =   -0.147 +/- 0.529 mm
+EQ_4_Log_T1.0_(2024-12-09)                              =    0.418 +/- 1.135 mm
+EQ_5_Step_(2026-04-14)                                  =   -0.145 +/- 0.701 mm
+EQ_5_Log_T1.0_(2026-04-14)                              =   -3.968 +/- 10.153 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single LogTransient (M7.1, 424km)
+EQ_2: Step + Single LogTransient (M6.5, 165km)
+EQ_3: Step + Single LogTransient (M6.0, 124km)
+EQ_4: Step + Single LogTransient (M5.7, 40km)
+EQ_5: Step + Single LogTransient (M5.7, 26km)
+
+NORTH
+Estimated sigma_pl = 1.038, kappa = -0.818
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   17.831 +/- 0.412 mm
+v_y                                                     =   -7.284 +/- 0.067 mm
+a_1                                                     =   -0.002 +/- 0.096 mm
+b_1                                                     =   -3.007 +/- 0.095 mm
+a_2                                                     =    0.891 +/- 0.072 mm
+b_2                                                     =    0.994 +/- 0.071 mm
+EQ_1_Step_(2019-07-06)                                  =   -1.524 +/- 0.574 mm
+EQ_1_Log_T1.0_(2019-07-06)                              =    0.329 +/- 1.648 mm
+EQ_2_Step_(2020-05-15)                                  =    0.592 +/- 0.593 mm
+EQ_2_Log_T1.0_(2020-05-15)                              =   -0.390 +/- 1.925 mm
+EQ_3_Step_(2021-07-08)                                  =   -0.643 +/- 0.545 mm
+EQ_3_Log_T1.0_(2021-07-08)                              =    0.240 +/- 1.208 mm
+EQ_4_Step_(2024-12-09)                                  =   -0.553 +/- 0.554 mm
+EQ_4_Log_T1.0_(2024-12-09)                              =    4.896 +/- 1.227 mm
+EQ_5_Step_(2026-04-14)                                  =   -2.134 +/- 0.715 mm
+EQ_5_Log_T1.0_(2026-04-14)                              =   16.806 +/- 10.512 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single LogTransient (M7.1, 424km)
+EQ_2: Step + Single LogTransient (M6.5, 165km)
+EQ_3: Step + Single LogTransient (M6.0, 124km)
+EQ_4: Step + Single LogTransient (M5.7, 40km)
+EQ_5: Step + Single LogTransient (M5.7, 26km)
+
+UP
+Estimated sigma_pl = 3.785, kappa = -0.997
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    5.769 +/- 2.974 mm
+v_y                                                     =    1.532 +/- 0.446 mm
+a_1                                                     =   -2.965 +/- 0.503 mm
+b_1                                                     =    1.127 +/- 0.497 mm
+a_2                                                     =   -0.494 +/- 0.353 mm
+b_2                                                     =   -0.315 +/- 0.352 mm
+EQ_1_Step_(2019-07-06)                                  =   -4.845 +/- 2.583 mm
+EQ_1_Log_T1.0_(2019-07-06)                              =  -18.084 +/- 8.746 mm
+EQ_2_Step_(2020-05-15)                                  =   -0.422 +/- 2.628 mm
+EQ_2_Log_T1.0_(2020-05-15)                              =   11.577 +/- 10.599 mm
+EQ_3_Step_(2021-07-08)                                  =    2.516 +/- 2.506 mm
+EQ_3_Log_T1.0_(2021-07-08)                              =  -10.133 +/- 6.959 mm
+EQ_4_Step_(2024-12-09)                                  =    1.035 +/- 2.530 mm
+EQ_4_Log_T1.0_(2024-12-09)                              =    4.400 +/- 6.838 mm
+EQ_5_Step_(2026-04-14)                                  =    0.103 +/- 2.943 mm
+EQ_5_Log_T1.0_(2026-04-14)                              =    9.831 +/- 47.730 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single LogTransient (M7.1, 424km)
+EQ_2: Step + Single LogTransient (M6.5, 165km)
+EQ_3: Step + Single LogTransient (M6.0, 124km)
+EQ_4: Step + Single LogTransient (M5.7, 40km)
+EQ_5: Step + Single LogTransient (M5.7, 26km)

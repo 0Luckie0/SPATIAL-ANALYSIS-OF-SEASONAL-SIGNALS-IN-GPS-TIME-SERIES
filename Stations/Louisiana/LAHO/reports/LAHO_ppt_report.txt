@@ -1,0 +1,10 @@
+LAHO (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -987.058 +/- 9.409 mm
+V                =   23.507 +/- 0.652 mm/yr
+s_1              = -108.088 +/- 6.655 mm
+c_1              =   44.946 +/- 6.651 mm
+s_2              =   18.164 +/- 6.652 mm
+c_2              =  -21.428 +/- 6.651 mm
+s_4              =    1.255 +/- 6.651 mm
+c_4              =    7.246 +/- 6.651 mm

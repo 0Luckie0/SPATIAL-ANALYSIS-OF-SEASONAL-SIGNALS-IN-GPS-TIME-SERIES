@@ -1,0 +1,10 @@
+LAAB (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -500.064 +/- 10.056 mm
+V                =   12.657 +/- 0.697 mm/yr
+s_1              =  -66.083 +/- 7.112 mm
+c_1              =   40.559 +/- 7.108 mm
+s_2              =   19.417 +/- 7.109 mm
+c_2              =   -8.418 +/- 7.108 mm
+s_4              =   -0.721 +/- 7.109 mm
+c_4              =   -0.426 +/- 7.108 mm

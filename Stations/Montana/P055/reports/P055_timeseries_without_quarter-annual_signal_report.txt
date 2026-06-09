@@ -1,0 +1,44 @@
+P055 (Montana) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+Detected Events used in Model:
+    Step: Radome_Type_Changed (2012-12-13)
+    Step: Elevation_Cutoff_Changed (2017-08-22)
+    Step: Antenna_Type_Changed (2018-03-03)
+
+EAST
+Estimated sigma_pl = 0.994, kappa = -0.753
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   22.307 +/- 0.377 mm
+v_y                                                     =  -15.674 +/- 0.047 mm
+a_1                                                     =   -1.531 +/- 0.076 mm
+b_1                                                     =    0.859 +/- 0.076 mm
+a_2                                                     =    0.563 +/- 0.058 mm
+b_2                                                     =   -0.028 +/- 0.058 mm
+Radome_Type_Changed_(2012-12-13)                        =   -3.566 +/- 0.369 mm
+Elevation_Cutoff_Changed_(2017-08-22)                   =   -0.828 +/- 0.403 mm
+Antenna_Type_Changed_(2018-03-03)                       =   -1.504 +/- 0.403 mm
+
+NORTH
+Estimated sigma_pl = 1.123, kappa = -0.741
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    7.925 +/- 0.411 mm
+v_y                                                     =   -6.426 +/- 0.051 mm
+a_1                                                     =    0.247 +/- 0.083 mm
+b_1                                                     =   -3.923 +/- 0.084 mm
+a_2                                                     =    0.550 +/- 0.064 mm
+b_2                                                     =    0.484 +/- 0.065 mm
+Radome_Type_Changed_(2012-12-13)                        =    5.370 +/- 0.406 mm
+Elevation_Cutoff_Changed_(2017-08-22)                   =   -1.216 +/- 0.446 mm
+Antenna_Type_Changed_(2018-03-03)                       =   -7.790 +/- 0.446 mm
+
+UP
+Estimated sigma_pl = 3.973, kappa = -0.923
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    5.870 +/- 2.490 mm
+v_y                                                     =   -2.421 +/- 0.289 mm
+a_1                                                     =   -5.039 +/- 0.427 mm
+b_1                                                     =    0.432 +/- 0.427 mm
+a_2                                                     =    0.760 +/- 0.308 mm
+b_2                                                     =   -0.035 +/- 0.310 mm
+Radome_Type_Changed_(2012-12-13)                        =   -1.787 +/- 2.080 mm
+Elevation_Cutoff_Changed_(2017-08-22)                   =    1.959 +/- 2.153 mm
+Antenna_Type_Changed_(2018-03-03)                       =   -2.343 +/- 2.152 mm

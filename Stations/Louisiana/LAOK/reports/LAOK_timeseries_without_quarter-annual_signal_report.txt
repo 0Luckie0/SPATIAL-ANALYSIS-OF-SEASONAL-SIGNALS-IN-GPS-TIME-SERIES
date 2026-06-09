@@ -1,0 +1,33 @@
+LAOK (Louisiana) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+    -> MANUAL RULE: 2024-01-01 onwards and 2019-01-01 before deleted.
+Detected Events used in Model:
+
+EAST
+Estimated sigma_pl = 1.139, kappa = -0.693
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   80.776 +/- 0.890 mm
+v_y                                                     =  -12.921 +/- 0.147 mm
+a_1                                                     =   -0.310 +/- 0.165 mm
+b_1                                                     =    1.013 +/- 0.159 mm
+a_2                                                     =    0.399 +/- 0.128 mm
+b_2                                                     =   -0.587 +/- 0.126 mm
+
+NORTH
+Estimated sigma_pl = 1.045, kappa = -0.570
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   10.297 +/- 0.599 mm
+v_y                                                     =   -1.613 +/- 0.096 mm
+a_1                                                     =    0.705 +/- 0.118 mm
+b_1                                                     =   -3.105 +/- 0.114 mm
+a_2                                                     =    0.528 +/- 0.096 mm
+b_2                                                     =    1.318 +/- 0.094 mm
+
+UP
+Estimated sigma_pl = 4.270, kappa = -0.593
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   -8.606 +/- 2.600 mm
+v_y                                                     =    1.377 +/- 0.419 mm
+a_1                                                     =   -5.625 +/- 0.504 mm
+b_1                                                     =   -0.109 +/- 0.488 mm
+a_2                                                     =    1.078 +/- 0.407 mm
+b_2                                                     =    0.461 +/- 0.399 mm

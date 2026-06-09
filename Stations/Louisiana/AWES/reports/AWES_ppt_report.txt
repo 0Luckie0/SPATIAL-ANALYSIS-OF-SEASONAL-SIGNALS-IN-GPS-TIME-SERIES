@@ -1,0 +1,10 @@
+AWES (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -887.415 +/- 13.755 mm
+V                =   10.498 +/- 0.953 mm/yr
+s_1              =  -54.643 +/- 9.729 mm
+c_1              =    8.503 +/- 9.723 mm
+s_2              =   19.375 +/- 9.725 mm
+c_2              =   -0.666 +/- 9.723 mm
+s_4              =   -3.165 +/- 9.724 mm
+c_4              =    6.159 +/- 9.723 mm

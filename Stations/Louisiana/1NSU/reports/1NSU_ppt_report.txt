@@ -1,0 +1,10 @@
+1NSU (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              =    9.292 +/- 8.935 mm
+V                =  -21.152 +/- 0.619 mm/yr
+s_1              =   15.527 +/- 6.319 mm
+c_1              =  -33.600 +/- 6.315 mm
+s_2              =   -3.108 +/- 6.317 mm
+c_2              =    3.529 +/- 6.315 mm
+s_4              =    0.488 +/- 6.316 mm
+c_4              =    1.497 +/- 6.315 mm

@@ -1,0 +1,46 @@
+P048 (Montana) Geodetic Time Series Analysis
+Detected Events used in Model:
+    Step: Elevation_Cutoff_Changed (2017-02-22)
+    Step: Antenna_Type_Changed (2021-09-23)
+
+EAST
+Estimated sigma_pl = 1.005, kappa = -0.762
+MODEL PARAMETERS:
+y_0                                                     =   27.119 +/- 0.318 mm
+v_y                                                     =  -14.638 +/- 0.046 mm
+a_1                                                     =   -1.857 +/- 0.080 mm
+b_1                                                     =    1.198 +/- 0.080 mm
+a_2                                                     =    0.542 +/- 0.061 mm
+b_2                                                     =   -0.102 +/- 0.062 mm
+a_4                                                     =    0.003 +/- 0.047 mm
+b_4                                                     =   -0.071 +/- 0.047 mm
+Elevation_Cutoff_Changed_(2017-02-22)                   =    0.143 +/- 0.387 mm
+Antenna_Type_Changed_(2021-09-23)                       =   -1.150 +/- 0.373 mm
+
+NORTH
+Estimated sigma_pl = 0.993, kappa = -0.742
+MODEL PARAMETERS:
+y_0                                                     =   14.389 +/- 0.294 mm
+v_y                                                     =   -8.229 +/- 0.043 mm
+a_1                                                     =   -0.035 +/- 0.076 mm
+b_1                                                     =   -3.692 +/- 0.076 mm
+a_2                                                     =    0.642 +/- 0.059 mm
+b_2                                                     =    0.707 +/- 0.059 mm
+a_4                                                     =    0.087 +/- 0.046 mm
+b_4                                                     =    0.019 +/- 0.045 mm
+Elevation_Cutoff_Changed_(2017-02-22)                   =    0.257 +/- 0.366 mm
+Antenna_Type_Changed_(2021-09-23)                       =    4.029 +/- 0.352 mm
+
+UP
+Estimated sigma_pl = 3.680, kappa = -0.841
+MODEL PARAMETERS:
+y_0                                                     =    3.193 +/- 1.511 mm
+v_y                                                     =   -0.742 +/- 0.207 mm
+a_1                                                     =   -5.665 +/- 0.345 mm
+b_1                                                     =    1.659 +/- 0.345 mm
+a_2                                                     =    0.589 +/- 0.257 mm
+b_2                                                     =   -0.330 +/- 0.258 mm
+a_4                                                     =   -0.302 +/- 0.193 mm
+b_4                                                     =    0.231 +/- 0.192 mm
+Elevation_Cutoff_Changed_(2017-02-22)                   =   -2.031 +/- 1.672 mm
+Antenna_Type_Changed_(2021-09-23)                       =   -2.430 +/- 1.624 mm

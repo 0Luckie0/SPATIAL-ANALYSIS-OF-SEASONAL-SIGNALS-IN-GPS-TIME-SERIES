@@ -1,0 +1,10 @@
+CAMR (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              =  179.068 +/- 11.036 mm
+V                =   -2.202 +/- 0.765 mm/yr
+s_1              =  -61.987 +/- 7.806 mm
+c_1              =   48.906 +/- 7.801 mm
+s_2              =   19.452 +/- 7.803 mm
+c_2              =  -10.285 +/- 7.801 mm
+s_4              =    2.448 +/- 7.802 mm
+c_4              =   -0.124 +/- 7.801 mm

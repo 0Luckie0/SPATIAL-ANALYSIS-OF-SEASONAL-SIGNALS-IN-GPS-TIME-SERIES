@@ -1,0 +1,10 @@
+DSTR (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -453.810 +/- 8.454 mm
+V                =   -0.658 +/- 0.586 mm/yr
+s_1              =  -84.547 +/- 5.979 mm
+c_1              =   16.191 +/- 5.975 mm
+s_2              =   14.636 +/- 5.977 mm
+c_2              =  -11.137 +/- 5.975 mm
+s_4              =    1.459 +/- 5.976 mm
+c_4              =    5.280 +/- 5.975 mm

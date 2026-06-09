@@ -1,0 +1,77 @@
+MSOL (Montana) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2017-07-06)
+    Step: EARTHQUAKE EQ_2_Step (2020-03-31)
+    Step: Antenna_Type_Changed (2006-05-18)
+    Step: Elevation_Cutoff_Changed (2011-07-28)
+    Step: Antenna_Type_Changed (2011-08-01)
+    Step: Elevation_Cutoff_Changed (2018-11-27)
+
+EAST
+Estimated sigma_pl = 1.224, kappa = -0.715
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =  -10.073 +/- 0.776 mm
+v_y                                                     =  -14.409 +/- 0.071 mm
+a_1                                                     =   -2.068 +/- 0.080 mm
+b_1                                                     =    1.386 +/- 0.080 mm
+a_2                                                     =    0.444 +/- 0.062 mm
+b_2                                                     =   -0.042 +/- 0.062 mm
+EQ_1_Step_(2017-07-06)                                  =   -0.328 +/- 0.523 mm
+EQ_1_Log_T1.0_(2017-07-06)                              =    1.459 +/- 0.856 mm
+EQ_2_Step_(2020-03-31)                                  =    0.176 +/- 0.493 mm
+EQ_2_Log_T1.0_(2020-03-31)                              =   -0.601 +/- 0.639 mm
+Antenna_Type_Changed_(2006-05-18)                       =   -0.272 +/- 0.432 mm
+Elevation_Cutoff_Changed_(2011-07-28)                   =    2.164 +/- 0.828 mm
+Antenna_Type_Changed_(2011-08-01)                       =    0.447 +/- 0.828 mm
+Elevation_Cutoff_Changed_(2018-11-27)                   =   -0.592 +/- 0.553 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single LogTransient (M5.8, 117km)
+EQ_2: Step + Single LogTransient (M6.5, 285km)
+EQ_3: Ignored (M6.5, 285km > 288km)
+
+NORTH
+Estimated sigma_pl = 1.312, kappa = -0.710
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   -6.483 +/- 0.821 mm
+v_y                                                     =   -9.630 +/- 0.075 mm
+a_1                                                     =    0.530 +/- 0.085 mm
+b_1                                                     =   -3.703 +/- 0.085 mm
+a_2                                                     =    0.398 +/- 0.066 mm
+b_2                                                     =    0.660 +/- 0.066 mm
+EQ_1_Step_(2017-07-06)                                  =   -0.086 +/- 0.555 mm
+EQ_1_Log_T1.0_(2017-07-06)                              =    0.506 +/- 0.908 mm
+EQ_2_Step_(2020-03-31)                                  =    1.474 +/- 0.523 mm
+EQ_2_Log_T1.0_(2020-03-31)                              =   -1.574 +/- 0.676 mm
+Antenna_Type_Changed_(2006-05-18)                       =    0.256 +/- 0.457 mm
+Elevation_Cutoff_Changed_(2011-07-28)                   =   -0.038 +/- 0.886 mm
+Antenna_Type_Changed_(2011-08-01)                       =    1.149 +/- 0.886 mm
+Elevation_Cutoff_Changed_(2018-11-27)                   =   -1.491 +/- 0.588 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single LogTransient (M5.8, 117km)
+EQ_2: Step + Single LogTransient (M6.5, 285km)
+EQ_3: Ignored (M6.5, 285km > 288km)
+
+UP
+Estimated sigma_pl = 5.991, kappa = -0.608
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   -1.716 +/- 2.896 mm
+v_y                                                     =   -1.030 +/- 0.267 mm
+a_1                                                     =   -6.923 +/- 0.316 mm
+b_1                                                     =    3.508 +/- 0.316 mm
+a_2                                                     =    0.599 +/- 0.255 mm
+b_2                                                     =    0.430 +/- 0.255 mm
+EQ_1_Step_(2017-07-06)                                  =    2.336 +/- 2.107 mm
+EQ_1_Log_T1.0_(2017-07-06)                              =   -9.131 +/- 3.370 mm
+EQ_2_Step_(2020-03-31)                                  =   -1.528 +/- 1.945 mm
+EQ_2_Log_T1.0_(2020-03-31)                              =    7.211 +/- 2.386 mm
+Antenna_Type_Changed_(2006-05-18)                       =   -6.728 +/- 1.649 mm
+Elevation_Cutoff_Changed_(2011-07-28)                   =  -27.401 +/- 3.891 mm
+Antenna_Type_Changed_(2011-08-01)                       =   37.725 +/- 3.891 mm
+Elevation_Cutoff_Changed_(2018-11-27)                   =    9.716 +/- 2.271 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single LogTransient (M5.8, 117km)
+EQ_2: Step + Single LogTransient (M6.5, 285km)
+EQ_3: Ignored (M6.5, 285km > 288km)

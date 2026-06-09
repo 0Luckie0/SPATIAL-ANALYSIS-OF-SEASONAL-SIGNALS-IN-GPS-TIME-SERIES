@@ -1,0 +1,10 @@
+SJB1 (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -1425.077 +/- 15.663 mm
+V                =   37.385 +/- 1.085 mm/yr
+s_1              =  -36.284 +/- 11.078 mm
+c_1              =  -10.138 +/- 11.071 mm
+s_2              =   25.155 +/- 11.074 mm
+c_2              =   -1.200 +/- 11.071 mm
+s_4              =   -0.696 +/- 11.073 mm
+c_4              =    3.425 +/- 11.071 mm

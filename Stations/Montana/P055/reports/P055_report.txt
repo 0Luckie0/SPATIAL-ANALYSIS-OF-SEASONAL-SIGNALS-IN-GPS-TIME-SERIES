@@ -1,0 +1,50 @@
+P055 (Montana) Geodetic Time Series Analysis
+Detected Events used in Model:
+    Step: Radome_Type_Changed (2012-12-13)
+    Step: Elevation_Cutoff_Changed (2017-08-22)
+    Step: Antenna_Type_Changed (2018-03-03)
+
+EAST
+Estimated sigma_pl = 0.995, kappa = -0.753
+MODEL PARAMETERS:
+y_0                                                     =   22.301 +/- 0.377 mm
+v_y                                                     =  -15.674 +/- 0.047 mm
+a_1                                                     =   -1.531 +/- 0.076 mm
+b_1                                                     =    0.858 +/- 0.076 mm
+a_2                                                     =    0.562 +/- 0.058 mm
+b_2                                                     =   -0.029 +/- 0.058 mm
+a_4                                                     =   -0.017 +/- 0.045 mm
+b_4                                                     =   -0.021 +/- 0.045 mm
+Radome_Type_Changed_(2012-12-13)                        =   -3.560 +/- 0.369 mm
+Elevation_Cutoff_Changed_(2017-08-22)                   =   -0.833 +/- 0.403 mm
+Antenna_Type_Changed_(2018-03-03)                       =   -1.499 +/- 0.403 mm
+
+NORTH
+Estimated sigma_pl = 1.123, kappa = -0.739
+MODEL PARAMETERS:
+y_0                                                     =    7.911 +/- 0.409 mm
+v_y                                                     =   -6.429 +/- 0.051 mm
+a_1                                                     =    0.248 +/- 0.083 mm
+b_1                                                     =   -3.922 +/- 0.083 mm
+a_2                                                     =    0.552 +/- 0.064 mm
+b_2                                                     =    0.484 +/- 0.064 mm
+a_4                                                     =    0.108 +/- 0.050 mm
+b_4                                                     =   -0.020 +/- 0.050 mm
+Radome_Type_Changed_(2012-12-13)                        =    5.382 +/- 0.404 mm
+Elevation_Cutoff_Changed_(2017-08-22)                   =   -1.185 +/- 0.444 mm
+Antenna_Type_Changed_(2018-03-03)                       =   -7.792 +/- 0.444 mm
+
+UP
+Estimated sigma_pl = 3.972, kappa = -0.922
+MODEL PARAMETERS:
+y_0                                                     =    5.989 +/- 2.490 mm
+v_y                                                     =   -2.413 +/- 0.289 mm
+a_1                                                     =   -5.037 +/- 0.427 mm
+b_1                                                     =    0.435 +/- 0.427 mm
+a_2                                                     =    0.760 +/- 0.308 mm
+b_2                                                     =   -0.029 +/- 0.310 mm
+a_4                                                     =   -0.038 +/- 0.225 mm
+b_4                                                     =    0.243 +/- 0.224 mm
+Radome_Type_Changed_(2012-12-13)                        =   -1.874 +/- 2.080 mm
+Elevation_Cutoff_Changed_(2017-08-22)                   =    1.942 +/- 2.153 mm
+Antenna_Type_Changed_(2018-03-03)                       =   -2.409 +/- 2.152 mm

@@ -1,0 +1,32 @@
+P457 (Montana) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+Detected Events used in Model:
+
+EAST
+Estimated sigma_pl = 1.331, kappa = -0.829
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   27.517 +/- 0.437 mm
+v_y                                                     =  -14.842 +/- 0.052 mm
+a_1                                                     =   -1.589 +/- 0.122 mm
+b_1                                                     =    1.755 +/- 0.121 mm
+a_2                                                     =    0.663 +/- 0.091 mm
+b_2                                                     =   -0.593 +/- 0.091 mm
+
+NORTH
+Estimated sigma_pl = 1.437, kappa = -0.803
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   14.162 +/- 0.430 mm
+v_y                                                     =   -7.488 +/- 0.052 mm
+a_1                                                     =   -0.067 +/- 0.125 mm
+b_1                                                     =   -3.695 +/- 0.124 mm
+a_2                                                     =    0.735 +/- 0.094 mm
+b_2                                                     =    1.113 +/- 0.094 mm
+
+UP
+Estimated sigma_pl = 3.883, kappa = -0.731
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   -3.076 +/- 0.892 mm
+v_y                                                     =    1.677 +/- 0.108 mm
+a_1                                                     =   -6.605 +/- 0.292 mm
+b_1                                                     =    0.757 +/- 0.290 mm
+a_2                                                     =    0.974 +/- 0.226 mm
+b_2                                                     =    0.107 +/- 0.226 mm

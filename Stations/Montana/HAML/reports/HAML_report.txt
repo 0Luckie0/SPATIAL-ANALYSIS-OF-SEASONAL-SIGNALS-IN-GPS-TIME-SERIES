@@ -1,0 +1,58 @@
+HAML (Montana) Geodetic Time Series Analysis
+    -> MANUAL RULE: Before 2019-05-01 and after 2025-12-01 deleted.
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2020-03-31)
+
+EAST
+Estimated sigma_pl = 1.753, kappa = -0.594
+MODEL PARAMETERS:
+y_0                                                     =  109.532 +/- 1.144 mm
+v_y                                                     =  -14.301 +/- 0.224 mm
+a_1                                                     =   -2.184 +/- 0.169 mm
+b_1                                                     =    1.291 +/- 0.171 mm
+a_2                                                     =    0.603 +/- 0.137 mm
+b_2                                                     =   -0.067 +/- 0.138 mm
+a_4                                                     =   -0.066 +/- 0.112 mm
+b_4                                                     =   -0.028 +/- 0.112 mm
+EQ_1_Step_(2020-03-31)                                  =    0.385 +/- 0.636 mm
+EQ_1_Exp_T1.0_(2020-03-31)                              =   -1.352 +/- 1.341 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M6.5, 206km)
+EQ_2: Ignored (M6.5, 206km > 288km)
+
+NORTH
+Estimated sigma_pl = 1.688, kappa = -0.620
+MODEL PARAMETERS:
+y_0                                                     =   70.110 +/- 1.183 mm
+v_y                                                     =   -9.135 +/- 0.233 mm
+a_1                                                     =    0.294 +/- 0.171 mm
+b_1                                                     =   -3.729 +/- 0.173 mm
+a_2                                                     =    0.643 +/- 0.138 mm
+b_2                                                     =    0.825 +/- 0.139 mm
+a_4                                                     =    0.076 +/- 0.112 mm
+b_4                                                     =    0.161 +/- 0.112 mm
+EQ_1_Step_(2020-03-31)                                  =    1.639 +/- 0.641 mm
+EQ_1_Exp_T1.0_(2020-03-31)                              =   -2.977 +/- 1.380 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M6.5, 206km)
+EQ_2: Ignored (M6.5, 206km > 288km)
+
+UP
+Estimated sigma_pl = 5.802, kappa = -0.528
+MODEL PARAMETERS:
+y_0                                                     =    4.918 +/- 3.165 mm
+v_y                                                     =   -0.956 +/- 0.617 mm
+a_1                                                     =   -6.445 +/- 0.490 mm
+b_1                                                     =    3.251 +/- 0.495 mm
+a_2                                                     =   -0.249 +/- 0.407 mm
+b_2                                                     =    0.267 +/- 0.411 mm
+a_4                                                     =   -0.050 +/- 0.340 mm
+b_4                                                     =    0.577 +/- 0.339 mm
+EQ_1_Step_(2020-03-31)                                  =   -3.048 +/- 1.860 mm
+EQ_1_Exp_T1.0_(2020-03-31)                              =    7.130 +/- 3.760 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M6.5, 206km)
+EQ_2: Ignored (M6.5, 206km > 288km)

@@ -1,0 +1,10 @@
+LABV (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -572.519 +/- 8.289 mm
+V                =    7.687 +/- 0.574 mm/yr
+s_1              =  -94.650 +/- 5.862 mm
+c_1              =   25.009 +/- 5.859 mm
+s_2              =    9.991 +/- 5.860 mm
+c_2              =  -21.941 +/- 5.859 mm
+s_4              =    4.636 +/- 5.860 mm
+c_4              =    4.976 +/- 5.859 mm

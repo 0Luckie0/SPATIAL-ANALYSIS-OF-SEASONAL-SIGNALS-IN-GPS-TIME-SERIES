@@ -1,0 +1,10 @@
+P722 (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -272.809 +/- 3.127 mm
+V                =    6.134 +/- 0.217 mm/yr
+s_1              =  -31.897 +/- 2.212 mm
+c_1              =  -18.775 +/- 2.210 mm
+s_2              =   -4.739 +/- 2.211 mm
+c_2              =   14.434 +/- 2.210 mm
+s_4              =   -1.232 +/- 2.211 mm
+c_4              =    1.513 +/- 2.210 mm

@@ -1,0 +1,10 @@
+HAML (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -128.901 +/- 1.289 mm
+V                =    6.011 +/- 0.089 mm/yr
+s_1              =    1.585 +/- 0.911 mm
+c_1              =   -7.045 +/- 0.911 mm
+s_2              =    2.718 +/- 0.911 mm
+c_2              =    5.939 +/- 0.911 mm
+s_4              =   -1.139 +/- 0.911 mm
+c_4              =    2.097 +/- 0.911 mm

@@ -1,0 +1,33 @@
+COVG (Louisiana) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+    -> MANUAL RULE: Before 2005-10-29 and after 2013-12-01 deleted.
+Detected Events used in Model:
+
+EAST
+Estimated sigma_pl = 1.294, kappa = -0.739
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =  -63.490 +/- 0.708 mm
+v_y                                                     =  -12.449 +/- 0.098 mm
+a_1                                                     =   -0.523 +/- 0.150 mm
+b_1                                                     =    2.056 +/- 0.151 mm
+a_2                                                     =    0.912 +/- 0.116 mm
+b_2                                                     =   -0.084 +/- 0.117 mm
+
+NORTH
+Estimated sigma_pl = 1.271, kappa = -0.781
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   -1.115 +/- 0.812 mm
+v_y                                                     =   -0.202 +/- 0.109 mm
+a_1                                                     =    1.051 +/- 0.161 mm
+b_1                                                     =   -0.639 +/- 0.162 mm
+a_2                                                     =    0.282 +/- 0.123 mm
+b_2                                                     =    0.683 +/- 0.124 mm
+
+UP
+Estimated sigma_pl = 4.387, kappa = -0.591
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   -4.766 +/- 1.420 mm
+v_y                                                     =   -0.968 +/- 0.212 mm
+a_1                                                     =   -3.477 +/- 0.378 mm
+b_1                                                     =   -1.219 +/- 0.379 mm
+a_2                                                     =    1.073 +/- 0.307 mm
+b_2                                                     =    0.945 +/- 0.310 mm

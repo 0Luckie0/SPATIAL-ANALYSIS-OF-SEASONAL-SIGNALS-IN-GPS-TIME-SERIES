@@ -1,0 +1,33 @@
+LABR (Louisiana) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+    -> MANUAL RULE: Restricted between 2018-01-01 and 2023-07-19.
+Detected Events used in Model:
+
+EAST
+Estimated sigma_pl = 1.210, kappa = -0.581
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   72.691 +/- 0.524 mm
+v_y                                                     =  -12.593 +/- 0.090 mm
+a_1                                                     =   -0.877 +/- 0.126 mm
+b_1                                                     =    0.045 +/- 0.122 mm
+a_2                                                     =    0.266 +/- 0.102 mm
+b_2                                                     =   -0.186 +/- 0.101 mm
+
+NORTH
+Estimated sigma_pl = 1.194, kappa = -0.477
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    2.391 +/- 0.392 mm
+v_y                                                     =   -0.426 +/- 0.066 mm
+a_1                                                     =   -0.242 +/- 0.100 mm
+b_1                                                     =   -3.742 +/- 0.098 mm
+a_2                                                     =    0.473 +/- 0.085 mm
+b_2                                                     =    1.078 +/- 0.083 mm
+
+UP
+Estimated sigma_pl = 4.417, kappa = -0.490
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   15.136 +/- 1.505 mm
+v_y                                                     =   -2.526 +/- 0.254 mm
+a_1                                                     =   -4.071 +/- 0.382 mm
+b_1                                                     =   -0.451 +/- 0.372 mm
+a_2                                                     =    1.084 +/- 0.320 mm
+b_2                                                     =    0.563 +/- 0.315 mm

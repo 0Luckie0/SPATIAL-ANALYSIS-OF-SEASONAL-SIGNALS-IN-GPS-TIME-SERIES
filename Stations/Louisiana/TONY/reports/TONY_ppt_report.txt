@@ -1,0 +1,10 @@
+TONY (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -783.422 +/- 11.889 mm
+V                =    9.407 +/- 0.824 mm/yr
+s_1              =  -54.254 +/- 8.409 mm
+c_1              =   20.309 +/- 8.404 mm
+s_2              =   22.050 +/- 8.406 mm
+c_2              =   -0.188 +/- 8.404 mm
+s_4              =   -1.314 +/- 8.405 mm
+c_4              =    0.388 +/- 8.404 mm

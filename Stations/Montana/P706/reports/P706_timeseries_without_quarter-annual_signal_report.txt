@@ -1,0 +1,62 @@
+P706 (Montana) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2020-03-31)
+    Step: Elevation_Cutoff_Changed (2019-03-26)
+    Step: Antenna_Type_Changed (2020-07-31)
+
+EAST
+Estimated sigma_pl = 1.555, kappa = -0.603
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   23.444 +/- 0.277 mm
+v_y                                                     =  -14.869 +/- 0.045 mm
+a_1                                                     =   -1.717 +/- 0.088 mm
+b_1                                                     =    0.996 +/- 0.089 mm
+a_2                                                     =    0.488 +/- 0.072 mm
+b_2                                                     =    0.115 +/- 0.072 mm
+EQ_1_Step_(2020-03-31)                                  =    0.281 +/- 0.835 mm
+EQ_1_Log1_T0.0523_(2020-03-31)                          =   -0.748 +/- 0.690 mm
+EQ_1_Log2_T1.0_(2020-03-31)                             =   -0.401 +/- 1.263 mm
+Elevation_Cutoff_Changed_(2019-03-26)                   =    0.177 +/- 0.437 mm
+Antenna_Type_Changed_(2020-07-31)                       =   -0.508 +/- 0.713 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M6.5, 215km)
+EQ_2: Ignored (M6.5, 215km > 288km)
+
+NORTH
+Estimated sigma_pl = 1.867, kappa = -0.547
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   13.888 +/- 0.268 mm
+v_y                                                     =   -9.497 +/- 0.045 mm
+a_1                                                     =    0.030 +/- 0.095 mm
+b_1                                                     =   -4.040 +/- 0.096 mm
+a_2                                                     =    0.683 +/- 0.079 mm
+b_2                                                     =    0.915 +/- 0.079 mm
+EQ_1_Step_(2020-03-31)                                  =    1.293 +/- 0.937 mm
+EQ_1_Log1_T0.0523_(2020-03-31)                          =   -0.227 +/- 0.765 mm
+EQ_1_Log2_T1.0_(2020-03-31)                             =    1.303 +/- 1.359 mm
+Elevation_Cutoff_Changed_(2019-03-26)                   =    0.455 +/- 0.461 mm
+Antenna_Type_Changed_(2020-07-31)                       =   -1.090 +/- 0.797 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M6.5, 215km)
+EQ_2: Ignored (M6.5, 215km > 288km)
+
+UP
+Estimated sigma_pl = 3.744, kappa = -0.737
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    1.553 +/- 1.120 mm
+v_y                                                     =   -0.718 +/- 0.165 mm
+a_1                                                     =   -5.713 +/- 0.279 mm
+b_1                                                     =    1.112 +/- 0.282 mm
+a_2                                                     =    0.733 +/- 0.216 mm
+b_2                                                     =   -0.293 +/- 0.217 mm
+EQ_1_Step_(2020-03-31)                                  =   -2.453 +/- 2.326 mm
+EQ_1_Log1_T0.0523_(2020-03-31)                          =    3.035 +/- 2.022 mm
+EQ_1_Log2_T1.0_(2020-03-31)                             =   -2.566 +/- 4.018 mm
+Elevation_Cutoff_Changed_(2019-03-26)                   =   -1.136 +/- 1.411 mm
+Antenna_Type_Changed_(2020-07-31)                       =   -5.667 +/- 2.023 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M6.5, 215km)
+EQ_2: Ignored (M6.5, 215km > 288km)

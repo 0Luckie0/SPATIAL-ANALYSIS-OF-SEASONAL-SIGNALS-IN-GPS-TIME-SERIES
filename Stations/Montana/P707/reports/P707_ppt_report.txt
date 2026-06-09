@@ -1,0 +1,10 @@
+P707 (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -159.918 +/- 1.794 mm
+V                =    4.439 +/- 0.124 mm/yr
+s_1              =    3.046 +/- 1.269 mm
+c_1              =  -16.730 +/- 1.268 mm
+s_2              =   -3.111 +/- 1.268 mm
+c_2              =   12.018 +/- 1.268 mm
+s_4              =    0.827 +/- 1.268 mm
+c_4              =    1.621 +/- 1.268 mm

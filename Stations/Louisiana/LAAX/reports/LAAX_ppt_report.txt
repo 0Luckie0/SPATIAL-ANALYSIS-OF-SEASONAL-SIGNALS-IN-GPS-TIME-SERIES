@@ -1,0 +1,10 @@
+LAAX (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              =   17.336 +/- 7.230 mm
+V                =  -31.031 +/- 0.501 mm/yr
+s_1              =   13.272 +/- 5.114 mm
+c_1              =  -10.325 +/- 5.111 mm
+s_2              =   -0.865 +/- 5.112 mm
+c_2              =   -0.950 +/- 5.111 mm
+s_4              =   -5.411 +/- 5.111 mm
+c_4              =    2.620 +/- 5.111 mm
