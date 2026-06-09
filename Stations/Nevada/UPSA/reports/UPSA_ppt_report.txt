@@ -1,0 +1,10 @@
+UPSA (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -108.935 +/- 1.357 mm
+V                =    1.217 +/- 0.094 mm/yr
+s_1              =   10.102 +/- 0.960 mm
+c_1              =   -5.028 +/- 0.959 mm
+s_2              =    0.639 +/- 0.959 mm
+c_2              =    1.719 +/- 0.959 mm
+s_4              =   -0.022 +/- 0.959 mm
+c_4              =   -0.543 +/- 0.959 mm

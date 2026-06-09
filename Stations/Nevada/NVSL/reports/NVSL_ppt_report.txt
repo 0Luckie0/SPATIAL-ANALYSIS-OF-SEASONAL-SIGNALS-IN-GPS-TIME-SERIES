@@ -1,0 +1,10 @@
+NVSL (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              =   21.694 +/- 1.752 mm
+V                =    6.926 +/- 0.121 mm/yr
+s_1              =   15.436 +/- 1.239 mm
+c_1              =    0.802 +/- 1.238 mm
+s_2              =    3.581 +/- 1.238 mm
+c_2              =   -7.122 +/- 1.238 mm
+s_4              =   -0.102 +/- 1.238 mm
+c_4              =   -0.140 +/- 1.238 mm

@@ -1,0 +1,98 @@
+P068 (Nevada) Geodetic Time Series Analysis
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2019-07-06)
+    Step: EARTHQUAKE EQ_2_Step (2020-05-15)
+    Step: EARTHQUAKE EQ_3_Step (2021-07-08)
+    Step: EARTHQUAKE EQ_4_Step (2024-12-09)
+    Step: EARTHQUAKE EQ_5_Step (2026-04-14)
+    Step: Antenna_Type_Changed (2023-07-29)
+
+EAST
+Estimated sigma_pl = 1.082, kappa = -0.727
+MODEL PARAMETERS:
+y_0                                                     =   27.170 +/- 0.310 mm
+v_y                                                     =  -16.876 +/- 0.047 mm
+a_1                                                     =   -1.832 +/- 0.081 mm
+b_1                                                     =    1.574 +/- 0.080 mm
+a_2                                                     =    0.476 +/- 0.062 mm
+b_2                                                     =   -0.007 +/- 0.062 mm
+a_4                                                     =    0.027 +/- 0.048 mm
+b_4                                                     =   -0.042 +/- 0.048 mm
+EQ_1_Step_(2019-07-06)                                  =   -0.626 +/- 0.534 mm
+EQ_1_Exp_T1.0_(2019-07-06)                              =    0.440 +/- 1.526 mm
+EQ_2_Step_(2020-05-15)                                  =   -0.810 +/- 0.557 mm
+EQ_2_Exp_T1.0_(2020-05-15)                              =    0.179 +/- 1.574 mm
+EQ_3_Step_(2021-07-08)                                  =    0.824 +/- 0.525 mm
+EQ_3_Exp_T1.0_(2021-07-08)                              =   -4.098 +/- 1.074 mm
+EQ_4_Step_(2024-12-09)                                  =    0.131 +/- 0.513 mm
+EQ_4_Exp_T1.0_(2024-12-09)                              =    1.686 +/- 1.131 mm
+EQ_5_Step_(2026-04-14)                                  =   -0.496 +/- 0.694 mm
+EQ_5_Exp_T1.0_(2026-04-14)                              =    7.858 +/- 9.879 mm
+Antenna_Type_Changed_(2023-07-29)                       =   -2.858 +/- 0.434 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M7.1, 395km)
+EQ_2: Step + Single ExpTransient (M6.5, 127km)
+EQ_3: Step + Single ExpTransient (M6.0, 158km)
+EQ_4: Step + Single ExpTransient (M5.7, 91km)
+EQ_5: Step + Single ExpTransient (M5.7, 88km)
+
+NORTH
+Estimated sigma_pl = 1.056, kappa = -0.635
+MODEL PARAMETERS:
+y_0                                                     =   14.569 +/- 0.211 mm
+v_y                                                     =   -9.000 +/- 0.034 mm
+a_1                                                     =   -0.139 +/- 0.066 mm
+b_1                                                     =   -3.458 +/- 0.065 mm
+a_2                                                     =    0.569 +/- 0.052 mm
+b_2                                                     =    0.781 +/- 0.052 mm
+a_4                                                     =    0.103 +/- 0.042 mm
+b_4                                                     =   -0.029 +/- 0.041 mm
+EQ_1_Step_(2019-07-06)                                  =   -1.647 +/- 0.454 mm
+EQ_1_Exp_T1.0_(2019-07-06)                              =   -0.360 +/- 1.248 mm
+EQ_2_Step_(2020-05-15)                                  =   -0.268 +/- 0.479 mm
+EQ_2_Exp_T1.0_(2020-05-15)                              =   -0.717 +/- 1.250 mm
+EQ_3_Step_(2021-07-08)                                  =   -0.489 +/- 0.445 mm
+EQ_3_Exp_T1.0_(2021-07-08)                              =    1.331 +/- 0.839 mm
+EQ_4_Step_(2024-12-09)                                  =    0.440 +/- 0.431 mm
+EQ_4_Exp_T1.0_(2024-12-09)                              =   -0.805 +/- 0.903 mm
+EQ_5_Step_(2026-04-14)                                  =   -0.244 +/- 0.627 mm
+EQ_5_Exp_T1.0_(2026-04-14)                              =   -3.761 +/- 8.707 mm
+Antenna_Type_Changed_(2023-07-29)                       =    0.853 +/- 0.354 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M7.1, 395km)
+EQ_2: Step + Single ExpTransient (M6.5, 127km)
+EQ_3: Step + Single ExpTransient (M6.0, 158km)
+EQ_4: Step + Single ExpTransient (M5.7, 91km)
+EQ_5: Step + Single ExpTransient (M5.7, 88km)
+
+UP
+Estimated sigma_pl = 3.789, kappa = -0.683
+MODEL PARAMETERS:
+y_0                                                     =    0.930 +/- 0.914 mm
+v_y                                                     =    0.534 +/- 0.143 mm
+a_1                                                     =   -4.241 +/- 0.261 mm
+b_1                                                     =    0.838 +/- 0.257 mm
+a_2                                                     =    0.184 +/- 0.202 mm
+b_2                                                     =   -0.133 +/- 0.202 mm
+a_4                                                     =   -0.526 +/- 0.159 mm
+b_4                                                     =    0.151 +/- 0.159 mm
+EQ_1_Step_(2019-07-06)                                  =   -2.105 +/- 1.753 mm
+EQ_1_Exp_T1.0_(2019-07-06)                              =   -0.151 +/- 4.912 mm
+EQ_2_Step_(2020-05-15)                                  =   -0.489 +/- 1.839 mm
+EQ_2_Exp_T1.0_(2020-05-15)                              =    6.188 +/- 4.996 mm
+EQ_3_Step_(2021-07-08)                                  =   -0.315 +/- 1.721 mm
+EQ_3_Exp_T1.0_(2021-07-08)                              =   -6.046 +/- 3.383 mm
+EQ_4_Step_(2024-12-09)                                  =    1.467 +/- 1.676 mm
+EQ_4_Exp_T1.0_(2024-12-09)                              =   -2.946 +/- 3.599 mm
+EQ_5_Step_(2026-04-14)                                  =    1.775 +/- 2.344 mm
+EQ_5_Exp_T1.0_(2026-04-14)                              =  -24.017 +/- 32.945 mm
+Antenna_Type_Changed_(2023-07-29)                       =   -8.565 +/- 1.398 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M7.1, 395km)
+EQ_2: Step + Single ExpTransient (M6.5, 127km)
+EQ_3: Step + Single ExpTransient (M6.0, 158km)
+EQ_4: Step + Single ExpTransient (M5.7, 91km)
+EQ_5: Step + Single ExpTransient (M5.7, 88km)

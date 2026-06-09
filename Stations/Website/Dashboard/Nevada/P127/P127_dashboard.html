@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Station P127 - Comprehensive Analysis</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f7f6; margin: 0; padding: 10px; color: #333; overflow-x: hidden; }
+        
+        .container { position: relative; width: 100%; box-sizing: border-box; background: white; padding: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border-radius: 8px; border-top: 5px solid #0056b3; min-height: 95vh; }
+        
+        h1 { text-align: center; color: #0056b3; border-bottom: 2px solid #eee; padding-bottom: 15px; margin-bottom: 30px; margin-top: 10px; }
+        
+        /* BACK TO MAP BUTTON */
+        .back-to-map-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 18px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 14px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            transition: background 0.3s, transform 0.2s;
+        }
+        .back-to-map-btn:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+
+        .tabs { display: flex; border-bottom: 3px solid #0056b3; margin-bottom: 25px; }
+        .tab-btn { flex: 1; padding: 15px; cursor: pointer; border: none; background: #f8f9fa; font-weight: bold; font-size: 16px; color: #555; transition: 0.3s; }
+        .tab-btn:hover { background: #e2e6ea; }
+        .tab-btn.active { background: #0056b3; color: white; }
+        
+        .sub-tabs { display: flex; border-bottom: 2px solid #ccc; margin-bottom: 20px; }
+        .sub-tab-btn { flex: 1; padding: 12px; cursor: pointer; border: none; background: #e9ecef; font-weight: bold; font-size: 15px; color: #495057; transition: 0.3s; margin-right: 5px; border-radius: 5px 5px 0 0; }
+        .sub-tab-btn:hover { background: #dee2e6; }
+        .sub-tab-btn.active { background: #28a745; color: white; }
+        
+        /* PLOTLY HIDDEN TAB FIX */
+        .tab-content, .sub-tab-content { 
+            position: absolute; 
+            left: -9999px; 
+            top: -9999px; 
+            visibility: hidden; 
+            width: 100%; 
+        }
+        .tab-content.active, .sub-tab-content.active { 
+            position: relative; 
+            left: 0; 
+            top: 0; 
+            visibility: visible; 
+            animation: fadeIn 0.3s; 
+        }
+        
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        
+        .section-title { color: #0056b3; border-bottom: 1px solid #ddd; padding-bottom: 10px; margin-top: 20px; margin-bottom: 20px; }
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+        .card { background: #fff; border: 1px solid #ddd; border-radius: 5px; padding: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); text-align: center; }
+        .card h3 { font-size: 16px; margin-top: 0; color: #444; border-bottom: 2px solid #0056b3; padding-bottom: 10px; display: inline-block; }
+        .card img { max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 15px; }
+        .report-box { width: 100%; height: 250px; background: #fdfdfd; border: 1px solid #ccc; border-radius: 4px; padding: 10px; box-sizing: border-box; text-align: left; overflow-x: auto; overflow-y: auto; white-space: pre; font-family: 'Courier New', Courier, monospace; font-size: 12px; line-height: 1.4; }
+        
+        .iframe-container { width: 100%; background: #fff; }
+        .weather-frame { 
+            width: 100%; 
+            height: 800px; 
+            border: none; 
+            display: block; 
+        }
+
+        /* CORRECT EXCEL TABLE STYLING */
+        .table-container { width: 100%; overflow-x: auto; max-height: 700px; overflow-y: auto; border: 1px solid #ddd; margin-top: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .results-table { width: 100%; border-collapse: collapse; font-size: 13px; text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .results-table th, .results-table td { border: 1px solid #bbb; padding: 8px 12px; white-space: nowrap; }
+        .results-table thead th { background-color: #f2f2f2; font-weight: bold; position: sticky; z-index: 2; }
+        .results-table thead tr:nth-child(1) th { top: 0; border-bottom: 1px solid #aaa; }
+        .results-table thead tr:nth-child(2) th { top: 35px; border-bottom: 2px solid #666; }
+        .results-table tbody tr:hover { background-color: #f9f9f9; }
+
+        /* FOOTER STYLING */
+        .dashboard-footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+            font-size: 14px;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../../../index.html" class="back-to-map-btn">← Back to Map</a>
+        
+        <h1>STATION: P127 - DETAILED ANALYSIS DASHBOARD</h1>
+        <div class="tabs">
+            <button class="tab-btn active" onclick="openTab(event, 'power-law')">Pure Power Law Noise Analysis</button>
+            <button class="tab-btn" onclick="openTab(event, 'seasonal')">Seasonal Signal Decomposition</button>
+            <button class="tab-btn" onclick="openTab(event, 'weather')">Weather Data Comparison</button>
+            <button class="tab-btn" onclick="openTab(event, 'velocity-results')">Results</button>
+        </div>
+        
+        <div id="power-law" class="tab-content active">
+            <h2 class="section-title">Pure Power Law Noise Analysis</h2>
+            <div class="grid-2">
+                <div class="card">
+                    <h3>Annual + Semi-Annual Signals</h3>
+                    <img src="../../../../Nevada/P127/plots/P127_timeseries_without_quarter-annual_signal.png" onerror="this.style.display='none'" alt="Plot Without Quarter-Annual Signal">
+                    <h4>Analysis Report</h4>
+                    <div class="report-box">P127 (Nevada) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2008-04-26)
+    Step: EARTHQUAKE EQ_2_Step (2019-07-06)
+    Step: EARTHQUAKE EQ_3_Step (2020-05-15)
+    Step: EARTHQUAKE EQ_4_Step (2021-07-08)
+    Step: EARTHQUAKE EQ_5_Step (2024-12-05)
+    Step: EARTHQUAKE EQ_6_Step (2024-12-09)
+    Step: EARTHQUAKE EQ_7_Step (2026-04-14)
+    Step: Elevation_Cutoff_Changed (2016-03-01)
+    Step: Antenna_Type_Changed (2021-10-28)
+
+EAST
+Estimated sigma_pl = 1.320, kappa = -0.603
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   22.383 +/- 1.376 mm
+v_y                                                     =  -19.236 +/- 0.161 mm
+a_1                                                     =   -2.358 +/- 0.076 mm
+b_1                                                     =    1.851 +/- 0.075 mm
+a_2                                                     =    0.472 +/- 0.060 mm
+b_2                                                     =   -0.029 +/- 0.060 mm
+EQ_1_Step_(2008-04-26)                                  =    0.713 +/- 0.705 mm
+EQ_1_Log1_T0.0523_(2008-04-26)                          =   -0.010 +/- 0.475 mm
+EQ_1_Log2_T1.0_(2008-04-26)                             =   -1.393 +/- 1.322 mm
+EQ_2_Step_(2019-07-06)                                  =   -0.605 +/- 0.780 mm
+EQ_2_Log1_T0.0523_(2019-07-06)                          =   -0.097 +/- 1.064 mm
+EQ_2_Log2_T1.0_(2019-07-06)                             =    1.436 +/- 4.578 mm
+EQ_3_Step_(2020-05-15)                                  =   -0.760 +/- 0.789 mm
+EQ_3_Log1_T0.0523_(2020-05-15)                          =   -0.596 +/- 0.902 mm
+EQ_3_Log2_T1.0_(2020-05-15)                             =    2.795 +/- 3.830 mm
+EQ_4_Step_(2021-07-08)                                  =   -0.280 +/- 0.761 mm
+EQ_4_Log1_T0.0523_(2021-07-08)                          =    0.689 +/- 0.681 mm
+EQ_4_Log2_T1.0_(2021-07-08)                             =   -6.378 +/- 2.266 mm
+EQ_5_Step_(2024-12-05)                                  =    1.413 +/- 1.205 mm
+EQ_5_Log1_T0.0523_(2024-12-05)                          =   46.034 +/- 24.461 mm
+EQ_5_Log2_T1.0_(2024-12-05)                             = -975.231 +/- 435.212 mm
+EQ_6_Step_(2024-12-09)                                  =    0.665 +/- 1.672 mm
+EQ_6_Log1_T0.0523_(2024-12-09)                          =  -41.660 +/- 22.270 mm
+EQ_6_Log2_T1.0_(2024-12-09)                             =  961.468 +/- 428.476 mm
+EQ_7_Step_(2026-04-14)                                  =    0.763 +/- 0.985 mm
+EQ_7_Log1_T0.0523_(2026-04-14)                          =  -10.685 +/- 6.144 mm
+EQ_7_Log2_T1.0_(2026-04-14)                             =  107.357 +/- 62.797 mm
+Elevation_Cutoff_Changed_(2016-03-01)                   =   -1.203 +/- 0.386 mm
+Antenna_Type_Changed_(2021-10-28)                       =    2.857 +/- 0.622 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M5.1, 29km)
+EQ_2: Step + Dual LogTransient (M7.1, 451km)
+EQ_3: Step + Dual LogTransient (M6.5, 212km)
+EQ_4: Step + Dual LogTransient (M6.0, 111km)
+EQ_5: Step + Dual LogTransient (M7.0, 472km)
+EQ_6: Step + Dual LogTransient (M5.7, 62km)
+EQ_7: Step + Dual LogTransient (M5.7, 54km)
+
+NORTH
+Estimated sigma_pl = 1.224, kappa = -0.562
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    8.643 +/- 1.145 mm
+v_y                                                     =   -5.578 +/- 0.135 mm
+a_1                                                     =   -0.417 +/- 0.065 mm
+b_1                                                     =   -3.271 +/- 0.065 mm
+a_2                                                     =    0.502 +/- 0.052 mm
+b_2                                                     =    0.768 +/- 0.052 mm
+EQ_1_Step_(2008-04-26)                                  =   -0.336 +/- 0.622 mm
+EQ_1_Log1_T0.0523_(2008-04-26)                          =    0.725 +/- 0.409 mm
+EQ_1_Log2_T1.0_(2008-04-26)                             =   -3.278 +/- 1.116 mm
+EQ_2_Step_(2019-07-06)                                  =   -0.172 +/- 0.695 mm
+EQ_2_Log1_T0.0523_(2019-07-06)                          =   -2.129 +/- 0.930 mm
+EQ_2_Log2_T1.0_(2019-07-06)                             =   10.136 +/- 3.963 mm
+EQ_3_Step_(2020-05-15)                                  =    0.399 +/- 0.703 mm
+EQ_3_Log1_T0.0523_(2020-05-15)                          =   -1.017 +/- 0.785 mm
+EQ_3_Log2_T1.0_(2020-05-15)                             =    0.057 +/- 3.309 mm
+EQ_4_Step_(2021-07-08)                                  =   -1.254 +/- 0.677 mm
+EQ_4_Log1_T0.0523_(2021-07-08)                          =    0.916 +/- 0.597 mm
+EQ_4_Log2_T1.0_(2021-07-08)                             =   -5.928 +/- 1.954 mm
+EQ_5_Step_(2024-12-05)                                  =    0.822 +/- 1.112 mm
+EQ_5_Log1_T0.0523_(2024-12-05)                          =  -39.042 +/- 21.618 mm
+EQ_5_Log2_T1.0_(2024-12-05)                             =  713.166 +/- 387.529 mm
+EQ_6_Step_(2024-12-09)                                  =   -0.325 +/- 1.551 mm
+EQ_6_Log1_T0.0523_(2024-12-09)                          =   35.331 +/- 19.702 mm
+EQ_6_Log2_T1.0_(2024-12-09)                             = -700.655 +/- 381.677 mm
+EQ_7_Step_(2026-04-14)                                  =   -0.713 +/- 0.894 mm
+EQ_7_Log1_T0.0523_(2026-04-14)                          =    1.959 +/- 5.521 mm
+EQ_7_Log2_T1.0_(2026-04-14)                             =  -29.783 +/- 56.311 mm
+Elevation_Cutoff_Changed_(2016-03-01)                   =   -0.057 +/- 0.326 mm
+Antenna_Type_Changed_(2021-10-28)                       =    2.508 +/- 0.548 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M5.1, 29km)
+EQ_2: Step + Dual LogTransient (M7.1, 451km)
+EQ_3: Step + Dual LogTransient (M6.5, 212km)
+EQ_4: Step + Dual LogTransient (M6.0, 111km)
+EQ_5: Step + Dual LogTransient (M7.0, 472km)
+EQ_6: Step + Dual LogTransient (M5.7, 62km)
+EQ_7: Step + Dual LogTransient (M5.7, 54km)
+
+UP
+Estimated sigma_pl = 4.009, kappa = -0.640
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    1.076 +/- 4.608 mm
+v_y                                                     =   -0.575 +/- 0.537 mm
+a_1                                                     =   -5.784 +/- 0.249 mm
+b_1                                                     =    0.277 +/- 0.246 mm
+a_2                                                     =    0.278 +/- 0.194 mm
+b_2                                                     =    0.119 +/- 0.193 mm
+EQ_1_Step_(2008-04-26)                                  =    1.519 +/- 2.239 mm
+EQ_1_Log1_T0.0523_(2008-04-26)                          =   -0.188 +/- 1.541 mm
+EQ_1_Log2_T1.0_(2008-04-26)                             =    0.928 +/- 4.370 mm
+EQ_2_Step_(2019-07-06)                                  =   -3.515 +/- 2.455 mm
+EQ_2_Log1_T0.0523_(2019-07-06)                          =   -2.199 +/- 3.410 mm
+EQ_2_Log2_T1.0_(2019-07-06)                             =   15.436 +/- 14.795 mm
+EQ_3_Step_(2020-05-15)                                  =    3.250 +/- 2.479 mm
+EQ_3_Log1_T0.0523_(2020-05-15)                          =   -6.299 +/- 2.902 mm
+EQ_3_Log2_T1.0_(2020-05-15)                             =   20.868 +/- 12.401 mm
+EQ_4_Step_(2021-07-08)                                  =   -2.394 +/- 2.396 mm
+EQ_4_Log1_T0.0523_(2021-07-08)                          =    1.376 +/- 2.179 mm
+EQ_4_Log2_T1.0_(2021-07-08)                             =  -23.131 +/- 7.358 mm
+EQ_5_Step_(2024-12-05)                                  =   -1.420 +/- 3.678 mm
+EQ_5_Log1_T0.0523_(2024-12-05)                          =  -20.831 +/- 77.524 mm
+EQ_5_Log2_T1.0_(2024-12-05)                             =  238.511 +/- 1371.206 mm
+EQ_6_Step_(2024-12-09)                                  =    2.502 +/- 5.078 mm
+EQ_6_Log1_T0.0523_(2024-12-09)                          =   20.166 +/- 70.512 mm
+EQ_6_Log2_T1.0_(2024-12-09)                             = -239.479 +/- 1349.534 mm
+EQ_7_Step_(2026-04-14)                                  =    1.274 +/- 3.047 mm
+EQ_7_Log1_T0.0523_(2026-04-14)                          =   -4.544 +/- 19.210 mm
+EQ_7_Log2_T1.0_(2026-04-14)                             =   37.175 +/- 196.679 mm
+Elevation_Cutoff_Changed_(2016-03-01)                   =   -3.148 +/- 1.270 mm
+Antenna_Type_Changed_(2021-10-28)                       =   -1.772 +/- 1.977 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M5.1, 29km)
+EQ_2: Step + Dual LogTransient (M7.1, 451km)
+EQ_3: Step + Dual LogTransient (M6.5, 212km)
+EQ_4: Step + Dual LogTransient (M6.0, 111km)
+EQ_5: Step + Dual LogTransient (M7.0, 472km)
+EQ_6: Step + Dual LogTransient (M5.7, 62km)
+EQ_7: Step + Dual LogTransient (M5.7, 54km)
+</div>
+                </div>
+                <div class="card">
+                    <h3>Annual + Semi-Annual + Quarter-Annual Signals</h3>
+                    <img src="../../../../Nevada/P127/plots/P127_timeseries.png" onerror="this.style.display='none'" alt="Full Timeseries Plot">
+                    <h4>Analysis Report</h4>
+                    <div class="report-box">P127 (Nevada) Geodetic Time Series Analysis
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2008-04-26)
+    Step: EARTHQUAKE EQ_2_Step (2019-07-06)
+    Step: EARTHQUAKE EQ_3_Step (2020-05-15)
+    Step: EARTHQUAKE EQ_4_Step (2021-07-08)
+    Step: EARTHQUAKE EQ_5_Step (2024-12-05)
+    Step: EARTHQUAKE EQ_6_Step (2024-12-09)
+    Step: EARTHQUAKE EQ_7_Step (2026-04-14)
+    Step: Elevation_Cutoff_Changed (2016-03-01)
+    Step: Antenna_Type_Changed (2021-10-28)
+
+EAST
+Estimated sigma_pl = 1.319, kappa = -0.601
+MODEL PARAMETERS:
+y_0                                                     =   22.398 +/- 1.368 mm
+v_y                                                     =  -19.235 +/- 0.160 mm
+a_1                                                     =   -2.356 +/- 0.076 mm
+b_1                                                     =    1.848 +/- 0.075 mm
+a_2                                                     =    0.472 +/- 0.060 mm
+b_2                                                     =   -0.030 +/- 0.060 mm
+a_4                                                     =    0.084 +/- 0.048 mm
+b_4                                                     =   -0.070 +/- 0.048 mm
+EQ_1_Step_(2008-04-26)                                  =    0.653 +/- 0.704 mm
+EQ_1_Log1_T0.0523_(2008-04-26)                          =    0.021 +/- 0.474 mm
+EQ_1_Log2_T1.0_(2008-04-26)                             =   -1.446 +/- 1.316 mm
+EQ_2_Step_(2019-07-06)                                  =   -0.669 +/- 0.780 mm
+EQ_2_Log1_T0.0523_(2019-07-06)                          =   -0.042 +/- 1.062 mm
+EQ_2_Log2_T1.0_(2019-07-06)                             =    1.238 +/- 4.564 mm
+EQ_3_Step_(2020-05-15)                                  =   -0.728 +/- 0.789 mm
+EQ_3_Log1_T0.0523_(2020-05-15)                          =   -0.601 +/- 0.900 mm
+EQ_3_Log2_T1.0_(2020-05-15)                             =    2.886 +/- 3.820 mm
+EQ_4_Step_(2021-07-08)                                  =   -0.353 +/- 0.760 mm
+EQ_4_Log1_T0.0523_(2021-07-08)                          =    0.734 +/- 0.680 mm
+EQ_4_Log2_T1.0_(2021-07-08)                             =   -6.433 +/- 2.258 mm
+EQ_5_Step_(2024-12-05)                                  =    1.458 +/- 1.205 mm
+EQ_5_Log1_T0.0523_(2024-12-05)                          =   46.895 +/- 24.422 mm
+EQ_5_Log2_T1.0_(2024-12-05)                             = -984.855 +/- 434.611 mm
+EQ_6_Step_(2024-12-09)                                  =    0.689 +/- 1.672 mm
+EQ_6_Log1_T0.0523_(2024-12-09)                          =  -42.540 +/- 22.236 mm
+EQ_6_Log2_T1.0_(2024-12-09)                             =  971.169 +/- 427.891 mm
+EQ_7_Step_(2026-04-14)                                  =    0.743 +/- 0.984 mm
+EQ_7_Log1_T0.0523_(2026-04-14)                          =  -11.376 +/- 6.141 mm
+EQ_7_Log2_T1.0_(2026-04-14)                             =  114.465 +/- 62.767 mm
+Elevation_Cutoff_Changed_(2016-03-01)                   =   -1.193 +/- 0.384 mm
+Antenna_Type_Changed_(2021-10-28)                       =    2.821 +/- 0.621 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M5.1, 29km)
+EQ_2: Step + Dual LogTransient (M7.1, 451km)
+EQ_3: Step + Dual LogTransient (M6.5, 212km)
+EQ_4: Step + Dual LogTransient (M6.0, 111km)
+EQ_5: Step + Dual LogTransient (M7.0, 472km)
+EQ_6: Step + Dual LogTransient (M5.7, 62km)
+EQ_7: Step + Dual LogTransient (M5.7, 54km)
+
+NORTH
+Estimated sigma_pl = 1.255, kappa = -0.550
+MODEL PARAMETERS:
+y_0                                                     =    8.653 +/- 1.136 mm
+v_y                                                     =   -5.577 +/- 0.134 mm
+a_1                                                     =   -0.415 +/- 0.065 mm
+b_1                                                     =   -3.269 +/- 0.065 mm
+a_2                                                     =    0.501 +/- 0.052 mm
+b_2                                                     =    0.771 +/- 0.052 mm
+a_4                                                     =    0.101 +/- 0.043 mm
+b_4                                                     =   -0.044 +/- 0.043 mm
+EQ_1_Step_(2008-04-26)                                  =   -0.374 +/- 0.628 mm
+EQ_1_Log1_T0.0523_(2008-04-26)                          =    0.747 +/- 0.411 mm
+EQ_1_Log2_T1.0_(2008-04-26)                             =   -3.317 +/- 1.113 mm
+EQ_2_Step_(2019-07-06)                                  =   -0.223 +/- 0.704 mm
+EQ_2_Log1_T0.0523_(2019-07-06)                          =   -2.081 +/- 0.938 mm
+EQ_2_Log2_T1.0_(2019-07-06)                             =    9.949 +/- 3.984 mm
+EQ_3_Step_(2020-05-15)                                  =    0.474 +/- 0.714 mm
+EQ_3_Log1_T0.0523_(2020-05-15)                          =   -1.066 +/- 0.791 mm
+EQ_3_Log2_T1.0_(2020-05-15)                             =    0.284 +/- 3.327 mm
+EQ_4_Step_(2021-07-08)                                  =   -1.352 +/- 0.687 mm
+EQ_4_Log1_T0.0523_(2021-07-08)                          =    0.977 +/- 0.602 mm
+EQ_4_Log2_T1.0_(2021-07-08)                             =   -6.076 +/- 1.961 mm
+EQ_5_Step_(2024-12-05)                                  =    0.875 +/- 1.138 mm
+EQ_5_Log1_T0.0523_(2024-12-05)                          =  -36.724 +/- 21.865 mm
+EQ_5_Log2_T1.0_(2024-12-05)                             =  678.048 +/- 392.861 mm
+EQ_6_Step_(2024-12-09)                                  =   -0.296 +/- 1.591 mm
+EQ_6_Log1_T0.0523_(2024-12-09)                          =   33.159 +/- 19.934 mm
+EQ_6_Log2_T1.0_(2024-12-09)                             = -665.904 +/- 386.974 mm
+EQ_7_Step_(2026-04-14)                                  =   -0.773 +/- 0.911 mm
+EQ_7_Log1_T0.0523_(2026-04-14)                          =    1.165 +/- 5.614 mm
+EQ_7_Log2_T1.0_(2026-04-14)                             =  -21.382 +/- 57.240 mm
+Elevation_Cutoff_Changed_(2016-03-01)                   =   -0.048 +/- 0.325 mm
+Antenna_Type_Changed_(2021-10-28)                       =    2.485 +/- 0.554 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M5.1, 29km)
+EQ_2: Step + Dual LogTransient (M7.1, 451km)
+EQ_3: Step + Dual LogTransient (M6.5, 212km)
+EQ_4: Step + Dual LogTransient (M6.0, 111km)
+EQ_5: Step + Dual LogTransient (M7.0, 472km)
+EQ_6: Step + Dual LogTransient (M5.7, 62km)
+EQ_7: Step + Dual LogTransient (M5.7, 54km)
+
+UP
+Estimated sigma_pl = 4.007, kappa = -0.637
+MODEL PARAMETERS:
+y_0                                                     =    1.054 +/- 4.568 mm
+v_y                                                     =   -0.576 +/- 0.533 mm
+a_1                                                     =   -5.789 +/- 0.248 mm
+b_1                                                     =    0.279 +/- 0.245 mm
+a_2                                                     =    0.275 +/- 0.193 mm
+b_2                                                     =    0.120 +/- 0.192 mm
+a_4                                                     =   -0.429 +/- 0.153 mm
+b_4                                                     =    0.100 +/- 0.153 mm
+EQ_1_Step_(2008-04-26)                                  =    1.659 +/- 2.232 mm
+EQ_1_Log1_T0.0523_(2008-04-26)                          =   -0.282 +/- 1.533 mm
+EQ_1_Log2_T1.0_(2008-04-26)                             =    1.100 +/- 4.338 mm
+EQ_2_Step_(2019-07-06)                                  =   -3.159 +/- 2.450 mm
+EQ_2_Log1_T0.0523_(2019-07-06)                          =   -2.553 +/- 3.396 mm
+EQ_2_Log2_T1.0_(2019-07-06)                             =   16.706 +/- 14.720 mm
+EQ_3_Step_(2020-05-15)                                  =    2.952 +/- 2.476 mm
+EQ_3_Log1_T0.0523_(2020-05-15)                          =   -6.118 +/- 2.890 mm
+EQ_3_Log2_T1.0_(2020-05-15)                             =   19.843 +/- 12.342 mm
+EQ_4_Step_(2021-07-08)                                  =   -2.073 +/- 2.391 mm
+EQ_4_Log1_T0.0523_(2021-07-08)                          =    1.212 +/- 2.170 mm
+EQ_4_Log2_T1.0_(2021-07-08)                             =  -22.791 +/- 7.315 mm
+EQ_5_Step_(2024-12-05)                                  =   -1.594 +/- 3.675 mm
+EQ_5_Log1_T0.0523_(2024-12-05)                          =  -28.289 +/- 77.289 mm
+EQ_5_Log2_T1.0_(2024-12-05)                             =  347.727 +/- 1367.515 mm
+EQ_6_Step_(2024-12-09)                                  =    2.420 +/- 5.075 mm
+EQ_6_Log1_T0.0523_(2024-12-09)                          =   27.267 +/- 70.305 mm
+EQ_6_Log2_T1.0_(2024-12-09)                             = -347.627 +/- 1345.933 mm
+EQ_7_Step_(2026-04-14)                                  =    1.450 +/- 3.042 mm
+EQ_7_Log1_T0.0523_(2026-04-14)                          =   -1.919 +/- 19.178 mm
+EQ_7_Log2_T1.0_(2026-04-14)                             =    6.626 +/- 196.363 mm
+Elevation_Cutoff_Changed_(2016-03-01)                   =   -3.204 +/- 1.262 mm
+Antenna_Type_Changed_(2021-10-28)                       =   -1.729 +/- 1.970 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M5.1, 29km)
+EQ_2: Step + Dual LogTransient (M7.1, 451km)
+EQ_3: Step + Dual LogTransient (M6.5, 212km)
+EQ_4: Step + Dual LogTransient (M6.0, 111km)
+EQ_5: Step + Dual LogTransient (M7.0, 472km)
+EQ_6: Step + Dual LogTransient (M5.7, 62km)
+EQ_7: Step + Dual LogTransient (M5.7, 54km)
+</div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="seasonal" class="tab-content">
+            <h2 class="section-title">Seasonal Signal Decomposition</h2>
+            <div class="card" style="margin-bottom: 20px;">
+                <h3>East Component</h3>
+                <img src="../../../../Nevada/P127/plots/Seasonal Signal Decomposition/P127_East_Seasonal_Decomposition.png" onerror="this.style.display='none'">
+            </div>
+            <div class="card" style="margin-bottom: 20px;">
+                <h3>North Component</h3>
+                <img src="../../../../Nevada/P127/plots/Seasonal Signal Decomposition/P127_North_Seasonal_Decomposition.png" onerror="this.style.display='none'">
+            </div>
+            <div class="card">
+                <h3>Up Component</h3>
+                <img src="../../../../Nevada/P127/plots/Seasonal Signal Decomposition/P127_Up_Seasonal_Decomposition.png" onerror="this.style.display='none'">
+            </div>
+        </div>
+        
+        <div id="weather" class="tab-content">
+            <h2 class="section-title">Weather Data Comparison</h2>
+            <p style="text-align: center; color: #666; margin-bottom: 15px;">Select a component below.</p>
+            
+            <div class="sub-tabs">
+                <button class="sub-tab-btn active" onclick="openSubTab(event, 'weather-east')">East Component</button>
+                <button class="sub-tab-btn" onclick="openSubTab(event, 'weather-north')">North Component</button>
+                <button class="sub-tab-btn" onclick="openSubTab(event, 'weather-up')">Up Component</button>
+            </div>
+            
+            <div id="weather-east" class="sub-tab-content active">
+                <div class="iframe-container">
+                    <iframe class="weather-frame" src="../../../../Nevada/P127/plots/Weather Comparison/P127_East_Weather_Comparison_Interactive.html" scrolling="no" frameborder="0"></iframe>
+                </div>
+            </div>
+            
+            <div id="weather-north" class="sub-tab-content">
+                <div class="iframe-container">
+                    <iframe class="weather-frame" src="../../../../Nevada/P127/plots/Weather Comparison/P127_North_Weather_Comparison_Interactive.html" scrolling="no" frameborder="0"></iframe>
+                </div>
+            </div>
+            
+            <div id="weather-up" class="sub-tab-content">
+                <div class="iframe-container">
+                    <iframe class="weather-frame" src="../../../../Nevada/P127/plots/Weather Comparison/P127_Up_Weather_Comparison_Interactive.html" scrolling="no" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div id="velocity-results" class="tab-content">
+            <h2 class="section-title">Results (Nevada)</h2>
+            <p style="text-align: center; color: #666;">The row corresponding to station <strong>P127</strong> is highlighted in green.</p>
+            <div class="table-container">
+                <table border="1" class="dataframe results-table">
+  <thead>
+    <tr>
+      <th>Station</th>
+      <th colspan="6" halign="left">Annual + Semi-Annual + Quarter-Annual</th>
+      <th colspan="6" halign="left">Annual + Semi-Annual</th>
+      <th colspan="3" halign="left">ΔV</th>
+      <th colspan="3" halign="left">[VV]</th>
+      <th colspan="3" halign="left">RMSE</th>
+    </tr>
+    <tr>
+      <th></th>
+      <th>V<sub>E</sub><sup></sup></th>
+      <th>V<sub>N</sub><sup></sup></th>
+      <th>V<sub>U</sub><sup></sup></th>
+      <th>σ<sub>E</sub><sup></sup></th>
+      <th>σ<sub>N</sub><sup></sup></th>
+      <th>σ<sub>U</sub><sup></sup></th>
+      <th>V<sub>E</sub><sup></sup></th>
+      <th>V<sub>N</sub><sup></sup></th>
+      <th>V<sub>U</sub><sup></sup></th>
+      <th>σ<sub>E</sub><sup></sup></th>
+      <th>σ<sub>N</sub><sup></sup></th>
+      <th>σ<sub>U</sub><sup></sup></th>
+      <th>ΔV<sub>E</sub><sup></sup></th>
+      <th>ΔV<sub>N</sub><sup></sup></th>
+      <th>ΔV<sub>U</sub><sup></sup></th>
+      <th>ΔV<sub>E</sub><sup>2</sup></th>
+      <th>ΔV<sub>N</sub><sup>2</sup></th>
+      <th>ΔV<sub>U</sub><sup>2</sup></th>
+      <th>V<sub>E</sub><sup></sup></th>
+      <th>V<sub>N</sub><sup></sup></th>
+      <th>V<sub>U</sub><sup></sup></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BRAD</td>
+      <td>-18.595</td>
+      <td>-7.684</td>
+      <td>-1.252</td>
+      <td>0.092</td>
+      <td>0.110</td>
+      <td>0.307</td>
+      <td>-18.593</td>
+      <td>-7.683</td>
+      <td>-1.257</td>
+      <td>0.096</td>
+      <td>0.111</td>
+      <td>0.310</td>
+      <td>1.322</td>
+      <td>1.476</td>
+      <td>4.924</td>
+      <td>1.747</td>
+      <td>2.177</td>
+      <td>24.244</td>
+      <td>1.159</td>
+      <td>1.069</td>
+      <td>2.689</td>
+    </tr>
+    <tr>
+      <td>FLN1</td>
+      <td>-18.706</td>
+      <td>-7.285</td>
+      <td>1.537</td>
+      <td>0.060</td>
+      <td>0.067</td>
+      <td>0.445</td>
+      <td>-18.705</td>
+      <td>-7.284</td>
+      <td>1.532</td>
+      <td>0.060</td>
+      <td>0.067</td>
+      <td>0.446</td>
+      <td>0.207</td>
+      <td>0.499</td>
+      <td>5.580</td>
+      <td>0.043</td>
+      <td>0.249</td>
+      <td>31.141</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GARL</td>
+      <td>-17.756</td>
+      <td>-7.733</td>
+      <td>-0.269</td>
+      <td>0.096</td>
+      <td>0.065</td>
+      <td>0.273</td>
+      <td>-17.756</td>
+      <td>-7.733</td>
+      <td>-0.269</td>
+      <td>0.096</td>
+      <td>0.065</td>
+      <td>0.276</td>
+      <td>0.171</td>
+      <td>0.033</td>
+      <td>0.082</td>
+      <td>0.029</td>
+      <td>0.001</td>
+      <td>0.007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GERL</td>
+      <td>-17.633</td>
+      <td>-8.021</td>
+      <td>-2.131</td>
+      <td>0.100</td>
+      <td>0.068</td>
+      <td>0.231</td>
+      <td>-17.635</td>
+      <td>-8.021</td>
+      <td>-2.132</td>
+      <td>0.100</td>
+      <td>0.068</td>
+      <td>0.233</td>
+      <td>2.384</td>
+      <td>0.559</td>
+      <td>0.593</td>
+      <td>5.684</td>
+      <td>0.312</td>
+      <td>0.351</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GOSH</td>
+      <td>-17.150</td>
+      <td>-9.465</td>
+      <td>-0.377</td>
+      <td>0.067</td>
+      <td>0.051</td>
+      <td>0.189</td>
+      <td>-17.150</td>
+      <td>-9.464</td>
+      <td>-0.380</td>
+      <td>0.067</td>
+      <td>0.051</td>
+      <td>0.193</td>
+      <td>0.280</td>
+      <td>0.726</td>
+      <td>3.652</td>
+      <td>0.078</td>
+      <td>0.528</td>
+      <td>13.337</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MERC</td>
+      <td>-15.497</td>
+      <td>-8.779</td>
+      <td>-1.226</td>
+      <td>0.062</td>
+      <td>0.042</td>
+      <td>0.150</td>
+      <td>-15.497</td>
+      <td>-8.779</td>
+      <td>-1.225</td>
+      <td>0.062</td>
+      <td>0.042</td>
+      <td>0.151</td>
+      <td>0.263</td>
+      <td>0.809</td>
+      <td>1.281</td>
+      <td>0.069</td>
+      <td>0.655</td>
+      <td>1.642</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>NVAL</td>
+      <td>-15.841</td>
+      <td>-8.915</td>
+      <td>-1.448</td>
+      <td>0.075</td>
+      <td>0.072</td>
+      <td>0.246</td>
+      <td>-15.842</td>
+      <td>-8.915</td>
+      <td>-1.442</td>
+      <td>0.077</td>
+      <td>0.073</td>
+      <td>0.251</td>
+      <td>1.386</td>
+      <td>0.101</td>
+      <td>5.839</td>
+      <td>1.920</td>
+      <td>0.010</td>
+      <td>34.094</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>NVSL</td>
+      <td>-15.071</td>
+      <td>-8.643</td>
+      <td>-0.246</td>
+      <td>0.062</td>
+      <td>0.119</td>
+      <td>0.263</td>
+      <td>-15.072</td>
+      <td>-8.644</td>
+      <td>-0.243</td>
+      <td>0.064</td>
+      <td>0.119</td>
+      <td>0.265</td>
+      <td>1.588</td>
+      <td>0.497</td>
+      <td>2.202</td>
+      <td>2.523</td>
+      <td>0.247</td>
+      <td>4.850</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>NVTP</td>
+      <td>-15.479</td>
+      <td>-8.915</td>
+      <td>-1.933</td>
+      <td>0.066</td>
+      <td>0.077</td>
+      <td>0.593</td>
+      <td>-15.478</td>
+      <td>-8.914</td>
+      <td>-1.930</td>
+      <td>0.066</td>
+      <td>0.077</td>
+      <td>0.595</td>
+      <td>1.528</td>
+      <td>0.856</td>
+      <td>2.629</td>
+      <td>2.335</td>
+      <td>0.733</td>
+      <td>6.913</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>P002</td>
+      <td>-16.471</td>
+      <td>-9.599</td>
+      <td>0.278</td>
+      <td>0.068</td>
+      <td>0.056</td>
+      <td>0.228</td>
+      <td>-16.471</td>
+      <td>-9.599</td>
+      <td>0.273</td>
+      <td>0.068</td>
+      <td>0.056</td>
+      <td>0.232</td>
+      <td>0.181</td>
+      <td>0.315</td>
+      <td>4.126</td>
+      <td>0.033</td>
+      <td>0.099</td>
+      <td>17.024</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>P068</td>
+      <td>-16.876</td>
+      <td>-9.000</td>
+      <td>0.534</td>
+      <td>0.047</td>
+      <td>0.034</td>
+      <td>0.143</td>
+      <td>-16.876</td>
+      <td>-9.000</td>
+      <td>0.534</td>
+      <td>0.047</td>
+      <td>0.034</td>
+      <td>0.145</td>
+      <td>0.566</td>
+      <td>0.012</td>
+      <td>0.206</td>
+      <td>0.320</td>
+      <td>0.000</td>
+      <td>0.042</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>P078</td>
+      <td>-17.594</td>
+      <td>-8.937</td>
+      <td>0.680</td>
+      <td>0.062</td>
+      <td>0.049</td>
+      <td>0.222</td>
+      <td>-17.594</td>
+      <td>-8.938</td>
+      <td>0.678</td>
+      <td>0.062</td>
+      <td>0.049</td>
+      <td>0.225</td>
+      <td>0.713</td>
+      <td>0.622</td>
+      <td>1.311</td>
+      <td>0.508</td>
+      <td>0.387</td>
+      <td>1.718</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>P083</td>
+      <td>-16.773</td>
+      <td>-9.500</td>
+      <td>0.952</td>
+      <td>0.040</td>
+      <td>0.040</td>
+      <td>0.121</td>
+      <td>-16.774</td>
+      <td>-9.500</td>
+      <td>0.956</td>
+      <td>0.041</td>
+      <td>0.040</td>
+      <td>0.122</td>
+      <td>1.195</td>
+      <td>0.410</td>
+      <td>3.505</td>
+      <td>1.427</td>
+      <td>0.168</td>
+      <td>12.284</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>P095</td>
+      <td>-19.518</td>
+      <td>-6.360</td>
+      <td>-0.382</td>
+      <td>0.080</td>
+      <td>0.067</td>
+      <td>0.232</td>
+      <td>-19.517</td>
+      <td>-6.358</td>
+      <td>-0.388</td>
+      <td>0.080</td>
+      <td>0.067</td>
+      <td>0.234</td>
+      <td>0.917</td>
+      <td>1.783</td>
+      <td>5.628</td>
+      <td>0.841</td>
+      <td>3.180</td>
+      <td>31.670</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>P096</td>
+      <td>-18.832</td>
+      <td>-7.246</td>
+      <td>0.118</td>
+      <td>0.053</td>
+      <td>0.046</td>
+      <td>0.172</td>
+      <td>-18.833</td>
+      <td>-7.249</td>
+      <td>0.117</td>
+      <td>0.053</td>
+      <td>0.047</td>
+      <td>0.175</td>
+      <td>1.006</td>
+      <td>3.031</td>
+      <td>1.040</td>
+      <td>1.013</td>
+      <td>9.189</td>
+      <td>1.081</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>P097</td>
+      <td>-18.245</td>
+      <td>-7.813</td>
+      <td>0.066</td>
+      <td>0.120</td>
+      <td>0.072</td>
+      <td>0.356</td>
+      <td>-18.248</td>
+      <td>-7.810</td>
+      <td>0.069</td>
+      <td>0.120</td>
+      <td>0.072</td>
+      <td>0.357</td>
+      <td>3.324</td>
+      <td>2.277</td>
+      <td>3.233</td>
+      <td>11.048</td>
+      <td>5.183</td>
+      <td>10.450</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>P098</td>
+      <td>-18.323</td>
+      <td>-8.116</td>
+      <td>-0.084</td>
+      <td>0.047</td>
+      <td>0.041</td>
+      <td>0.189</td>
+      <td>-18.323</td>
+      <td>-8.117</td>
+      <td>-0.082</td>
+      <td>0.047</td>
+      <td>0.041</td>
+      <td>0.192</td>
+      <td>0.091</td>
+      <td>0.096</td>
+      <td>1.721</td>
+      <td>0.008</td>
+      <td>0.009</td>
+      <td>2.960</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>P099</td>
+      <td>-17.020</td>
+      <td>-8.220</td>
+      <td>0.497</td>
+      <td>0.061</td>
+      <td>0.056</td>
+      <td>0.250</td>
+      <td>-17.022</td>
+      <td>-8.219</td>
+      <td>0.496</td>
+      <td>0.061</td>
+      <td>0.056</td>
+      <td>0.251</td>
+      <td>1.734</td>
+      <td>1.517</td>
+      <td>1.546</td>
+      <td>3.008</td>
+      <td>2.302</td>
+      <td>2.390</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr style='background-color: #92d050; color: black; font-weight: bold;'>
+      <td>P127</td>
+      <td>-19.235</td>
+      <td>-5.577</td>
+      <td>-0.576</td>
+      <td>0.160</td>
+      <td>0.134</td>
+      <td>0.533</td>
+      <td>-19.236</td>
+      <td>-5.578</td>
+      <td>-0.575</td>
+      <td>0.161</td>
+      <td>0.135</td>
+      <td>0.537</td>
+      <td>0.877</td>
+      <td>1.032</td>
+      <td>0.829</td>
+      <td>0.768</td>
+      <td>1.065</td>
+      <td>0.688</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>P128</td>
+      <td>-18.504</td>
+      <td>-7.063</td>
+      <td>0.058</td>
+      <td>0.064</td>
+      <td>0.052</td>
+      <td>0.194</td>
+      <td>-18.505</td>
+      <td>-7.063</td>
+      <td>0.061</td>
+      <td>0.064</td>
+      <td>0.052</td>
+      <td>0.196</td>
+      <td>1.024</td>
+      <td>0.345</td>
+      <td>3.285</td>
+      <td>1.049</td>
+      <td>0.119</td>
+      <td>10.794</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>P130</td>
+      <td>-18.663</td>
+      <td>-6.732</td>
+      <td>-0.784</td>
+      <td>0.147</td>
+      <td>0.186</td>
+      <td>0.353</td>
+      <td>-18.662</td>
+      <td>-6.733</td>
+      <td>-0.786</td>
+      <td>0.148</td>
+      <td>0.186</td>
+      <td>0.359</td>
+      <td>0.316</td>
+      <td>1.185</td>
+      <td>1.999</td>
+      <td>0.100</td>
+      <td>1.404</td>
+      <td>3.995</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>P131</td>
+      <td>-18.069</td>
+      <td>-8.100</td>
+      <td>0.480</td>
+      <td>0.155</td>
+      <td>0.099</td>
+      <td>0.350</td>
+      <td>-18.067</td>
+      <td>-8.101</td>
+      <td>0.477</td>
+      <td>0.155</td>
+      <td>0.099</td>
+      <td>0.351</td>
+      <td>1.694</td>
+      <td>1.409</td>
+      <td>3.523</td>
+      <td>2.871</td>
+      <td>1.986</td>
+      <td>12.412</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>P133</td>
+      <td>-17.661</td>
+      <td>-6.945</td>
+      <td>0.515</td>
+      <td>0.052</td>
+      <td>0.052</td>
+      <td>0.154</td>
+      <td>-17.661</td>
+      <td>-6.944</td>
+      <td>0.515</td>
+      <td>0.052</td>
+      <td>0.052</td>
+      <td>0.156</td>
+      <td>0.073</td>
+      <td>1.287</td>
+      <td>0.442</td>
+      <td>0.005</td>
+      <td>1.656</td>
+      <td>0.195</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>P134</td>
+      <td>-18.723</td>
+      <td>-5.910</td>
+      <td>0.355</td>
+      <td>0.057</td>
+      <td>0.049</td>
+      <td>0.226</td>
+      <td>-18.722</td>
+      <td>-5.910</td>
+      <td>0.350</td>
+      <td>0.058</td>
+      <td>0.049</td>
+      <td>0.229</td>
+      <td>0.360</td>
+      <td>0.256</td>
+      <td>5.219</td>
+      <td>0.130</td>
+      <td>0.066</td>
+      <td>27.242</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>P135</td>
+      <td>-18.693</td>
+      <td>-4.827</td>
+      <td>-0.881</td>
+      <td>0.630</td>
+      <td>0.472</td>
+      <td>0.635</td>
+      <td>-18.694</td>
+      <td>-4.828</td>
+      <td>-0.882</td>
+      <td>0.630</td>
+      <td>0.472</td>
+      <td>0.638</td>
+      <td>0.861</td>
+      <td>0.783</td>
+      <td>0.938</td>
+      <td>0.742</td>
+      <td>0.613</td>
+      <td>0.879</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>P137</td>
+      <td>-17.938</td>
+      <td>-8.273</td>
+      <td>-1.022</td>
+      <td>0.195</td>
+      <td>0.100</td>
+      <td>0.547</td>
+      <td>-17.939</td>
+      <td>-8.274</td>
+      <td>-1.023</td>
+      <td>0.197</td>
+      <td>0.101</td>
+      <td>0.551</td>
+      <td>1.689</td>
+      <td>1.090</td>
+      <td>1.456</td>
+      <td>2.851</td>
+      <td>1.189</td>
+      <td>2.120</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>P138</td>
+      <td>-18.230</td>
+      <td>-7.893</td>
+      <td>-0.209</td>
+      <td>0.043</td>
+      <td>0.036</td>
+      <td>0.138</td>
+      <td>-18.230</td>
+      <td>-7.893</td>
+      <td>-0.206</td>
+      <td>0.043</td>
+      <td>0.037</td>
+      <td>0.140</td>
+      <td>0.565</td>
+      <td>0.274</td>
+      <td>3.704</td>
+      <td>0.319</td>
+      <td>0.075</td>
+      <td>13.718</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SHLD</td>
+      <td>-16.609</td>
+      <td>-8.616</td>
+      <td>0.139</td>
+      <td>0.094</td>
+      <td>0.066</td>
+      <td>0.268</td>
+      <td>-16.608</td>
+      <td>-8.616</td>
+      <td>0.139</td>
+      <td>0.094</td>
+      <td>0.066</td>
+      <td>0.270</td>
+      <td>0.216</td>
+      <td>0.409</td>
+      <td>0.097</td>
+      <td>0.047</td>
+      <td>0.167</td>
+      <td>0.009</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TIVA</td>
+      <td>-15.801</td>
+      <td>-8.794</td>
+      <td>-1.042</td>
+      <td>0.068</td>
+      <td>0.054</td>
+      <td>0.173</td>
+      <td>-15.801</td>
+      <td>-8.795</td>
+      <td>-1.043</td>
+      <td>0.068</td>
+      <td>0.054</td>
+      <td>0.174</td>
+      <td>0.225</td>
+      <td>1.278</td>
+      <td>0.395</td>
+      <td>0.051</td>
+      <td>1.633</td>
+      <td>0.156</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TUNG</td>
+      <td>-17.810</td>
+      <td>-8.608</td>
+      <td>0.518</td>
+      <td>0.052</td>
+      <td>0.038</td>
+      <td>0.137</td>
+      <td>-17.810</td>
+      <td>-8.608</td>
+      <td>0.515</td>
+      <td>0.052</td>
+      <td>0.038</td>
+      <td>0.138</td>
+      <td>0.102</td>
+      <td>0.161</td>
+      <td>3.283</td>
+      <td>0.010</td>
+      <td>0.026</td>
+      <td>10.777</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>UPSA</td>
+      <td>-18.543</td>
+      <td>-7.610</td>
+      <td>-0.181</td>
+      <td>0.064</td>
+      <td>0.046</td>
+      <td>0.176</td>
+      <td>-18.543</td>
+      <td>-7.610</td>
+      <td>-0.181</td>
+      <td>0.064</td>
+      <td>0.046</td>
+      <td>0.177</td>
+      <td>0.189</td>
+      <td>0.056</td>
+      <td>0.536</td>
+      <td>0.036</td>
+      <td>0.003</td>
+      <td>0.287</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+            </div>
+        </div>
+        
+        <div class="dashboard-footer">
+            Created by <strong>Uğur Gülsün</strong> | Contact: <strong>ugurgulsun7@gmail.com</strong>
+        </div>
+        
+    </div>
+    
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].classList.remove("active");
+            }
+            tablinks = document.getElementsByClassName("tab-btn");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).classList.add("active");
+            evt.currentTarget.className += " active";
+        }
+
+        function openSubTab(evt, subTabName) {
+            var i, subTabContent, subTabLinks;
+            subTabContent = document.getElementsByClassName("sub-tab-content");
+            for (i = 0; i < subTabContent.length; i++) {
+                subTabContent[i].classList.remove("active");
+            }
+            subTabLinks = document.getElementsByClassName("sub-tab-btn");
+            for (i = 0; i < subTabLinks.length; i++) {
+                subTabLinks[i].className = subTabLinks[i].className.replace(" active", "");
+            }
+            document.getElementById(subTabName).classList.add("active");
+            evt.currentTarget.className += " active";
+            
+            // Dispatching resize event just to be absolutely sure Plotly centers correctly
+            window.dispatchEvent(new Event('resize'));
+        }
+    </script>
+</body>
+</html>

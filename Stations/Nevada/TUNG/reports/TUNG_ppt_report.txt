@@ -1,0 +1,10 @@
+TUNG (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              =   -4.436 +/- 1.551 mm
+V                =   -2.188 +/- 0.107 mm/yr
+s_1              =   13.112 +/- 1.097 mm
+c_1              =  -11.316 +/- 1.096 mm
+s_2              =   -0.885 +/- 1.096 mm
+c_2              =    4.347 +/- 1.096 mm
+s_4              =   -0.321 +/- 1.096 mm
+c_4              =   -0.473 +/- 1.096 mm

@@ -1,0 +1,10 @@
+SHLD (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              =  -79.867 +/- 1.174 mm
+V                =    0.586 +/- 0.081 mm/yr
+s_1              =    4.686 +/- 0.830 mm
+c_1              =   -5.314 +/- 0.830 mm
+s_2              =    0.525 +/- 0.830 mm
+c_2              =    3.963 +/- 0.830 mm
+s_4              =   -0.426 +/- 0.830 mm
+c_4              =    0.330 +/- 0.830 mm

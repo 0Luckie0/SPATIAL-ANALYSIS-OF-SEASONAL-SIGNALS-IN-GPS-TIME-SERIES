@@ -1,0 +1,43 @@
+P130 (Nevada) Geodetic Time Series Analysis
+    -> MANUAL RULE: Restricted between 2014-01-01 and 2016-12-01.
+Detected Events used in Model:
+    Step: Antenna_and_Radome_Type_Changed (2014-01-29)
+
+EAST
+Estimated sigma_pl = 1.299, kappa = -0.407
+MODEL PARAMETERS:
+y_0                                                     =   12.986 +/- 0.464 mm
+v_y                                                     =  -18.663 +/- 0.147 mm
+a_1                                                     =   -2.320 +/- 0.133 mm
+b_1                                                     =    1.761 +/- 0.132 mm
+a_2                                                     =    0.059 +/- 0.112 mm
+b_2                                                     =    0.325 +/- 0.115 mm
+a_4                                                     =    0.099 +/- 0.098 mm
+b_4                                                     =   -0.059 +/- 0.098 mm
+Antenna_and_Radome_Type_Changed_(2014-01-29)            =   -4.425 +/- 0.483 mm
+
+NORTH
+Estimated sigma_pl = 1.380, kappa = -0.475
+MODEL PARAMETERS:
+y_0                                                     =    5.950 +/- 0.536 mm
+v_y                                                     =   -6.732 +/- 0.186 mm
+a_1                                                     =   -0.413 +/- 0.163 mm
+b_1                                                     =   -3.980 +/- 0.160 mm
+a_2                                                     =    0.692 +/- 0.134 mm
+b_2                                                     =    0.896 +/- 0.137 mm
+a_4                                                     =   -0.067 +/- 0.114 mm
+b_4                                                     =   -0.015 +/- 0.114 mm
+Antenna_and_Radome_Type_Changed_(2014-01-29)            =   -3.048 +/- 0.557 mm
+
+UP
+Estimated sigma_pl = 4.247, kappa = -0.288
+MODEL PARAMETERS:
+y_0                                                     =   -0.900 +/- 1.311 mm
+v_y                                                     =   -0.784 +/- 0.353 mm
+a_1                                                     =   -5.847 +/- 0.341 mm
+b_1                                                     =    0.014 +/- 0.342 mm
+a_2                                                     =   -0.429 +/- 0.300 mm
+b_2                                                     =   -0.759 +/- 0.309 mm
+a_4                                                     =   -0.013 +/- 0.274 mm
+b_4                                                     =    0.386 +/- 0.273 mm
+Antenna_and_Radome_Type_Changed_(2014-01-29)            =    1.320 +/- 1.362 mm

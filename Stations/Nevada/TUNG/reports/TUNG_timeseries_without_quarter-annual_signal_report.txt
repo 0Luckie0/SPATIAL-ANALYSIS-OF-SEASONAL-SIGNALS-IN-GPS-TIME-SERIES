@@ -1,0 +1,82 @@
+TUNG (Nevada) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2019-07-06)
+    Step: EARTHQUAKE EQ_2_Step (2020-05-15)
+    Step: Radome_Type_Changed (1999-08-26)
+    Step: Receiver_Make_and_Model_Changed (2003-02-03)
+    Step: Receiver_Make_and_Model_Changed (2006-02-07)
+    Step: Elevation_Cutoff_Changed (2016-12-15)
+    Step: Receiver_Make_and_Model_Changed (2019-01-29)
+    Step: Antenna_Type_Changed (2019-05-21)
+
+EAST
+Estimated sigma_pl = 1.350, kappa = -0.713
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =  -60.251 +/- 0.911 mm
+v_y                                                     =  -17.810 +/- 0.052 mm
+a_1                                                     =   -1.516 +/- 0.079 mm
+b_1                                                     =    2.083 +/- 0.078 mm
+a_2                                                     =    0.582 +/- 0.061 mm
+b_2                                                     =   -0.109 +/- 0.061 mm
+EQ_1_Step_(2019-07-06)                                  =   -1.168 +/- 0.705 mm
+EQ_1_Exp_T1.0_(2019-07-06)                              =   -1.441 +/- 1.903 mm
+EQ_2_Step_(2020-05-15)                                  =    0.872 +/- 0.650 mm
+EQ_2_Exp_T1.0_(2020-05-15)                              =   -1.513 +/- 1.360 mm
+Radome_Type_Changed_(1999-08-26)                        =   -2.601 +/- 0.432 mm
+Receiver_Make_and_Model_Changed_(2003-02-03)            =    0.288 +/- 0.445 mm
+Receiver_Make_and_Model_Changed_(2006-02-07)            =   -2.658 +/- 0.454 mm
+Elevation_Cutoff_Changed_(2016-12-15)                   =   -1.266 +/- 0.453 mm
+Receiver_Make_and_Model_Changed_(2019-01-29)            =    0.439 +/- 0.553 mm
+Antenna_Type_Changed_(2019-05-21)                       =    2.032 +/- 0.652 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M7.1, 518km)
+EQ_2: Step + Single ExpTransient (M6.5, 251km)
+
+NORTH
+Estimated sigma_pl = 1.219, kappa = -0.634
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =  -30.734 +/- 0.668 mm
+v_y                                                     =   -8.608 +/- 0.038 mm
+a_1                                                     =   -0.196 +/- 0.061 mm
+b_1                                                     =   -3.259 +/- 0.060 mm
+a_2                                                     =    0.528 +/- 0.048 mm
+b_2                                                     =    0.631 +/- 0.048 mm
+EQ_1_Step_(2019-07-06)                                  =   -1.739 +/- 0.579 mm
+EQ_1_Exp_T1.0_(2019-07-06)                              =   -1.079 +/- 1.471 mm
+EQ_2_Step_(2020-05-15)                                  =    0.017 +/- 0.521 mm
+EQ_2_Exp_T1.0_(2020-05-15)                              =    0.334 +/- 1.005 mm
+Radome_Type_Changed_(1999-08-26)                        =   -2.350 +/- 0.321 mm
+Receiver_Make_and_Model_Changed_(2003-02-03)            =    1.029 +/- 0.331 mm
+Receiver_Make_and_Model_Changed_(2006-02-07)            =    1.688 +/- 0.340 mm
+Elevation_Cutoff_Changed_(2016-12-15)                   =    0.538 +/- 0.340 mm
+Receiver_Make_and_Model_Changed_(2019-01-29)            =   -0.174 +/- 0.435 mm
+Antenna_Type_Changed_(2019-05-21)                       =    1.423 +/- 0.533 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M7.1, 518km)
+EQ_2: Step + Single ExpTransient (M6.5, 251km)
+
+UP
+Estimated sigma_pl = 4.839, kappa = -0.605
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    6.465 +/- 2.453 mm
+v_y                                                     =    0.515 +/- 0.138 mm
+a_1                                                     =   -4.290 +/- 0.228 mm
+b_1                                                     =   -0.225 +/- 0.226 mm
+a_2                                                     =   -0.449 +/- 0.182 mm
+b_2                                                     =   -0.339 +/- 0.183 mm
+EQ_1_Step_(2019-07-06)                                  =    0.018 +/- 2.219 mm
+EQ_1_Exp_T1.0_(2019-07-06)                              =    5.780 +/- 5.515 mm
+EQ_2_Step_(2020-05-15)                                  =    0.294 +/- 1.973 mm
+EQ_2_Exp_T1.0_(2020-05-15)                              =   -4.503 +/- 3.704 mm
+Radome_Type_Changed_(1999-08-26)                        =    1.532 +/- 1.184 mm
+Receiver_Make_and_Model_Changed_(2003-02-03)            =    1.540 +/- 1.220 mm
+Receiver_Make_and_Model_Changed_(2006-02-07)            =   -8.733 +/- 1.255 mm
+Elevation_Cutoff_Changed_(2016-12-15)                   =   -2.957 +/- 1.257 mm
+Receiver_Make_and_Model_Changed_(2019-01-29)            =   -1.690 +/- 1.640 mm
+Antenna_Type_Changed_(2019-05-21)                       =   -2.818 +/- 2.036 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M7.1, 518km)
+EQ_2: Step + Single ExpTransient (M6.5, 251km)

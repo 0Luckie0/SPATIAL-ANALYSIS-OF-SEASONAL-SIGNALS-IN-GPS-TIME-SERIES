@@ -1,0 +1,99 @@
+TIVA (Nevada) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (1999-08-01)
+    Step: EARTHQUAKE EQ_2_Step (1999-10-16)
+    Step: EARTHQUAKE EQ_3_Step (2010-04-04)
+    Step: EARTHQUAKE EQ_4_Step (2019-07-04)
+    Step: EARTHQUAKE EQ_6_Step (2020-05-15)
+    Step: Radome_Type_Changed (1999-08-15)
+    Step: Elevation_Cutoff_Changed (2023-03-20)
+
+EAST
+Estimated sigma_pl = 1.157, kappa = -0.754
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =  -32.948 +/- 1.160 mm
+v_y                                                     =  -15.801 +/- 0.068 mm
+a_1                                                     =   -1.755 +/- 0.077 mm
+b_1                                                     =    1.560 +/- 0.077 mm
+a_2                                                     =    0.463 +/- 0.059 mm
+b_2                                                     =   -0.139 +/- 0.059 mm
+EQ_1_Step_(1999-08-01)                                  =   -0.990 +/- 0.721 mm
+EQ_1_Exp_T1.0_(1999-08-01)                              =  -14.502 +/- 7.665 mm
+EQ_2_Step_(1999-10-16)                                  =   -0.239 +/- 0.725 mm
+EQ_2_Exp_T1.0_(1999-10-16)                              =   14.456 +/- 6.495 mm
+EQ_3_Step_(2010-04-04)                                  =    2.618 +/- 0.533 mm
+EQ_3_Exp_T1.0_(2010-04-04)                              =   -1.282 +/- 0.928 mm
+EQ_4_Step_(2019-07-04)                                  =    0.535 +/- 0.590 mm
+EQ_4_Exp_T1.0_(2019-07-04)                              =    1.046 +/- 1.692 mm
+EQ_6_Step_(2020-05-15)                                  =    1.042 +/- 0.594 mm
+EQ_6_Exp_T1.0_(2020-05-15)                              =   -0.780 +/- 1.336 mm
+Radome_Type_Changed_(1999-08-15)                        =   -0.758 +/- 0.839 mm
+Elevation_Cutoff_Changed_(2023-03-20)                   =    0.164 +/- 0.448 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M5.7, 91km)
+EQ_2: Step + Single ExpTransient (M7.1, 259km)
+EQ_3: Step + Single ExpTransient (M7.2, 524km)
+EQ_4: Step + Single ExpTransient (M6.4, 178km)
+EQ_5: Duplicate/Merged Step (M7.1, 178km)
+EQ_6: Step + Single ExpTransient (M6.5, 198km)
+
+NORTH
+Estimated sigma_pl = 1.096, kappa = -0.701
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   -8.773 +/- 0.941 mm
+v_y                                                     =   -8.795 +/- 0.054 mm
+a_1                                                     =   -0.270 +/- 0.065 mm
+b_1                                                     =   -3.384 +/- 0.066 mm
+a_2                                                     =    0.555 +/- 0.051 mm
+b_2                                                     =    0.700 +/- 0.051 mm
+EQ_1_Step_(1999-08-01)                                  =    0.034 +/- 0.651 mm
+EQ_1_Exp_T1.0_(1999-08-01)                              =   18.293 +/- 6.860 mm
+EQ_2_Step_(1999-10-16)                                  =   -4.141 +/- 0.654 mm
+EQ_2_Exp_T1.0_(1999-10-16)                              =  -17.948 +/- 5.773 mm
+EQ_3_Step_(2010-04-04)                                  =   -1.867 +/- 0.459 mm
+EQ_3_Exp_T1.0_(2010-04-04)                              =   -2.052 +/- 0.761 mm
+EQ_4_Step_(2019-07-04)                                  =   -2.716 +/- 0.518 mm
+EQ_4_Exp_T1.0_(2019-07-04)                              =   -3.263 +/- 1.445 mm
+EQ_6_Step_(2020-05-15)                                  =    0.075 +/- 0.521 mm
+EQ_6_Exp_T1.0_(2020-05-15)                              =    0.507 +/- 1.108 mm
+Radome_Type_Changed_(1999-08-15)                        =   -3.067 +/- 0.768 mm
+Elevation_Cutoff_Changed_(2023-03-20)                   =   -0.695 +/- 0.378 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M5.7, 91km)
+EQ_2: Step + Single ExpTransient (M7.1, 259km)
+EQ_3: Step + Single ExpTransient (M7.2, 524km)
+EQ_4: Step + Single ExpTransient (M6.4, 178km)
+EQ_5: Duplicate/Merged Step (M7.1, 178km)
+EQ_6: Step + Single ExpTransient (M6.5, 198km)
+
+UP
+Estimated sigma_pl = 3.150, kappa = -0.736
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =  -16.604 +/- 2.992 mm
+v_y                                                     =   -1.043 +/- 0.174 mm
+a_1                                                     =   -3.414 +/- 0.202 mm
+b_1                                                     =   -0.269 +/- 0.203 mm
+a_2                                                     =   -0.519 +/- 0.156 mm
+b_2                                                     =   -0.153 +/- 0.155 mm
+EQ_1_Step_(1999-08-01)                                  =   -4.612 +/- 1.930 mm
+EQ_1_Exp_T1.0_(1999-08-01)                              =   56.160 +/- 20.451 mm
+EQ_2_Step_(1999-10-16)                                  =   -4.382 +/- 1.941 mm
+EQ_2_Exp_T1.0_(1999-10-16)                              =  -34.846 +/- 17.286 mm
+EQ_3_Step_(2010-04-04)                                  =  -83.988 +/- 1.404 mm
+EQ_3_Exp_T1.0_(2010-04-04)                              =   89.392 +/- 2.401 mm
+EQ_4_Step_(2019-07-04)                                  =   -0.133 +/- 1.565 mm
+EQ_4_Exp_T1.0_(2019-07-04)                              =    0.045 +/- 4.440 mm
+EQ_6_Step_(2020-05-15)                                  =    1.501 +/- 1.575 mm
+EQ_6_Exp_T1.0_(2020-05-15)                              =    4.342 +/- 3.471 mm
+Radome_Type_Changed_(1999-08-15)                        =   -1.010 +/- 2.257 mm
+Elevation_Cutoff_Changed_(2023-03-20)                   =   -2.461 +/- 1.172 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M5.7, 91km)
+EQ_2: Step + Single ExpTransient (M7.1, 259km)
+EQ_3: Step + Single ExpTransient (M7.2, 524km)
+EQ_4: Step + Single ExpTransient (M6.4, 178km)
+EQ_5: Duplicate/Merged Step (M7.1, 178km)
+EQ_6: Step + Single ExpTransient (M6.5, 198km)

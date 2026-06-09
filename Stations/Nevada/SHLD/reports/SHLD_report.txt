@@ -1,0 +1,61 @@
+SHLD (Nevada) Geodetic Time Series Analysis
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2005-06-15)
+    Step: Radome_Type_Changed (2023-08-02)
+
+EAST
+Estimated sigma_pl = 1.196, kappa = -0.765
+MODEL PARAMETERS:
+y_0                                                     =  -35.129 +/- 1.300 mm
+v_y                                                     =  -16.609 +/- 0.094 mm
+a_1                                                     =   -1.676 +/- 0.081 mm
+b_1                                                     =    1.771 +/- 0.081 mm
+a_2                                                     =    0.428 +/- 0.062 mm
+b_2                                                     =   -0.107 +/- 0.062 mm
+a_4                                                     =    0.052 +/- 0.048 mm
+b_4                                                     =   -0.003 +/- 0.048 mm
+EQ_1_Step_(2005-06-15)                                  =   -0.409 +/- 0.749 mm
+EQ_1_Log1_T0.0523_(2005-06-15)                          =    0.561 +/- 0.517 mm
+EQ_1_Log2_T1.0_(2005-06-15)                             =   -1.526 +/- 1.296 mm
+Radome_Type_Changed_(2023-08-02)                        =   -2.380 +/- 0.448 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M7.2, 580km)
+
+NORTH
+Estimated sigma_pl = 1.151, kappa = -0.659
+MODEL PARAMETERS:
+y_0                                                     =  -19.392 +/- 0.896 mm
+v_y                                                     =   -8.616 +/- 0.066 mm
+a_1                                                     =   -0.081 +/- 0.063 mm
+b_1                                                     =   -3.416 +/- 0.063 mm
+a_2                                                     =    0.541 +/- 0.050 mm
+b_2                                                     =    0.723 +/- 0.050 mm
+a_4                                                     =    0.064 +/- 0.040 mm
+b_4                                                     =    0.011 +/- 0.040 mm
+EQ_1_Step_(2005-06-15)                                  =   -0.165 +/- 0.638 mm
+EQ_1_Log1_T0.0523_(2005-06-15)                          =    0.597 +/- 0.405 mm
+EQ_1_Log2_T1.0_(2005-06-15)                             =   -0.829 +/- 0.952 mm
+Radome_Type_Changed_(2023-08-02)                        =   -1.030 +/- 0.336 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M7.2, 580km)
+
+UP
+Estimated sigma_pl = 3.741, kappa = -0.735
+MODEL PARAMETERS:
+y_0                                                     =    4.302 +/- 3.694 mm
+v_y                                                     =    0.139 +/- 0.268 mm
+a_1                                                     =   -4.693 +/- 0.239 mm
+b_1                                                     =   -0.428 +/- 0.239 mm
+a_2                                                     =    0.001 +/- 0.185 mm
+b_2                                                     =   -0.468 +/- 0.186 mm
+a_4                                                     =   -0.349 +/- 0.143 mm
+b_4                                                     =    0.136 +/- 0.144 mm
+EQ_1_Step_(2005-06-15)                                  =   -1.055 +/- 2.267 mm
+EQ_1_Log1_T0.0523_(2005-06-15)                          =   -0.232 +/- 1.525 mm
+EQ_1_Log2_T1.0_(2005-06-15)                             =   -1.531 +/- 3.750 mm
+Radome_Type_Changed_(2023-08-02)                        =    1.638 +/- 1.308 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M7.2, 580km)

@@ -1,0 +1,39 @@
+P083 (Nevada) Geodetic Time Series Analysis
+    -> MANUAL RULE: Restricted between 2007-05-01 and 2019-04-17.
+Detected Events used in Model:
+
+EAST
+Estimated sigma_pl = 1.822, kappa = -0.495
+MODEL PARAMETERS:
+y_0                                                     =  -28.480 +/- 0.213 mm
+v_y                                                     =  -16.773 +/- 0.040 mm
+a_1                                                     =   -1.862 +/- 0.106 mm
+b_1                                                     =    1.303 +/- 0.107 mm
+a_2                                                     =    0.494 +/- 0.090 mm
+b_2                                                     =    0.059 +/- 0.090 mm
+a_4                                                     =    0.021 +/- 0.076 mm
+b_4                                                     =   -0.120 +/- 0.076 mm
+
+NORTH
+Estimated sigma_pl = 1.134, kappa = -0.637
+MODEL PARAMETERS:
+y_0                                                     =  -16.125 +/- 0.231 mm
+v_y                                                     =   -9.500 +/- 0.040 mm
+a_1                                                     =    0.171 +/- 0.088 mm
+b_1                                                     =   -3.390 +/- 0.089 mm
+a_2                                                     =    0.557 +/- 0.071 mm
+b_2                                                     =    0.720 +/- 0.071 mm
+a_4                                                     =    0.004 +/- 0.057 mm
+b_4                                                     =   -0.023 +/- 0.057 mm
+
+UP
+Estimated sigma_pl = 4.029, kappa = -0.590
+MODEL PARAMETERS:
+y_0                                                     =    1.416 +/- 0.682 mm
+v_y                                                     =    0.952 +/- 0.121 mm
+a_1                                                     =   -5.902 +/- 0.284 mm
+b_1                                                     =   -0.768 +/- 0.287 mm
+a_2                                                     =    0.321 +/- 0.233 mm
+b_2                                                     =    0.122 +/- 0.233 mm
+a_4                                                     =   -0.351 +/- 0.190 mm
+b_4                                                     =    0.165 +/- 0.190 mm

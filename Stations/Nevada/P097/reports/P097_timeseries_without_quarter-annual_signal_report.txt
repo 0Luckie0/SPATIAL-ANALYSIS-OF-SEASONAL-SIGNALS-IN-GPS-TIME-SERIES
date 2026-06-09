@@ -1,0 +1,33 @@
+P097 (Nevada) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+    -> MANUAL RULE: Restricted between 2007-04-15 and 2012-12-11.
+Detected Events used in Model:
+
+EAST
+Estimated sigma_pl = 1.215, kappa = -0.688
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =  -89.479 +/- 0.728 mm
+v_y                                                     =  -18.248 +/- 0.120 mm
+a_1                                                     =   -1.757 +/- 0.153 mm
+b_1                                                     =    1.729 +/- 0.154 mm
+a_2                                                     =    0.726 +/- 0.121 mm
+b_2                                                     =    0.155 +/- 0.120 mm
+
+NORTH
+Estimated sigma_pl = 0.967, kappa = -0.590
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =  -38.404 +/- 0.420 mm
+v_y                                                     =   -7.810 +/- 0.072 mm
+a_1                                                     =   -0.736 +/- 0.100 mm
+b_1                                                     =   -3.409 +/- 0.100 mm
+a_2                                                     =    0.603 +/- 0.081 mm
+b_2                                                     =    0.785 +/- 0.081 mm
+
+UP
+Estimated sigma_pl = 3.911, kappa = -0.660
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    0.597 +/- 2.137 mm
+v_y                                                     =    0.069 +/- 0.357 mm
+a_1                                                     =   -4.689 +/- 0.464 mm
+b_1                                                     =   -0.468 +/- 0.467 mm
+a_2                                                     =    0.020 +/- 0.370 mm
+b_2                                                     =    0.623 +/- 0.369 mm

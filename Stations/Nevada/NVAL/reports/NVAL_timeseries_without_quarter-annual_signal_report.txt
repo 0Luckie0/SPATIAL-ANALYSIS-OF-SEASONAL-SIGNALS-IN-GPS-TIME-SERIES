@@ -1,0 +1,33 @@
+NVAL (Nevada) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+    -> MANUAL RULE: Restricted between 2013-02-15 and 2019-06-13.
+Detected Events used in Model:
+
+EAST
+Estimated sigma_pl = 1.194, kappa = -0.587
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   20.922 +/- 0.210 mm
+v_y                                                     =  -15.842 +/- 0.077 mm
+a_1                                                     =   -1.689 +/- 0.115 mm
+b_1                                                     =    1.524 +/- 0.116 mm
+a_2                                                     =    0.470 +/- 0.094 mm
+b_2                                                     =    0.423 +/- 0.095 mm
+
+NORTH
+Estimated sigma_pl = 1.131, kappa = -0.587
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   11.522 +/- 0.200 mm
+v_y                                                     =   -8.915 +/- 0.073 mm
+a_1                                                     =   -0.083 +/- 0.109 mm
+b_1                                                     =   -3.674 +/- 0.110 mm
+a_2                                                     =    0.431 +/- 0.089 mm
+b_2                                                     =    0.668 +/- 0.090 mm
+
+UP
+Estimated sigma_pl = 4.180, kappa = -0.564
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    1.633 +/- 0.686 mm
+v_y                                                     =   -1.442 +/- 0.251 mm
+a_1                                                     =   -4.428 +/- 0.385 mm
+b_1                                                     =    0.587 +/- 0.388 mm
+a_2                                                     =   -0.560 +/- 0.317 mm
+b_2                                                     =   -0.218 +/- 0.320 mm

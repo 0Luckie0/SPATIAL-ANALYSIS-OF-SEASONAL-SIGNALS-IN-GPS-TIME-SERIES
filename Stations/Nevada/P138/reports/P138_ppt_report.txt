@@ -1,0 +1,10 @@
+P138 (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              =  -26.924 +/- 1.990 mm
+V                =   -0.933 +/- 0.138 mm/yr
+s_1              =   16.429 +/- 1.407 mm
+c_1              =   -8.942 +/- 1.406 mm
+s_2              =    0.134 +/- 1.407 mm
+c_2              =    2.937 +/- 1.406 mm
+s_4              =   -0.073 +/- 1.407 mm
+c_4              =   -0.522 +/- 1.406 mm

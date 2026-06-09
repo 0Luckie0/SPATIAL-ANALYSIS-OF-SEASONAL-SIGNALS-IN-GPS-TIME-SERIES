@@ -1,0 +1,138 @@
+P135 (Nevada) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2016-12-28)
+    Step: EARTHQUAKE EQ_4_Step (2019-07-06)
+    Step: EARTHQUAKE EQ_5_Step (2020-05-15)
+    Step: EARTHQUAKE EQ_6_Step (2021-07-08)
+    Step: EARTHQUAKE EQ_7_Step (2024-12-09)
+    Step: EARTHQUAKE EQ_8_Step (2026-04-14)
+    Step: Antenna_Type_Changed (2015-06-03)
+    Step: Elevation_Cutoff_Changed (2016-03-02)
+    Step: Receiver_Make_and_Model_Changed (2019-12-16)
+    Step: Antenna_Type_Changed (2020-08-06)
+
+EAST
+Estimated sigma_pl = 3.142, kappa = -1.095
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   33.893 +/- 4.857 mm
+v_y                                                     =  -18.694 +/- 0.630 mm
+a_1                                                     =   -0.929 +/- 0.507 mm
+b_1                                                     =    4.557 +/- 0.496 mm
+a_2                                                     =   -0.658 +/- 0.338 mm
+b_2                                                     =   -1.327 +/- 0.338 mm
+EQ_1_Step_(2016-12-28)                                  =    3.954 +/- 2.606 mm
+EQ_1_Log1_T0.0523_(2016-12-28)                          =   -2.545 +/- 3.620 mm
+EQ_1_Log2_T1.0_(2016-12-28)                             =    3.599 +/- 11.968 mm
+EQ_4_Step_(2019-07-06)                                  =  -10.802 +/- 2.662 mm
+EQ_4_Log1_T0.0523_(2019-07-06)                          =    5.480 +/- 5.519 mm
+EQ_4_Log2_T1.0_(2019-07-06)                             =   12.259 +/- 27.766 mm
+EQ_5_Step_(2020-05-15)                                  =   -4.155 +/- 2.673 mm
+EQ_5_Log1_T0.0523_(2020-05-15)                          =  -26.288 +/- 4.841 mm
+EQ_5_Log2_T1.0_(2020-05-15)                             =   57.166 +/- 23.425 mm
+EQ_6_Step_(2021-07-08)                                  =    1.810 +/- 2.626 mm
+EQ_6_Log1_T0.0523_(2021-07-08)                          =    1.082 +/- 3.423 mm
+EQ_6_Log2_T1.0_(2021-07-08)                             =  -30.938 +/- 14.551 mm
+EQ_7_Step_(2024-12-09)                                  =   -0.380 +/- 2.636 mm
+EQ_7_Log1_T0.0523_(2024-12-09)                          =    0.205 +/- 4.453 mm
+EQ_7_Log2_T1.0_(2024-12-09)                             =   -3.718 +/- 18.120 mm
+EQ_8_Step_(2026-04-14)                                  =    0.475 +/- 2.842 mm
+EQ_8_Log1_T0.0523_(2026-04-14)                          =  -10.861 +/- 21.971 mm
+EQ_8_Log2_T1.0_(2026-04-14)                             =  138.747 +/- 230.139 mm
+Antenna_Type_Changed_(2015-06-03)                       =   -5.675 +/- 2.176 mm
+Elevation_Cutoff_Changed_(2016-03-02)                   =  -16.386 +/- 2.182 mm
+Receiver_Make_and_Model_Changed_(2019-12-16)            =   -0.463 +/- 2.527 mm
+Antenna_Type_Changed_(2020-08-06)                       =   35.000 +/- 2.493 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M5.6, 38km)
+EQ_2: Duplicate/Merged Step (M5.6, 36km)
+EQ_3: Duplicate/Merged Step (M5.5, 38km)
+EQ_4: Step + Dual LogTransient (M7.1, 350km)
+EQ_5: Step + Dual LogTransient (M6.5, 118km)
+EQ_6: Step + Dual LogTransient (M6.0, 47km)
+EQ_7: Step + Dual LogTransient (M5.7, 51km)
+EQ_8: Step + Dual LogTransient (M5.7, 70km)
+
+NORTH
+Estimated sigma_pl = 2.565, kappa = -1.068
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   10.815 +/- 3.600 mm
+v_y                                                     =   -4.828 +/- 0.472 mm
+a_1                                                     =    0.291 +/- 0.392 mm
+b_1                                                     =   -0.713 +/- 0.384 mm
+a_2                                                     =   -0.271 +/- 0.264 mm
+b_2                                                     =   -0.156 +/- 0.264 mm
+EQ_1_Step_(2016-12-28)                                  =    1.045 +/- 2.096 mm
+EQ_1_Log1_T0.0523_(2016-12-28)                          =   -3.951 +/- 2.808 mm
+EQ_1_Log2_T1.0_(2016-12-28)                             =    5.401 +/- 9.184 mm
+EQ_4_Step_(2019-07-06)                                  =   -9.780 +/- 2.145 mm
+EQ_4_Log1_T0.0523_(2019-07-06)                          =    6.789 +/- 4.320 mm
+EQ_4_Log2_T1.0_(2019-07-06)                             =   -7.524 +/- 21.671 mm
+EQ_5_Step_(2020-05-15)                                  =    0.128 +/- 2.156 mm
+EQ_5_Log1_T0.0523_(2020-05-15)                          =  -16.441 +/- 3.784 mm
+EQ_5_Log2_T1.0_(2020-05-15)                             =   45.781 +/- 18.167 mm
+EQ_6_Step_(2021-07-08)                                  =    0.006 +/- 2.114 mm
+EQ_6_Log1_T0.0523_(2021-07-08)                          =    0.102 +/- 2.653 mm
+EQ_6_Log2_T1.0_(2021-07-08)                             =  -17.157 +/- 11.206 mm
+EQ_7_Step_(2024-12-09)                                  =    0.022 +/- 2.123 mm
+EQ_7_Log1_T0.0523_(2024-12-09)                          =    1.352 +/- 3.470 mm
+EQ_7_Log2_T1.0_(2024-12-09)                             =   -8.035 +/- 14.007 mm
+EQ_8_Step_(2026-04-14)                                  =    0.797 +/- 2.303 mm
+EQ_8_Log1_T0.0523_(2026-04-14)                          =   -1.233 +/- 17.524 mm
+EQ_8_Log2_T1.0_(2026-04-14)                             =   32.835 +/- 183.346 mm
+Antenna_Type_Changed_(2015-06-03)                       =   -9.750 +/- 1.721 mm
+Elevation_Cutoff_Changed_(2016-03-02)                   =   -4.450 +/- 1.727 mm
+Receiver_Make_and_Model_Changed_(2019-12-16)            =    0.925 +/- 2.029 mm
+Antenna_Type_Changed_(2020-08-06)                       =   29.433 +/- 2.000 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M5.6, 38km)
+EQ_2: Duplicate/Merged Step (M5.6, 36km)
+EQ_3: Duplicate/Merged Step (M5.5, 38km)
+EQ_4: Step + Dual LogTransient (M7.1, 350km)
+EQ_5: Step + Dual LogTransient (M6.5, 118km)
+EQ_6: Step + Dual LogTransient (M6.0, 47km)
+EQ_7: Step + Dual LogTransient (M5.7, 51km)
+EQ_8: Step + Dual LogTransient (M5.7, 70km)
+
+UP
+Estimated sigma_pl = 5.611, kappa = -0.914
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   -2.631 +/- 4.527 mm
+v_y                                                     =   -0.882 +/- 0.638 mm
+a_1                                                     =   -5.820 +/- 0.629 mm
+b_1                                                     =   -3.013 +/- 0.616 mm
+a_2                                                     =    0.699 +/- 0.446 mm
+b_2                                                     =    2.222 +/- 0.447 mm
+EQ_1_Step_(2016-12-28)                                  =   -5.556 +/- 4.135 mm
+EQ_1_Log1_T0.0523_(2016-12-28)                          =   -3.126 +/- 4.607 mm
+EQ_1_Log2_T1.0_(2016-12-28)                             =    7.490 +/- 14.157 mm
+EQ_4_Step_(2019-07-06)                                  =   13.567 +/- 4.296 mm
+EQ_4_Log1_T0.0523_(2019-07-06)                          =  -22.533 +/- 7.463 mm
+EQ_4_Log2_T1.0_(2019-07-06)                             =   66.967 +/- 36.855 mm
+EQ_5_Step_(2020-05-15)                                  =   -2.275 +/- 4.333 mm
+EQ_5_Log1_T0.0523_(2020-05-15)                          =   23.356 +/- 6.490 mm
+EQ_5_Log2_T1.0_(2020-05-15)                             =  -76.366 +/- 29.825 mm
+EQ_6_Step_(2021-07-08)                                  =   -0.839 +/- 4.192 mm
+EQ_6_Log1_T0.0523_(2021-07-08)                          =    2.370 +/- 4.328 mm
+EQ_6_Log2_T1.0_(2021-07-08)                             =   -3.035 +/- 17.693 mm
+EQ_7_Step_(2024-12-09)                                  =    2.405 +/- 4.223 mm
+EQ_7_Log1_T0.0523_(2024-12-09)                          =   -0.912 +/- 5.834 mm
+EQ_7_Log2_T1.0_(2024-12-09)                             =    8.396 +/- 22.484 mm
+EQ_8_Step_(2026-04-14)                                  =   -1.184 +/- 4.791 mm
+EQ_8_Log1_T0.0523_(2026-04-14)                          =   -5.577 +/- 33.586 mm
+EQ_8_Log2_T1.0_(2026-04-14)                             =   16.800 +/- 348.882 mm
+Antenna_Type_Changed_(2015-06-03)                       =    3.469 +/- 3.031 mm
+Elevation_Cutoff_Changed_(2016-03-02)                   =   21.107 +/- 3.064 mm
+Receiver_Make_and_Model_Changed_(2019-12-16)            =   -2.431 +/- 3.976 mm
+Antenna_Type_Changed_(2020-08-06)                       =  -28.018 +/- 3.900 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Dual LogTransient (M5.6, 38km)
+EQ_2: Duplicate/Merged Step (M5.6, 36km)
+EQ_3: Duplicate/Merged Step (M5.5, 38km)
+EQ_4: Step + Dual LogTransient (M7.1, 350km)
+EQ_5: Step + Dual LogTransient (M6.5, 118km)
+EQ_6: Step + Dual LogTransient (M6.0, 47km)
+EQ_7: Step + Dual LogTransient (M5.7, 51km)
+EQ_8: Step + Dual LogTransient (M5.7, 70km)

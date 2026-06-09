@@ -1,0 +1,10 @@
+P130 (Mass Loading Proxy) Time Series Analysis
+MODEL PARAMETERS (LSA Based):
+y_0              = -146.093 +/- 1.620 mm
+V                =    1.086 +/- 0.112 mm/yr
+s_1              =   10.830 +/- 1.146 mm
+c_1              =   -5.416 +/- 1.145 mm
+s_2              =    0.997 +/- 1.145 mm
+c_2              =    1.169 +/- 1.145 mm
+s_4              =   -0.074 +/- 1.145 mm
+c_4              =   -0.393 +/- 1.145 mm

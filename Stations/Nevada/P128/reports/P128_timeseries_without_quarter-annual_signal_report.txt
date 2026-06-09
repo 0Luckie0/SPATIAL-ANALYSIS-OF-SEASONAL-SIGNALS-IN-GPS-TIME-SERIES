@@ -1,0 +1,33 @@
+P128 (Nevada) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+    -> MANUAL RULE: Restricted between 2006-11-17 and 2016-10-01.
+Detected Events used in Model:
+
+EAST
+Estimated sigma_pl = 1.173, kappa = -0.708
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =  -59.209 +/- 0.398 mm
+v_y                                                     =  -18.505 +/- 0.064 mm
+a_1                                                     =   -2.028 +/- 0.116 mm
+b_1                                                     =    1.594 +/- 0.116 mm
+a_2                                                     =    0.564 +/- 0.091 mm
+b_2                                                     =    0.143 +/- 0.091 mm
+
+NORTH
+Estimated sigma_pl = 1.066, kappa = -0.672
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =  -22.452 +/- 0.316 mm
+v_y                                                     =   -7.063 +/- 0.052 mm
+a_1                                                     =   -0.471 +/- 0.098 mm
+b_1                                                     =   -3.326 +/- 0.098 mm
+a_2                                                     =    0.566 +/- 0.078 mm
+b_2                                                     =    0.840 +/- 0.078 mm
+
+UP
+Estimated sigma_pl = 3.411, kappa = -0.722
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =    0.444 +/- 1.221 mm
+v_y                                                     =    0.061 +/- 0.196 mm
+a_1                                                     =   -5.376 +/- 0.347 mm
+b_1                                                     =   -0.124 +/- 0.349 mm
+a_2                                                     =    0.155 +/- 0.271 mm
+b_2                                                     =   -0.326 +/- 0.271 mm

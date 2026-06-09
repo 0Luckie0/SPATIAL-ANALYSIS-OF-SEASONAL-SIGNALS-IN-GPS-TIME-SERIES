@@ -1,0 +1,69 @@
+NVTP (Nevada) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+Detected Events used in Model:
+    Step: EARTHQUAKE EQ_1_Step (2010-04-04)
+    Step: EARTHQUAKE EQ_2_Step (2019-07-04)
+    Step: Unknown (2007-02-27)
+    Step: Antenna_and_Radome_Type_Changed (2016-11-10)
+
+EAST
+Estimated sigma_pl = 1.555, kappa = -0.524
+MODEL PARAMETERS (MLE Based):
+y_0                                                     = 1080.464 +/- 0.661 mm
+v_y                                                     =  -15.478 +/- 0.066 mm
+a_1                                                     =   -1.526 +/- 0.071 mm
+b_1                                                     =    1.320 +/- 0.071 mm
+a_2                                                     =    0.454 +/- 0.059 mm
+b_2                                                     =   -0.073 +/- 0.059 mm
+EQ_1_Step_(2010-04-04)                                  =   -0.603 +/- 0.462 mm
+EQ_1_Exp_T1.0_(2010-04-04)                              =    1.783 +/- 0.708 mm
+EQ_2_Step_(2019-07-04)                                  =    4.187 +/- 0.464 mm
+EQ_2_Exp_T1.0_(2019-07-04)                              =    5.865 +/- 0.704 mm
+Unknown_(2007-02-27)                                    = -1247.764 +/- 0.339 mm
+Antenna_and_Radome_Type_Changed_(2016-11-10)            =    0.363 +/- 0.348 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M7.2, 424km)
+EQ_2: Step + Single ExpTransient (M6.4, 201km)
+EQ_3: Duplicate/Merged Step (M7.1, 208km)
+
+NORTH
+Estimated sigma_pl = 1.137, kappa = -0.704
+MODEL PARAMETERS (MLE Based):
+y_0                                                     = -266.121 +/- 0.779 mm
+v_y                                                     =   -8.914 +/- 0.077 mm
+a_1                                                     =   -0.426 +/- 0.075 mm
+b_1                                                     =   -4.524 +/- 0.075 mm
+a_2                                                     =    0.713 +/- 0.058 mm
+b_2                                                     =    0.809 +/- 0.058 mm
+EQ_1_Step_(2010-04-04)                                  =   -1.399 +/- 0.481 mm
+EQ_1_Exp_T1.0_(2010-04-04)                              =   -4.262 +/- 0.825 mm
+EQ_2_Step_(2019-07-04)                                  =   -0.831 +/- 0.482 mm
+EQ_2_Exp_T1.0_(2019-07-04)                              =    1.755 +/- 0.814 mm
+Unknown_(2007-02-27)                                    =  318.707 +/- 0.381 mm
+Antenna_and_Radome_Type_Changed_(2016-11-10)            =    0.005 +/- 0.388 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M7.2, 424km)
+EQ_2: Step + Single ExpTransient (M6.4, 201km)
+EQ_3: Duplicate/Merged Step (M7.1, 208km)
+
+UP
+Estimated sigma_pl = 4.675, kappa = -0.949
+MODEL PARAMETERS (MLE Based):
+y_0                                                     = -231.559 +/- 6.234 mm
+v_y                                                     =   -1.930 +/- 0.595 mm
+a_1                                                     =   -2.815 +/- 0.506 mm
+b_1                                                     =    0.603 +/- 0.504 mm
+a_2                                                     =   -1.073 +/- 0.363 mm
+b_2                                                     =    0.032 +/- 0.362 mm
+EQ_1_Step_(2010-04-04)                                  =   -0.218 +/- 2.894 mm
+EQ_1_Exp_T1.0_(2010-04-04)                              =    7.732 +/- 6.471 mm
+EQ_2_Step_(2019-07-04)                                  =   -2.862 +/- 2.897 mm
+EQ_2_Exp_T1.0_(2019-07-04)                              =    3.714 +/- 6.323 mm
+Unknown_(2007-02-27)                                    =  253.304 +/- 2.554 mm
+Antenna_and_Radome_Type_Changed_(2016-11-10)            =   21.838 +/- 2.580 mm
+
+EARTHQUAKE EVENTS (NGL Criterion):
+EQ_1: Step + Single ExpTransient (M7.2, 424km)
+EQ_2: Step + Single ExpTransient (M6.4, 201km)
+EQ_3: Duplicate/Merged Step (M7.1, 208km)

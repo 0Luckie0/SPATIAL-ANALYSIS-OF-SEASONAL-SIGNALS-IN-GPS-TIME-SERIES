@@ -1,0 +1,33 @@
+NVSL (Nevada) Geodetic Time Series Analysis (Without Quarter-Annual Signal)
+    -> MANUAL RULE: Restricted between 2013-02-15 and 2019-06-19.
+Detected Events used in Model:
+
+EAST
+Estimated sigma_pl = 1.127, kappa = -0.543
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   19.052 +/- 0.173 mm
+v_y                                                     =  -15.072 +/- 0.064 mm
+a_1                                                     =   -1.695 +/- 0.100 mm
+b_1                                                     =    1.392 +/- 0.100 mm
+a_2                                                     =    0.248 +/- 0.083 mm
+b_2                                                     =    0.056 +/- 0.083 mm
+
+NORTH
+Estimated sigma_pl = 1.062, kappa = -0.779
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   10.861 +/- 0.330 mm
+v_y                                                     =   -8.644 +/- 0.119 mm
+a_1                                                     =   -0.312 +/- 0.152 mm
+b_1                                                     =   -3.878 +/- 0.152 mm
+a_2                                                     =    0.307 +/- 0.116 mm
+b_2                                                     =    0.771 +/- 0.116 mm
+
+UP
+Estimated sigma_pl = 4.095, kappa = -0.590
+MODEL PARAMETERS (MLE Based):
+y_0                                                     =   -0.270 +/- 0.729 mm
+v_y                                                     =   -0.243 +/- 0.265 mm
+a_1                                                     =   -4.648 +/- 0.398 mm
+b_1                                                     =   -0.380 +/- 0.400 mm
+a_2                                                     =   -0.370 +/- 0.325 mm
+b_2                                                     =   -0.400 +/- 0.326 mm
